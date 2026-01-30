@@ -60,8 +60,9 @@ logger = logging.getLogger(__name__)
 # Constants
 HTTP_CLIENT_TIMEOUT = 120.0
 httpx_client: httpx.AsyncClient = None # Will be initialized on startup
+global_qdrant_client = None # Will be initialized on startup
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
-ALLOWED_EXTENSIONS = ['pdf', 'txt', 'docx', 'pptx']
+ALLOWED_EXTENSIONS = ['pdf', 'txt', 'docx', 'pptx', 'png', 'jpg', 'jpeg']
 MAX_INTERACTIONS_PER_SESSION = 25
 MAX_TOKENS_PER_SESSION = 75000
 PERSISTENT_COLLECTION_NAME = "Legal_documents"
@@ -497,22 +498,21 @@ def delete_chat_session_db(chat_session_id: str, user_identifier: str):
 # ==================== AUTO-EMBEDDING FUNCTIONS ====================
 
 def check_collection_exists():
-    """Check if embeddings collection exists"""
+    """Check if embeddings collection exists using the global client"""
+    global global_qdrant_client
     try:
-        from qdrant_client import QdrantClient
-        
-        qdrant_url = os.getenv('QDRANT_URL')
-        qdrant_api_key = os.getenv('QDRANT_API_KEY')
-        
-        if not qdrant_url or not qdrant_api_key:
+        if global_qdrant_client is None:
+            # Re-initialize if lost
+            init_qdrant_client()
+            
+        if global_qdrant_client is None:
             return False
-        
-        client = QdrantClient(url=qdrant_url, api_key=qdrant_api_key, prefer_grpc=False)
-        collections = client.get_collections().collections
+            
+        collections = global_qdrant_client.get_collections().collections
         collection_names = [c.name for c in collections]
         
         if PERSISTENT_COLLECTION_NAME in collection_names:
-            collection_info = client.get_collection(PERSISTENT_COLLECTION_NAME)
+            collection_info = global_qdrant_client.get_collection(PERSISTENT_COLLECTION_NAME)
             return collection_info.points_count > 0
         
         return False
@@ -533,8 +533,8 @@ def get_documents_from_folder():
     
     return document_files
 
-def auto_embed_documents():
-    """Auto-embed documents on startup"""
+async def auto_embed_documents():
+    """Auto-embed documents on startup (Async version)"""
     try:
         if check_collection_exists():
             return True, "Embeddings already exist"
@@ -556,7 +556,7 @@ def auto_embed_documents():
         processed = 0
         for doc_path in document_files:
             try:
-                embeddings_mgr.create_embeddings(doc_path)
+                await embeddings_mgr.create_embeddings(doc_path)
                 processed += 1
             except Exception as e:
                 logger.error(f"Failed to process {doc_path}: {e}")
@@ -700,24 +700,54 @@ def get_or_create_anonymous_session():
 
 # ==================== STARTUP ====================
 
+def init_qdrant_client():
+    """Initialize the global Qdrant client singleton"""
+    global global_qdrant_client
+    try:
+        from qdrant_client import QdrantClient
+        qdrant_url = os.getenv('QDRANT_URL', 'local')
+        qdrant_api_key = os.getenv('QDRANT_API_KEY')
+        
+        if qdrant_url.lower() == "local":
+            storage_path = os.path.join(os.getcwd(), "qdrant_storage")
+            os.makedirs(storage_path, exist_ok=True)
+            logger.info(f"Initializing singleton QdrantClient with local storage at {storage_path}")
+            global_qdrant_client = QdrantClient(path=storage_path)
+        else:
+            logger.info(f"Initializing singleton QdrantClient connecting to {qdrant_url}")
+            global_qdrant_client = QdrantClient(url=qdrant_url, api_key=qdrant_api_key, prefer_grpc=False)
+    except Exception as e:
+        logger.error(f"Failed to initialize global Qdrant client: {e}")
+
 @app.on_event("startup")
 async def startup_event():
     """Initialize on startup"""
+    global httpx_client, global_qdrant_client
+    httpx_client = httpx.AsyncClient(timeout=HTTP_CLIENT_TIMEOUT)
+    
+    # Initialize singleton Qdrant client
+    init_qdrant_client()
+    
     logger.info("Starting Cognitbotz AI Legal Platform API...")
     
     # Initialize database
     init_database()
     
-    # Auto-embed documents
-    logger.info("Checking for embeddings...")
-    success, message = auto_embed_documents()
-    if success:
-        logger.info(f"✅ {message}")
-    else:
-        logger.warning(f"⚠️ {message}")
+    # DISABLE auto-embedding on startup to prevent demo hangs
+    # async def run_indexing():
+    #     await asyncio.sleep(2)
+    #     logger.info("Checking for embeddings (Background)...")
+    #     success, message = await auto_embed_documents()
+    #     if success:
+    #         logger.info(f"✅ Background Indexing: {message}")
+    #     else:
+    #         logger.warning(f"⚠️ Background Indexing: {message}")
+    #
+    # asyncio.create_task(run_indexing())
     
     # Initialize anonymous session
     get_or_create_anonymous_session()
+    logger.info("🚀 API is now live and accepting requests!")
 
 # ==================== API ENDPOINTS ====================
 
@@ -784,6 +814,7 @@ async def chat(request: ChatRequest, user_id: Optional[str] = Depends(verify_tok
                 llm_temperature=0.3,
                 max_tokens=3000,
                 qdrant_url=os.getenv('QDRANT_URL'),
+                qdrant_client=global_qdrant_client, # Pass the global client!
                 collection_name=PERSISTENT_COLLECTION_NAME,
                 retrieval_k=5,
                 score_threshold=0.5,
@@ -800,18 +831,21 @@ async def chat(request: ChatRequest, user_id: Optional[str] = Depends(verify_tok
         if request.chatbot_mode == "General Chat":
             use_rag = False
         elif request.chatbot_mode == "Hybrid (Smart)":
+            # Fallback to standard for demo stability if LightRAG is too slow
             use_rag = check_collection_exists()
+            rag_mode = "standard" # Temporarily use standard for speed
         elif request.chatbot_mode == "Layman Explanation":
             use_rag = False
             layman_mode = True
         
         # Get response
-        response = session["chatbot_manager"].get_response(
+        response = await session["chatbot_manager"].get_response(
             request.message,
             enable_content_filter=True,
             enable_pii_detection=True,
             use_rag=use_rag,
-            layman_mode=layman_mode
+            layman_mode=layman_mode,
+            chatbot_mode=request.chatbot_mode # Pass the mode!
         )
         
         tokens_used = response.get('tokens_used', 0)
@@ -965,6 +999,7 @@ async def upload_documents(
             device="cpu",
             encode_kwargs={"normalize_embeddings": True},
             qdrant_url=os.getenv('QDRANT_URL'),
+            qdrant_client=global_qdrant_client, # Pass the global client!
             collection_name=PERSISTENT_COLLECTION_NAME,
             chunk_size=1200,
             chunk_overlap=300
@@ -990,8 +1025,16 @@ async def upload_documents(
                     content = await file.read()
                     f.write(content)
                 
-                embeddings_mgr.create_embeddings(temp_path)
+                await embeddings_mgr.create_embeddings(temp_path)
                 processed.append(file.filename)
+                
+                # SKIP LightRAG Indexing by default - It is too slow for demo environments
+                # try:
+                #     full_text = "\n\n".join([doc.page_content for doc in documents])
+                #     lrag = get_lightrag_manager()
+                #     logger.info(f"Session {self.session_id}: Skipping LightRAG indexing to maintain speed...")
+                # except Exception as e:
+                #     logger.error(f"Session {self.session_id}: LightRAG check error: {e}")
                 
                 # Cleanup
                 os.remove(temp_path)
@@ -1022,6 +1065,7 @@ async def refresh_embeddings():
             device="cpu",
             encode_kwargs={"normalize_embeddings": True},
             qdrant_url=os.getenv('QDRANT_URL'),
+            qdrant_client=global_qdrant_client, # Pass the global client!
             collection_name=PERSISTENT_COLLECTION_NAME,
             chunk_size=1200,
             chunk_overlap=300
@@ -1041,7 +1085,7 @@ async def refresh_embeddings():
         
         for doc_path in document_files:
             try:
-                embeddings_mgr.create_embeddings(doc_path)
+                await embeddings_mgr.create_embeddings(doc_path)
                 processed.append(Path(doc_path).name)
             except Exception as e:
                 logger.error(f"Failed to process {doc_path}: {e}")
@@ -1093,7 +1137,7 @@ async def generate_document(
             )
         
         # Generate document
-        result = session["drafting_manager"].generate_document(
+        result = await session["drafting_manager"].generate_document(
             doc_type=request.doc_type,
             prompt=request.requirements,
             style=request.style,
@@ -1438,10 +1482,7 @@ async def proxy_to_agents(path: str, request: Request):
 
 # ==================== LIFECYCLE ====================
 
-@app.on_event("startup")
-async def startup_event():
-    global httpx_client
-    httpx_client = httpx.AsyncClient(timeout=HTTP_CLIENT_TIMEOUT)
+# Startup/Shutdown handled in main Lifecycle section
 
 @app.on_event("shutdown")
 async def shutdown_event():

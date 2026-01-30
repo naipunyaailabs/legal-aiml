@@ -110,36 +110,37 @@ class InteractAgent(BaseAgent):
         context: Optional[Dict[str, Any]] = None
     ) -> Dict[str, Any]:
         """
-        Process message about uploaded document
+        Process message about uploaded document using tools
         """
         try:
+            from .tools import legal_doc_search
+            
             # Check if document is uploaded for this session
             doc_info = self.document_sessions.get(session_id)
-            if not doc_info:
-                return {
-                    "success": False,
-                    "error": "No document uploaded. Please upload a document first."
-                }
             
-            # Initialize LLM
+            # Step 1: Use document search tool for specific context
+            search_result = await legal_doc_search(message, "Document Only")
+            
+            # Step 2: Initialize LLM
             llm = self._initialize_llm()
             
             # Build prompt with document context
-            doc_text = doc_info.get("text", "")
+            doc_text = doc_info.get("text", "") if doc_info else ""
             # Limit context to avoid token overflow
             if len(doc_text) > 15000:
                 doc_text = doc_text[:7500] + "\n\n[...document continues...]\n\n" + doc_text[-7500:]
             
-            prompt = f"""You are a legal document analysis assistant. Analyze the following document and answer the user's question.
+            prompt = f"""You are a legal document analysis assistant.
+            
+UPLOADED DOCUMENT: "{doc_info.get('filename', 'Unknown') if doc_info else 'None'}"
+DOC CONTENT: {doc_text}
 
-DOCUMENT: "{doc_info.get('filename', 'document')}"
----
-{doc_text}
----
+INTERNAL SEARCH RESULTS:
+{search_result.get('answer', 'No matches found.')}
 
 USER QUESTION: {message}
 
-Provide a detailed, helpful answer based on the document content. If the information is not in the document, say so clearly.
+Provide a detailed, helpful answer based on the document and search results.
 
 YOUR ANALYSIS:"""
             
@@ -149,8 +150,11 @@ YOUR ANALYSIS:"""
             return {
                 "success": True,
                 "response": answer,
-                "document_name": doc_info.get("filename"),
-                "sources": [{"type": "uploaded_document", "filename": doc_info.get("filename")}]
+                "document_name": doc_info.get("filename") if doc_info else "Search Database",
+                "sources": [
+                    {"type": "uploaded_document", "active": doc_info is not None},
+                    {"type": "vector_search", "found": "answer" in search_result}
+                ]
             }
             
         except Exception as e:

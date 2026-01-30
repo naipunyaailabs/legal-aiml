@@ -21,53 +21,36 @@ class ComplianceAgent(BaseAgent):
         context: Optional[Dict[str, Any]] = None
     ) -> Dict[str, Any]:
         """
-        Process compliance query using LLM
+        Process compliance check using tools and LLM
         """
         try:
+            from .tools import compliance_check, search_indian_statutes
+            
+            # Step 1: Call tools
+            compliance_data = await compliance_check(message)
+            regulations = await search_indian_statutes("compliance regulations")
+            
+            # Step 2: Initialize LLM and construct prompt
             llm = self._initialize_llm()
             
-            prompt = f"""You are a regulatory compliance expert with deep knowledge of Indian corporate and business regulations.
+            prompt = f"""You are a Legal Compliance Expert specializing in Indian Regulatory frameworks.
+            
+TOOL CONTEXT:
+Compliance Checklist: {compliance_data}
+Relevant Regulations: {regulations}
 
-COMPLIANCE QUERY: {message}
+USER QUERY: {message}
 
-Please provide a comprehensive compliance analysis including:
+Please provide a comprehensive compliance analysis:
+1. **Regulatory Framework**: Which Indian laws apply (Companies Act, GST, SEBI, Labour laws, etc.)?
+2. **Current Compliance Status**: Based on the query, what is the status?
+3. **Required Actions**: Specific steps to ensure 100% compliance.
+4. **Potential Penalties**: Risks of non-compliance.
+5. **Next Review Date**: When should this be re-evaluated?
 
-1. **Applicable Regulations**:
-   - List all relevant Acts, Rules, and Regulations that apply
-   - Include central and state-level requirements if applicable
+Format with professional legal clarity. Use tables or lists where appropriate.
 
-2. **Compliance Requirements**:
-   - Specific compliance requirements under each regulation
-   - Filing deadlines and frequencies
-   - Documentation requirements
-
-3. **Potential Violations**:
-   - Common violations related to this area
-   - Penalties and consequences for non-compliance
-   - Warning signs to watch for
-
-4. **Compliance Checklist**:
-   - ✅ Required actions to ensure compliance
-   - 📋 Documents to maintain
-   - 📅 Key deadlines to remember
-
-5. **Regulatory Bodies**:
-   - Which authorities oversee this compliance
-   - How to file/register if required
-
-RELEVANT REGULATIONS TO CONSIDER:
-- Companies Act, 2013 and MCA Rules
-- SEBI Regulations (for listed companies)
-- FEMA (for foreign exchange matters)
-- Labour Laws (EPF, ESI, Shops & Establishment)
-- GST and Tax Compliance
-- POSH Act (sexual harassment)
-- Environmental Laws
-- Industry-specific regulations
-
-Provide practical, actionable guidance.
-
-YOUR COMPLIANCE ANALYSIS:"""
+YOUR COMPLIANCE RESPONSE:"""
             
             response = llm.invoke(prompt)
             answer = response.content if hasattr(response, 'content') else str(response)
@@ -75,8 +58,10 @@ YOUR COMPLIANCE ANALYSIS:"""
             return {
                 "success": True,
                 "response": answer,
-                "sources": [{"type": "compliance_analysis", "reference": "AI Compliance Assistant"}],
-                "tokens_used": 0
+                "sources": [
+                    {"type": "compliance_tool", "status": "completed"},
+                    {"type": "regulatory_database", "reference": "MCA/SEBI/Labour"}
+                ]
             }
             
         except Exception as e:

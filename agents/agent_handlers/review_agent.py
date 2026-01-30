@@ -91,12 +91,20 @@ class ReviewAgent(BaseAgent):
                 if len(doc_text) > 15000:
                     doc_text = doc_text[:7500] + "\n\n[...document continues...]\n\n" + doc_text[-7500:]
                 
+                from .tools import risk_analyzer
+                
+                # Use tool for preliminary risk analysis
+                preliminary_risks = await risk_analyzer(doc_text[:5000])
+                
                 prompt = f"""You are an expert contract reviewer and legal risk analyst.
 
 CONTRACT DOCUMENT: "{doc_info.get('filename', 'contract')}"
 ---
 {doc_text}
 ---
+
+TOOL-EXTRACTED RISKS:
+{preliminary_risks}
 
 USER REQUEST: {message}
 
@@ -117,6 +125,7 @@ Provide a comprehensive contract review including:
    🔴 **HIGH RISK** - Critical issues that need immediate attention
    🟡 **MEDIUM RISK** - Concerns that should be addressed
    🟢 **LOW RISK** - Minor issues or standard clauses
+   (Incorporate the tool-extracted risks above into your analysis)
 
 4. **MISSING CLAUSES**:
    - Important provisions that are absent

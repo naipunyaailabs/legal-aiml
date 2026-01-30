@@ -11,6 +11,7 @@ import sqlite3
 from datetime import datetime
 import uuid
 import logging
+import asyncio
 import atexit
 import glob
 
@@ -1443,13 +1444,13 @@ else:
                         layman_mode = True
                     
                     # Get response
-                    response = st.session_state['chatbot_manager'].get_response(
+                    response = asyncio.run(st.session_state['chatbot_manager'].get_response(
                         user_input,
                         enable_content_filter=DEFAULT_CONFIG['enable_content_filter'],
                         enable_pii_detection=DEFAULT_CONFIG['enable_pii_detection'],
                         use_rag=use_rag,
                         layman_mode=layman_mode
-                    )
+                    ))
                     
                     tokens_used = response.get('tokens_used', 0)
                     st.session_state.total_tokens_used += tokens_used

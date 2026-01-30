@@ -26,59 +26,49 @@ class AskAgent(BaseAgent):
         context: Optional[Dict[str, Any]] = None
     ) -> Dict[str, Any]:
         """
-        Process message by calling the existing chatbot API
+        Process message by searching legal docs and statutes
         """
         try:
+            from .tools import legal_doc_search, search_indian_statutes
+            
             context = context or {}
             
-            # Determine chatbot mode
-            chatbot_mode = "Document Only"
-            if context.get("include_case_law"):
-                chatbot_mode = "Hybrid (Smart)"
-            elif context.get("layman_mode"):
-                chatbot_mode = "Layman Explanation"
+            # Step 1: Use internal search tool (this maps to our backend)
+            search_result = await legal_doc_search(message, context.get("chatbot_mode", "Hybrid (Smart)"))
             
-            # Prepare request to existing chatbot
-            payload = {
-                "message": message,
-                "chatbot_mode": chatbot_mode,
-                "chat_session_id": session_id,
-                "layman_mode": context.get("layman_mode", False)
-            }
+            # Step 2: Use broader statute lookup for Indian law context
+            statutes = await search_indian_statutes(message)
             
-            # Get auth token if provided
-            headers = {"Content-Type": "application/json"}
-            if context.get("auth_token"):
-                headers["Authorization"] = context["auth_token"]
+            # Step 3: Use LLM to synthesize
+            llm = self._initialize_llm()
             
-            # Call existing chatbot API using shared client
-            response = await get_httpx_client().post(
-                f"{ASK_DRAFT_URL}/api/chat",
-                json=payload,
-                headers=headers
-            )
-                
-            if response.status_code == 200:
-                data = response.json()
-                return {
-                    "success": True,
-                    "response": data.get("answer", ""),
-                    "sources": data.get("sources", []),
-                    "tokens_used": data.get("tokens_used", 0)
-                }
-            else:
-                logger.error(f"Chatbot API error: {response.status_code} - {response.text}")
-                return {
-                    "success": False,
-                    "error": f"Chatbot service error: {response.status_code}"
-                }
-                    
-        except httpx.TimeoutException:
-            logger.error("Timeout calling chatbot service")
+            prompt = f"""You are an advanced Legal AI Assistant.
+            
+INTERNAL SEARCH RESULTS:
+{search_result.get('answer', 'No specific document matches found.')}
+
+RELEVANT INDIAN STATUTES:
+{statutes}
+
+USER QUERY: {message}
+
+Synthesize a professional legal answer. Always cite your sources (Document Search or Statute Lookup).
+If the query is a general legal greeting, just be helpful and professional.
+
+YOUR RESPONSE:"""
+            
+            response = llm.invoke(prompt)
+            answer = response.content if hasattr(response, 'content') else str(response)
+            
             return {
-                "success": False,
-                "error": "Request timed out. Please try again."
+                "success": True,
+                "response": answer,
+                "sources": [
+                    {"type": "document_search", "found": "answer" in search_result},
+                    {"type": "statute_lookup", "count": len(statutes)}
+                ]
             }
+                    
         except Exception as e:
             logger.error(f"Ask agent error: {e}")
             return {

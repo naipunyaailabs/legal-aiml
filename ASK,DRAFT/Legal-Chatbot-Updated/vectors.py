@@ -6,6 +6,9 @@ import hashlib
 import time
 import uuid
 import threading
+import shutil
+import asyncio
+from lightrag_manager import get_lightrag_manager
 from typing import List, Dict, Any, Optional, Tuple
 from pathlib import Path
 from functools import wraps
@@ -72,6 +75,15 @@ except ImportError:
     PPTX_AVAILABLE = False
     logging.warning("python-pptx not available. Install with: pip install python-pptx")
 
+# Image/OCR imports
+try:
+    from PIL import Image
+    import pytesseract
+    OCR_AVAILABLE = True
+except ImportError:
+    OCR_AVAILABLE = False
+    logging.warning("Pillow or pytesseract not available. OCR for images will be disabled.")
+
 from dotenv import load_dotenv
 
 # Configure logging
@@ -83,7 +95,7 @@ load_dotenv()
 MAX_DOCUMENT_SIZE = 50 * 1024 * 1024  # 50MB
 MAX_CHUNKS_PER_DOCUMENT = 1000  # Reduced for better performance
 MAX_PROCESSING_TIME = 300  # 5 minutes
-ALLOWED_FILE_TYPES = {'.pdf', '.txt', '.docx', '.pptx'}
+ALLOWED_FILE_TYPES = {'.pdf', '.txt', '.docx', '.pptx', '.png', '.jpg', '.jpeg'}
 MAX_CONCURRENT_PROCESSING = 2  # Reduced to prevent resource exhaustion
 
 # Thread-safe processing lock
@@ -171,9 +183,10 @@ class EmbeddingsManager:
         encode_kwargs: dict = None,
         qdrant_url: str = None,
         collection_name: str = None,
-        chunk_size: int = 1200,
-        chunk_overlap: int = 300,
-        max_chunks: int = MAX_CHUNKS_PER_DOCUMENT
+        chunk_size: int = 800,  # Optimized for legal: smaller chunks = more precise retrieval
+        chunk_overlap: int = 150,  # ~20% overlap for context preservation
+        max_chunks: int = MAX_CHUNKS_PER_DOCUMENT,
+        qdrant_client: Optional[Any] = None # NEW: Pre-initialized client support
     ):
         """Initialize with improved validation and persistent collection"""
         
@@ -240,12 +253,23 @@ class EmbeddingsManager:
         
         # Initialize Qdrant client
         try:
-            self.qdrant_client = QdrantClient(
-                url=self.qdrant_url,
-                api_key=self.api_key,
-                prefer_grpc=False
-            )
-            logger.info(f"Session {self.session_id}: Connected to Qdrant at {self.qdrant_url}")
+            if qdrant_client:
+                # Use the pre-initialized singleton client
+                self.qdrant_client = qdrant_client
+                logger.info(f"Session {self.session_id}: Using pre-initialized Qdrant client singleton")
+            elif not self.qdrant_url or self.qdrant_url.lower() == "local":
+                # Use local persistent storage
+                storage_path = os.path.join(os.getcwd(), "qdrant_storage")
+                os.makedirs(storage_path, exist_ok=True)
+                self.qdrant_client = QdrantClient(path=storage_path)
+                logger.info(f"Session {self.session_id}: Using local Qdrant storage at {storage_path}")
+            else:
+                self.qdrant_client = QdrantClient(
+                    url=self.qdrant_url,
+                    api_key=self.api_key,
+                    prefer_grpc=False
+                )
+                logger.info(f"Session {self.session_id}: Connected to Qdrant at {self.qdrant_url}")
         except Exception as e:
             logger.error(f"Session {self.session_id}: Failed to connect to Qdrant: {e}")
             raise
@@ -254,6 +278,27 @@ class EmbeddingsManager:
         # The collection will be created only if it doesn't exist
         # Existing data in the collection will be preserved
         self._initialize_collection()
+        
+    def clear_collection(self) -> str:
+        """Clear everything including LightRAG storage"""
+        # Clear Qdrant
+        try:
+            self.qdrant_client.delete_collection(self.collection_name)
+            self._initialize_collection()
+        except Exception as e:
+            logger.error(f"Failed to clear Qdrant: {e}")
+            
+        # Clear LightRAG storage
+        try:
+            lrag = get_lightrag_manager()
+            if os.path.exists(lrag.working_dir):
+                shutil.rmtree(lrag.working_dir)
+                os.makedirs(lrag.working_dir, exist_ok=True)
+            logger.info("LightRAG storage cleared")
+        except Exception as e:
+            logger.error(f"Failed to clear LightRAG: {e}")
+            
+        return "All collections and Graph storage cleared"
     
     def _sanitize_model_name(self, model_name: str) -> str:
         """Sanitize model name for security"""
@@ -342,9 +387,10 @@ class EmbeddingsManager:
                 # Custom DOCX loader
                 documents = self._load_docx(file_path)
                 
-            elif extension == '.pptx' and PPTX_AVAILABLE:
-                # Custom PPTX loader
-                documents = self._load_pptx(file_path)
+            elif extension in ['.png', '.jpg', '.jpeg']:
+                if not OCR_AVAILABLE:
+                    raise ImportError("OCR libraries are not available for image processing")
+                documents = self._load_image(file_path)
                 
             else:
                 raise ValueError(f"Unsupported file type: {extension}")
@@ -399,18 +445,51 @@ class EmbeddingsManager:
             }
         )]
     
+    def _load_image(self, file_path: str) -> List[Document]:
+        """Load image and perform OCR"""
+        try:
+            image = Image.open(file_path)
+            text = pytesseract.image_to_string(image)
+            
+            if not text.strip():
+                logger.warning(f"OCR extracted no text from {file_path}")
+            
+            return [Document(
+                page_content=text,
+                metadata={
+                    "source": file_path,
+                    "file_type": Path(file_path).suffix[1:].lower(),
+                    "file_name": Path(file_path).name
+                }
+            )]
+        except Exception as e:
+            logger.error(f"Image OCR failed for {file_path}: {e}")
+            raise
+    
     def _split_documents(self, documents: List[Document]) -> List[Document]:
-        """Split documents into chunks with enhanced metadata"""
+        """Split documents into chunks with enhanced metadata - Optimized for Legal RAG"""
         if RecursiveCharacterTextSplitter is None:
-            # If splitter is not available, return documents as is
             logger.warning("Text splitter not available, returning documents as is")
             return documents
-            
+        
+        # Legal-optimized separators: prioritize section breaks, numbered lists, and sentence boundaries
+        legal_separators = [
+            "\n\n\n",           # Triple newline (major sections)
+            "\n\n",             # Double newline (paragraphs)
+            "\n",               # Single newline
+            ". ",               # Sentence boundary
+            "; ",               # Clause boundary (common in legal)
+            ", ",               # Phrase boundary
+            " ",                # Word boundary
+            ""                  # Character boundary (fallback)
+        ]
+        
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=self.chunk_size,
             chunk_overlap=self.chunk_overlap,
-            separators=["\n\n", "\n", ". ", " ", ""],
-            length_function=len
+            separators=legal_separators,
+            length_function=len,
+            is_separator_regex=False
         )
         
         splits = text_splitter.split_documents(documents)
@@ -420,24 +499,23 @@ class EmbeddingsManager:
             logger.warning(f"Document has {len(splits)} chunks, limiting to {self.max_chunks}")
             splits = splits[:self.max_chunks]
         
-        # Add enhanced metadata to each chunk
+        # Add enhanced metadata to each chunk for better retrieval
         for i, split in enumerate(splits):
             split.metadata.update({
                 'chunk_index': i,
                 'total_chunks': len(splits),
                 'chunk_size': len(split.page_content),
-                'word_count': len(split.page_content.split())
+                'word_count': len(split.page_content.split()),
+                'has_section_header': bool(split.page_content.strip().startswith(('Section', 'Article', 'Chapter', 'Part', 'Schedule')))
             })
         
         return splits
+
     
     @retry_on_failure(max_retries=3, delay=2)
-    def create_embeddings(self, file_path: str) -> str:
+    async def create_embeddings(self, file_path: str) -> str:
         """
-        FIXED: Create and store embeddings for document
-        - Adds documents to the persistent collection
-        - Does NOT recreate or clear the collection
-        - Preserves all existing documents
+        FIXED: Create and store embeddings (Async version)
         """
         start_time = time.time()
         
@@ -467,8 +545,17 @@ class EmbeddingsManager:
             # Split documents
             splits = self._split_documents(documents)
             
+            # SKIP LightRAG Indexing by default - It is too slow for demo environments
+            # try:
+            #     full_text = "\n\n".join([doc.page_content for doc in documents])
+            #     lrag = get_lightrag_manager()
+            #     logger.info(f"Session {self.session_id}: Skipping LightRAG indexing to maintain speed...")
+            # except Exception as e:
+            #     logger.error(f"Session {self.session_id}: LightRAG check error: {e}")
+            
             if not splits:
-                raise ValueError("No text chunks created from document")
+                logger.warning(f"Session {self.session_id}: No text chunks created from {file_path}. Skipping embeddings.")
+                return f"⚠️ No text could be extracted from '{Path(file_path).name}'. This usually happens with scanned PDFs or empty files."
             
             # FIXED: Store embeddings in the persistent collection
             # This adds to existing data, does NOT clear or recreate the collection
@@ -510,18 +597,8 @@ class EmbeddingsManager:
             logger.error(f"Session {self.session_id}: Embedding creation failed: {e}")
             raise Exception(f"Embedding creation failed: {e}")
 
-    def _create_embeddings_method1(self, splits: List[Document]) -> None:
-        """Method 1: Standard from_documents"""
-        if Qdrant is None:
-            raise ImportError("Qdrant vector store not available")
-        Qdrant.from_documents(
-            documents=splits,
-            embedding=self.embeddings,
-            url=self.qdrant_url,
-            api_key=self.api_key,
-            collection_name=self.collection_name,
-            prefer_grpc=False,
-        )
+        # Use manual upsert method as standard for local stability
+        self._create_embeddings_method2(splits)
 
     def _create_embeddings_method2(self, splits: List[Document]) -> None:
         """Method 2: Manual upsert with batching for better performance"""
@@ -539,7 +616,9 @@ class EmbeddingsManager:
                 
                 points = []
                 for j, (doc, embedding) in enumerate(zip(batch_docs, embeddings_list)):
-                    point_id = f"{doc.metadata.get('file_hash', 'unknown')}_{i+j}_{int(time.time())}"
+                    # Generate a valid UUID based on file_hash and index
+                    seed = f"{doc.metadata.get('file_hash', 'unknown')}_{i+j}"
+                    point_id = str(uuid.uuid5(uuid.NAMESPACE_DNS, seed))
                     point = PointStruct(
                         id=point_id,
                         vector=embedding,
@@ -574,8 +653,7 @@ class EmbeddingsManager:
             texts=texts,
             embedding=self.embeddings,
             metadatas=metadatas,
-            url=self.qdrant_url,
-            api_key=self.api_key,
+            client=self.qdrant_client,  # Use the existing client
             collection_name=self.collection_name,
             prefer_grpc=False,
         )

@@ -16,7 +16,9 @@ langchain-groq
 
 # Document Processing
 PyPDF2
+pypdf
 python-docx
+unstructured
 
 # Logging
 python-json-logger

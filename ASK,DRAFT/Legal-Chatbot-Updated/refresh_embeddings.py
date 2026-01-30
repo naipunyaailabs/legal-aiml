@@ -1,4 +1,4 @@
-x`import os
+import os
 import logging
 from pathlib import Path
 from vectors import EmbeddingsManager
@@ -41,7 +41,7 @@ def refresh_embeddings():
         
         # Get documents to process
         logger.info(f"Step 2: Scanning {DOCUMENTS_FOLDER} for documents...")
-        allowed_extensions = {'.pdf', '.txt', '.docx', '.pptx'}
+        allowed_extensions = {'.pdf', '.txt', '.docx', '.pptx', '.png', '.jpg', '.jpeg'}
         document_files = []
         
         if not DOCUMENTS_FOLDER.exists():

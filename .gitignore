@@ -49,11 +49,40 @@ MANIFEST
 Thumbs.db
 *.swp
 
-# --- Document Processing Cache ---
+# --- AI Storage & Knowledge Graphs ---
+qdrant_storage/
+lightrag_storage/
+**/qdrant_storage/
+**/lightrag_storage/
+vector_db/
+chroma_db/
+faiss_index/
+
+# --- Document Handling ---
+documents/
+!documents/.gitkeep
+# Only exclude contents if user wants, but usually we want documents/ folder itself
+# to exist. Added specific document types to keep folder structure.
 documents/*.pdf
 documents/*.docx
 documents/*.txt
-!documents/.gitkeep
+documents/*.png
+documents/*.jpg
+
+# --- Node/Vue/React (if any) ---
+node_modules/
+dist/
+.npm/
+
+# --- Other ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.tox/
+.nox/
+
+# --- Document Processing Cache ---
 data/processed/
 temp/
 tmp/

@@ -27,7 +27,7 @@ services:
       - "8502:8502" # Chatbot Frontend
     environment:
       - MONGODB_URL=mongodb://mongodb:27017
-      - APP_ENV=production
+      - APP_ENV=local
       # Secret keys should be moved to a secure .env file in production
       - JWT_SECRET_KEY=your-secret-key-change-in-production
       # API Keys for Cloud Services

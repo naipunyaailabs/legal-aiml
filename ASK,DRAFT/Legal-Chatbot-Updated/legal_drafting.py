@@ -3,8 +3,8 @@
 import re
 import os
 
-# CRITICAL: Set NO_PROXY before importing langchain_ollama (which uses httpx)
-os.environ['NO_PROXY'] = '192.168.0.25'
+# CRITICAL: Set NO_PROXY before any network-related imports
+os.environ['NO_PROXY'] = os.getenv('NO_PROXY', '192.168.0.56')
 
 import logging
 import time
@@ -13,6 +13,7 @@ from datetime import datetime
 
 from langchain_core.prompts import PromptTemplate
 from langchain_ollama import ChatOllama
+from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 import tiktoken
 
@@ -65,18 +66,34 @@ class LegalDraftingManager:
         logger.info("Legal Drafting Manager initialized")
     
     def _initialize_llm(self):
-        """Initialize the legal drafting LLM"""
+        """Initialize the legal drafting LLM with environment awareness"""
         try:
-            base_url = os.getenv('OLLAMA_BASE_URL', 'http://192.168.0.25:11434')
-            model = os.getenv('OLLAMA_MODEL', self.llm_model)
+            app_env = os.getenv('APP_ENV', 'local')
             
-            self.llm = ChatOllama(
-                model=model,
-                temperature=self.temperature,
-                base_url=base_url,
-                timeout=180
-            )
-            logger.info(f"Legal drafting LLM initialized: {model}")
+            if app_env == 'production':
+                logger.info("🚀 Initializing Groq Cloud LLM for DRAFT (Production Mode)")
+                groq_api_key = os.getenv("GROQ_API_KEY")
+                if not groq_api_key:
+                    raise ValueError("GROQ_API_KEY is required for production mode")
+                
+                self.llm = ChatGroq(
+                    model_name="llama-3.3-70b-versatile",
+                    temperature=self.temperature,
+                    groq_api_key=groq_api_key
+                )
+                logger.info("✅ Groq LLM initialized for Legal Drafting")
+            else:
+                logger.info("🏠 Initializing Ollama LLM for DRAFT (Local Mode)")
+                base_url = os.getenv('OLLAMA_BASE_URL', 'http://192.168.0.56:11434')
+                model = os.getenv('OLLAMA_MODEL', self.llm_model)
+                
+                self.llm = ChatOllama(
+                    model=model,
+                    temperature=self.temperature,
+                    base_url=base_url,
+                    timeout=180
+                )
+                logger.info(f"✅ Ollama LLM initialized: {model}")
         except Exception as e:
             logger.error(f"Failed to initialize legal drafting LLM: {e}")
             raise
@@ -308,7 +325,7 @@ COMPLETE LEGAL DOCUMENT:"""
         }
         return length_guides.get(length, "Standard length appropriate for document type")
     
-    def generate_document(
+    async def generate_document(
         self,
         doc_type: str,
         prompt: str,
@@ -346,7 +363,7 @@ COMPLETE LEGAL DOCUMENT:"""
             
             # Generate document
             logger.info("Generating legal document...")
-            response = self.llm.invoke(formatted_prompt)
+            response = await self.llm.ainvoke(formatted_prompt)
             document = response.content if hasattr(response, 'content') else str(response)
             
             # Post-process document

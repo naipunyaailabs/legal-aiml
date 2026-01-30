@@ -2,9 +2,11 @@ streamlit
 fastapi
 uvicorn
 PyPDF2
+pypdf
 pypdfium2
 pytesseract
 pillow
+unstructured
 langchain 
 langchain-text-splitters
 python-multipart

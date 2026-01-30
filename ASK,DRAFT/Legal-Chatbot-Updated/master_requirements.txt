@@ -23,11 +23,13 @@ weaviate-client
 
 # Document Processing
 PyPDF2
+pypdf
 pypdfium2
 pytesseract
 pillow
 python-docx
 python-pptx
+unstructured
 reportlab
 spacy>=3.7.0
 

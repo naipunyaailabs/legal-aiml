@@ -21,6 +21,7 @@ from langchain_core.output_parsers import StrOutputParser
 from qdrant_client import QdrantClient
 from dotenv import load_dotenv
 import tiktoken  # For accurate token counting
+from lightrag_manager import get_lightrag_manager
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -259,7 +260,8 @@ class ChatbotManager:
         use_custom_llm: bool = False,  # NEW: Toggle for custom LLM
         custom_llm_url: str = None,  # NEW: Custom LLM endpoint  
         custom_llm_api_key: str = None,  # NEW: Custom LLM API key
-        custom_llm_model_name: str = None  # NEW: Custom model name
+        custom_llm_model_name: str = None,  # NEW: Custom model name
+        qdrant_client: Optional[Any] = None # NEW: Pre-initialized client support
     ):
         """Initialize chatbot with comprehensive configuration + custom LLM support"""
         
@@ -307,7 +309,7 @@ class ChatbotManager:
         else:
             # Use Ollama (Local Mode)
             logger.info("🏠 Initializing Ollama LLM (Local Mode)")
-            base_url = os.getenv('OLLAMA_BASE_URL', 'http://192.168.0.25:11434')
+            base_url = os.getenv('OLLAMA_BASE_URL', 'http://192.168.0.56:11434')
             model = os.getenv('OLLAMA_MODEL', 'qwen2.5:14b')
             logger.info(f"🔗 Connecting to Ollama at: {base_url}")
             
@@ -326,11 +328,23 @@ class ChatbotManager:
         # Use the persistent collection name from vectors.py
         self.collection_name = collection_name or self.DEFAULT_COLLECTION_NAME
         
-        self.qdrant_client = QdrantClient(
-            url=self.qdrant_url,
-            api_key=self.qdrant_api_key,
-            prefer_grpc=False
-        )
+        if qdrant_client:
+            # Use the pre-initialized singleton client
+            self.qdrant_client = qdrant_client
+            logger.info("Using pre-initialized Qdrant client singleton")
+        elif not self.qdrant_url or self.qdrant_url.lower() == "local":
+            # Use local persistent storage
+            storage_path = os.path.join(os.getcwd(), "qdrant_storage")
+            os.makedirs(storage_path, exist_ok=True)
+            self.qdrant_client = QdrantClient(path=storage_path)
+            logger.info(f"Using local Qdrant storage at {storage_path}")
+        else:
+            self.qdrant_client = QdrantClient(
+                url=self.qdrant_url,
+                api_key=self.qdrant_api_key,
+                prefer_grpc=False
+            )
+            logger.info(f"Connected to Qdrant at {self.qdrant_url}")
         
         # Check if collection exists before initializing vector store
         try:
@@ -802,153 +816,126 @@ YOUR SIMPLE, FRIENDLY ANSWER:
             'context_tokens': context_tokens
         }
     
-    @rate_limit()
-    def get_response(
+    async def get_response(
         self,
         query: str,
         enable_content_filter: bool = True,
         enable_pii_detection: bool = True,
-        use_rag: bool = True,  # NEW: Control whether to use RAG or direct LLM
-        layman_mode: bool = False  # NEW: Simple explanation mode
+        use_rag: bool = True,
+        layman_mode: bool = False,
+        chatbot_mode: str = "Hybrid (Smart)"
     ) -> Dict[str, Any]:
         """Generate response with comprehensive security and token tracking - HYBRID MODE"""
-        
         try:
-            self.session_stats['total_queries'] += 1
-            
-            # Validate and sanitize query
-            if not query or not query.strip():
+            if not query or not query.strip(): 
                 return self._create_error_response("Empty query provided", "invalid_input")
             
             query = query.strip()[:MAX_QUERY_LENGTH]
+            self.session_stats['total_queries'] += 1
             
             # Pre-process query security
             if enable_content_filter or enable_pii_detection:
-                # Check for PII
                 if enable_pii_detection:
                     has_pii, pii_types, cleaned_query = self.content_filter.scan_for_pii(query)
                     if has_pii:
                         self.session_stats['flagged_queries'] += 1
-                        return self._create_error_response(
-                            f"Query contains PII: {', '.join(pii_types)}",
-                            "pii_detected"
-                        )
+                        return self._create_error_response(f"PII detected: {', '.join(pii_types)}", "pii_detected")
                 
-                # Check content safety
                 if enable_content_filter:
                     has_safety_issues, safety_issues = self.content_filter.check_content_safety(query)
                     if has_safety_issues:
                         self.session_stats['flagged_queries'] += 1
-                        return self._create_error_response(
-                            f"Query blocked: {', '.join(safety_issues)}",
-                            "content_filtered"
-                        )
+                        return self._create_error_response(f"Blocked: {', '.join(safety_issues)}", "content_filtered")
             
-            # NEW: Decide between RAG and direct LLM response
-            # Reinitialize vector store if needed
             if use_rag and (self.vector_store is None or self.basic_retriever is None):
-                try:
+                try: 
                     self._reinitialize_vector_store()
-                except Exception as e:
-                    logger.warning(f"Could not reinitialize vector store: {e}. Falling back to direct LLM.")
+                except: 
                     use_rag = False
             
             if use_rag and self.vector_store is not None and self.basic_retriever is not None:
-                # Try RAG first (document-based answer)
-                return self._get_rag_response(query, enable_content_filter, enable_pii_detection)
+                # Determine RAG sub-mode
+                if chatbot_mode == "Document Only":
+                    rag_mode = "standard" # Force fast mode for demo
+                elif chatbot_mode == "Hybrid (Smart)":
+                    rag_mode = "standard" # Fallback to standard for demo speed
+                else:
+                    rag_mode = "standard"
+                    
+                return await self._get_rag_response(query, enable_content_filter, enable_pii_detection, mode=rag_mode)
             else:
-                # Direct LLM response (general knowledge) - with layman mode option
-                return self._get_direct_llm_response(query, enable_content_filter, enable_pii_detection, layman_mode)
-            
+                return await self._get_direct_llm_response(query, enable_content_filter, enable_pii_detection, layman_mode)
+
         except Exception as e:
             logger.error(f"Response generation error: {e}")
             return self._create_error_response(f"System error: {str(e)}", "system_error")
     
-    def _get_rag_response(
+    async def _get_rag_response(
         self,
         query: str,
         enable_content_filter: bool,
-        enable_pii_detection: bool
+        enable_pii_detection: bool,
+        mode: str = "standard"
     ) -> Dict[str, Any]:
-        """Get response using RAG (Retrieval-Augmented Generation)"""
+        """Get response using RAG - choose between Standard Vector Search and LightRAG"""
         try:
-            # Step 1: Use advanced retrieval for better results
-            relevant_docs = self.advanced_retriever.hybrid_search(query, k=self.retrieval_k)
-            
-            # Step 2: Check if we found relevant documents
-            if not relevant_docs or len(relevant_docs) == 0:
-                # No relevant docs found - return "don't know" response
-                logger.info(f"No relevant documents found for query: {query}")
-                return {
-                    "answer": "I don't have enough information in the available documents to answer this question.",
-                    "sources": [],
-                    "is_flagged": False,
-                    "flag_reason": None,
-                    "tokens_used": 50,  # Minimal tokens for this response
-                    "input_tokens": 30,
-                    "output_tokens": 20,
-                    "processing_time": time.time(),
-                    "response_type": "rag"
-                }
-            
-            # Step 3: Rerank documents for better relevance
-            reranked_docs = self.advanced_retriever.rerank_documents(query, relevant_docs)
-            
-            # Step 4: Build context from reranked documents
-            context_parts = []
-            for doc in reranked_docs:
-                doc_info = f"Document: {doc.metadata.get('file_name', 'Unknown')} (Page {doc.metadata.get('page', 'N/A')})"
-                content = f"Content: {doc.page_content}"
-                context_parts.append(f"{doc_info}\n{content}")
-            
-            context = "\n\n".join(context_parts)
-            
-            # Create the prompt for RAG
-            formatted_prompt = self.prompt.format(context=context, question=query.strip())
-            
-            # Get response from LLM
-            response = self.llm.invoke(formatted_prompt)
-            answer = response.content if hasattr(response, 'content') else str(response)
-            source_documents = reranked_docs
-            
-            # FIXED: Calculate real token usage
-            token_breakdown = self._calculate_real_tokens(query, answer, context)
-            
+            # OPTION 1: Standard Vector Search (Instant / Reliable)
+            # Use this for "Document Only" mode or when you need a quick answer
+            if mode == "standard":
+                logger.info(f"Using Standard Vector Search (Qdrant) for: {query}")
+                # Get relevant documents from Qdrant
+                docs = self.basic_retriever.invoke(query)
+                context = "\n\n".join(doc.page_content for doc in docs)
+                
+                # Format prompt
+                chain_prompt = self.prompt.format(context=context, question=query)
+                response = await self.llm.ainvoke(chain_prompt)
+                answer = response.content if hasattr(response, 'content') else str(response)
+                
+                sources = self._process_sources(docs)
+                response_type = "standard_rag"
+                process_type = "Vector Similarity"
+
+            # OPTION 2: LightRAG Knowledge Graph Search (Deep / Smart)
+            else:
+                logger.info(f"Using LightRAG (Knowledge Graph) for: {query}")
+                lrag = get_lightrag_manager()
+                answer = await lrag.query(query, mode="hybrid")
+                
+                if not answer or "Error" in answer:
+                    logger.warning("LightRAG not ready, falling back to standard search")
+                    return await self._get_rag_response(query, enable_content_filter, enable_pii_detection, mode="standard")
+                
+                context = "LightRAG Knowledge Graph"
+                sources = [{"type": "lightrag", "context": "Knowledge Graph"}]
+                response_type = "lightrag"
+                process_type = "Hybrid (Graph + Vector)"
+
             # Post-process response security
             if enable_content_filter or enable_pii_detection:
                 filtered_answer, has_filter_issues, filter_issues = self.content_filter.filter_response(answer)
-                if has_filter_issues:
-                    self.session_stats['flagged_queries'] += 1
-                    return {
-                        "answer": filtered_answer,
-                        "sources": self._process_sources(source_documents),
-                        "is_flagged": True,
-                        "flag_reason": f"Response filtered: {', '.join(filter_issues)}",
-                        "tokens_used": token_breakdown['total_tokens'],
-                        "input_tokens": token_breakdown['input_tokens'],
-                        "output_tokens": token_breakdown['output_tokens'],
-                        "response_type": "rag"
-                    }
                 answer = filtered_answer
+
+            # Record processing time
+            processing_time = time.time()
             
-            # FIXED: Update session stats with real token usage
+            # Calculate tokens
+            token_breakdown = self._calculate_real_tokens(query, answer, context)
+            
+            # Update session stats
             self.session_stats['total_tokens_used'] += token_breakdown['total_tokens']
-            self.session_stats['input_tokens_used'] += token_breakdown['input_tokens']
-            self.session_stats['output_tokens_used'] += token_breakdown['output_tokens']
-            
-            # Process sources
-            sources = self._process_sources(source_documents)
             
             return {
-                "answer": answer.strip() or "I couldn't find relevant information to answer your question based on the available documents.",
+                "answer": answer.strip(),
                 "sources": sources,
                 "is_flagged": False,
                 "flag_reason": None,
                 "tokens_used": token_breakdown['total_tokens'],
                 "input_tokens": token_breakdown['input_tokens'],
                 "output_tokens": token_breakdown['output_tokens'],
-                "processing_time": time.time(),
-                "response_type": "rag"
+                "processing_time": processing_time,
+                "response_type": response_type,
+                "process_info": process_type
             }
             
         except Exception as e:
@@ -958,7 +945,7 @@ YOUR SIMPLE, FRIENDLY ANSWER:
                 "rag_processing_error"
             )
     
-    def _get_direct_llm_response(
+    async def _get_direct_llm_response(
         self,
         query: str,
         enable_content_filter: bool,
@@ -976,7 +963,7 @@ YOUR SIMPLE, FRIENDLY ANSWER:
                 response_type = "general_knowledge"
             
             # Get response from LLM
-            response = self.llm.invoke(general_prompt)
+            response = await self.llm.ainvoke(general_prompt)
             answer = response.content if hasattr(response, 'content') else str(response)
             
             # Calculate token usage (no document context)
