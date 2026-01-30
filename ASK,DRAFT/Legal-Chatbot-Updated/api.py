@@ -1438,23 +1438,14 @@ async def clear_document_session(
         logger.error(f"Clear session error: {e}")
         return {"success": False, "error": str(e)}
 
-# ==================== AGENTS PROXY ====================
-# Forward any /api/agents requests to the new Agents service on port 8002
+# ==================== UNIVERSAL API GATEWAY (PROXY) ====================
+# This allows all services to be accessed through Port 8000
 
-@app.api_route("/api/agents/{path:path}", methods=["GET", "POST", "PUT", "DELETE", "PATCH"])
-async def proxy_to_agents(path: str, request: Request):
-    """
-    Proxy requests to the Agents service running on port 8002.
-    This allows the frontend to continue using port 8000 for everything.
-    """
-    target_url = f"http://127.0.0.1:8002/api/agents/{path}"
-    
-    # Get original request details
+async def handle_proxy(target_url: str, request: Request):
+    """Generic proxy handler for internal services"""
     method = request.method
     headers = dict(request.headers)
-    # Remove 'host' to avoid issues with target server
     headers.pop('host', None)
-    
     params = dict(request.query_params)
     body = await request.body()
     
@@ -1464,7 +1455,8 @@ async def proxy_to_agents(path: str, request: Request):
             url=target_url,
             headers=headers,
             params=params,
-            content=body
+            content=body,
+            timeout=120.0 # High timeout for document processing
         )
             
         return Response(
@@ -1473,11 +1465,28 @@ async def proxy_to_agents(path: str, request: Request):
             headers=dict(proxy_resp.headers)
         )
     except Exception as e:
-        logger.error(f"Proxy error: {e}")
+        logger.error(f"Gateway Proxy error to {target_url}: {e}")
         return JSONResponse(
-            status_code=500,
-            content={"success": False, "error": f"Agents service unavailable: {str(e)}"}
+            status_code=502,
+            content={"success": False, "error": f"Internal service at {target_url} unavailable"}
         )
+
+# 1. Agents Proxy (Port 8002)
+@app.api_route("/api/agents/{path:path}", methods=["GET", "POST", "PUT", "DELETE", "PATCH"])
+async def proxy_to_agents(path: str, request: Request):
+    return await handle_proxy(f"http://127.0.0.1:8002/api/agents/{path}", request)
+
+# 2. Interact Proxy (Port 8001)
+@app.api_route("/api/interact/{path:path}", methods=["GET", "POST", "PUT", "DELETE", "PATCH"])
+async def proxy_to_interact(path: str, request: Request):
+    # Strip the '/api/interact' prefix when forwarding to the interact service
+    return await handle_proxy(f"http://127.0.0.1:8001/{path}", request)
+
+# 3. Auth Proxy (Port 8080)
+@app.api_route("/api/auth/{path:path}", methods=["GET", "POST", "PUT", "DELETE", "PATCH"])
+async def proxy_to_auth(path: str, request: Request):
+    # Forward to the auth service on port 8080
+    return await handle_proxy(f"http://127.0.0.1:8080/auth/{path}", request)
 
 
 # ==================== LIFECYCLE ====================
