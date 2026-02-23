@@ -403,48 +403,34 @@ class ChatbotManager:
             self.advanced_retriever = None
             logger.warning("Retrievers not initialized - waiting for documents to be processed")
         
-        # ENHANCED: RAG Prompt Template with Comprehensive Indian Legal Context
-        self.prompt_template = """STRICT DOMAIN CONSTRAINTS:
-- You are a LEGAL ASSISTANT ONLY
-- You can ONLY answer questions related to law, legal procedures, regulations, and legal documentation
-- If a question is not related to legal matters, you MUST respond with: "I can only assist with legal questions. Please ask a legal-related question."
-- Do NOT answer questions about programming, technology, general knowledge, or non-legal topics.
+        # ENHANCED: RAG Prompt Template for Senior Litigation Strategy
+        self.prompt_template = """ROLE: You are a Senior Litigation Strategist & Senior Counsel.
+Your goal is to win the case for the user by analyzing the provided context (Case Documents + Statutes).
 
-CRITICAL RULES:
-1. Content Accuracy:
-   - Use ONLY information explicitly stated in the context below
-   - Do NOT add external knowledge or interpretations
-   - If the context doesn't contain the answer, say "I don't have this information in the available documents."
+INSTRUCTIONS:
+1. DOCUMENT ANALYSIS: Identify the nature of the document. Is it a court order, a notice, or a petition?
+2. SWOT ANALYSIS:
+   - STRENGTHS: What in this document helps the user? (Cite clauses/sections)
+   - WEAKNESSES: What are the risks or liabilities found?
+   - OPPORTUNITIES: Are there loopholes, technical flaws, or procedural errors to exploit?
+   - THREATS: What are the immediate deadlines or penalties?
+3. LEGAL BASIS: Connect precisely to Indian Statutes (CrPC/BNSS, IPC/BNS, Companies Act, etc.).
+4. TACTICAL ACTION PLAN: Provide a clear "Next Steps" list that a lawyer would give their client.
 
-2. Legal Categories to Consider:
-   When answering, identify which area(s) of law apply:
-   - Corporate Law (Companies Act, MCA rules, director duties, corporate governance)
-   - Criminal Law (IPC sections, offenses, penalties)
-   - Civil Procedure (CPC, civil litigation, suits, appeals)
-   - Criminal Procedure (CrPC, FIR, investigation, arrest, bail, trial)
-   - Corporate Litigation (NCLT, NCLAT, company disputes, insolvency)
-   - Regulatory Compliance (SEBI, FEMA, GST, labour laws, POSH, Shops & Establishment)
-   - Contract Law (agreements, breach, remedies)
-   - Constitutional Law (fundamental rights, constitutional remedies)
+RESPONSE STRUCTURE:
+📌 CASE SUMMARY: [Brief, high-stakes summary of the situation]
+⚖️ LEGAL GROUNDS: [Cite specific sections/acts found in the context]
+🛡️ STRATEGIC SWOT ANALYSIS:
+   - ✅ STRENGTHS & LOOPHOLES: [Actionable tactical advantages]
+   - ⚠️ RISKS & THREATS: [What to watch out for]
+⏳ LITIGATION NEXT STEPS: [Clear, bulleted action items]
 
-3. Formatting for Clarity:
-   - Use bullet points (-) or numbered lists (1., 2., 3.) when presenting multiple items
-   - Put each distinct point on a separate line
-   - Use section headings for different legal categories
-   - Add line breaks between sections
-   - Preserve structure from the original documents
-
-4. Friendly & Professional Tone:
-   - Explain legal concepts in clear, simple language
-   - Be approachable but maintain professional accuracy
-   - Help the user understand complex legal terms
-
-Context from Legal Documents:
+Context from Law Firm Library:
 {context}
 
-Question: {question}
+User Question: {question}
 
-Answer:"""
+SENIOR COUNSEL ADVICE:"""
         
         self.prompt = PromptTemplate(
             template=self.prompt_template,
@@ -854,15 +840,17 @@ YOUR SIMPLE, FRIENDLY ANSWER:
                     use_rag = False
             
             if use_rag and self.vector_store is not None and self.basic_retriever is not None:
+                # ⚖️ SPECIALIST FIRM LOGIC: Route to domain
+                domain = self.route_query(query)
+                
                 # Determine RAG sub-mode
+                rag_mode = "standard"
                 if chatbot_mode == "Document Only":
-                    rag_mode = "standard" # Force fast mode for demo
+                    rag_mode = "standard"
                 elif chatbot_mode == "Hybrid (Smart)":
-                    rag_mode = "standard" # Fallback to standard for demo speed
-                else:
                     rag_mode = "standard"
                     
-                return await self._get_rag_response(query, enable_content_filter, enable_pii_detection, mode=rag_mode)
+                return await self._get_rag_response(query, enable_content_filter, enable_pii_detection, mode=rag_mode, domain=domain)
             else:
                 return await self._get_direct_llm_response(query, enable_content_filter, enable_pii_detection, layman_mode)
 
@@ -875,17 +863,38 @@ YOUR SIMPLE, FRIENDLY ANSWER:
         query: str,
         enable_content_filter: bool,
         enable_pii_detection: bool,
-        mode: str = "standard"
+        mode: str = "standard",
+        domain: str = "general_legal"
     ) -> Dict[str, Any]:
-        """Get response using RAG - choose between Standard Vector Search and LightRAG"""
+        """Get response using RAG with Specialist Routing and Fallback"""
         try:
-            # OPTION 1: Standard Vector Search (Instant / Reliable)
-            # Use this for "Document Only" mode or when you need a quick answer
+            # OPTION 1: Standard Vector Search (Enhanced with Specialist Logic)
             if mode == "standard":
-                logger.info(f"Using Standard Vector Search (Qdrant) for: {query}")
-                # Get relevant documents from Qdrant
-                docs = self.basic_retriever.invoke(query)
-                context = "\n\n".join(doc.page_content for doc in docs)
+                logger.info(f"Using Advanced Hybrid Search for Domain: {domain}")
+                
+                docs = []
+                # ⚖️ Specialist search for specific domains
+                if domain and domain != "general_legal":
+                    # Use Advanced Hybrid Search (Keyword + Semantic)
+                    docs = self.advanced_retriever.hybrid_search(query, k=self.retrieval_k)
+                    # Filter by domain manually if found in metadata
+                    docs = [d for d in docs if d.metadata.get('specialty') == domain]
+                    
+                    # FALLBACK: If specialist search is dry, check the general papers
+                    if not docs:
+                        logger.info(f"⚖️ Specialist search for {domain} was empty. Checking general archive...")
+                        docs = self.advanced_retriever.hybrid_search(query, k=self.retrieval_k)
+                else:
+                    docs = self.advanced_retriever.hybrid_search(query, k=self.retrieval_k) if self.advanced_retriever else []
+
+                # Clean irrelevant 'garbage' chunks
+                docs = [d for d in docs if len(d.page_content.strip()) > 100 or any(kw in d.page_content for kw in ["Section", "Act", "Court", "Order"])]
+                
+                # Rerank for Maximum Legal Precision
+                if self.advanced_retriever and docs:
+                    docs = self.advanced_retriever.rerank_documents(query, docs)
+                
+                context = "\n\n".join(doc.page_content for doc in docs) if docs else "No specific documents found."
                 
                 # Format prompt
                 chain_prompt = self.prompt.format(context=context, question=query)
@@ -1020,6 +1029,40 @@ YOUR SIMPLE, FRIENDLY ANSWER:
             "processing_time": time.time(),
             "response_type": "error"
         }
+
+    def route_query(self, query: str) -> str:
+        """
+        ⚖️ THE LAWYER ROUTER: Categorize query into legal specialty
+        This is used for specialist firm filtering.
+        """
+        query_lower = query.lower()
+        
+        # 🏢 Corporate / Company Law
+        if any(kw in query_lower for kw in ["company", "directors", "board", "shareholder", "mca", "roc", "audit", "compliance", "corporate"]):
+            return "corporate_law"
+            
+        # ⚖️ Criminal Law / BNSS / BNS
+        if any(kw in query_lower for kw in ["criminal", "police", "arrest", "bail", "jail", "ipc", "bns", "bnss", "fir", "crpc", "assault", "crime"]):
+            return "criminal_law"
+            
+        # 📄 Contract Law
+        if any(kw in query_lower for kw in ["contract", "agreement", "lease", "rent", "partnership", "vendor", "deed", "clause", "signing"]):
+            return "contract_law"
+            
+        # 💳 Banking & Finance
+        if any(kw in query_lower for kw in ["bank", "loan", "foreclosure", "debt", "recovery", "mortgage", "finance", "cheque", "dishonour", "sarfaesi"]):
+            return "banking_finance_law"
+
+        # 🖥️ Cyber Law / IT Act
+        if any(kw in query_lower for kw in ["cyber", "online", "fraud", "hacked", "data", "privacy", "it act", "technology", "internet"]):
+            return "cyber_law"
+            
+        # ⚖️ Litigation / Civil Procedure
+        if any(kw in query_lower for kw in ["litigation", "court", "judge", "petition", "suit", "appeal", "high court", "supreme court", "summons", "civil"]):
+            return "litigation_cases"
+            
+        # Default to general legal
+        return "general_legal"
 
     def _process_sources(self, source_documents: List[Document]) -> List[Dict[str, Any]]:
         """Process and secure source documents - simplified for UI"""

@@ -521,16 +521,17 @@ def check_collection_exists():
         return False
 
 def get_documents_from_folder():
-    """Get all documents from static folder"""
+    """Get all documents from static folder and all subfolders (recursive)"""
     if not DOCUMENTS_FOLDER.exists():
         return []
     
     document_files = []
+    # Use rglob for recursive search to include sub-folders (Criminal, Corporate, etc.)
     for ext in ALLOWED_EXTENSIONS:
-        pattern = str(DOCUMENTS_FOLDER / f"*.{ext}")
-        files = glob.glob(pattern)
-        document_files.extend(files)
+        files = list(DOCUMENTS_FOLDER.rglob(f"*.{ext}"))
+        document_files.extend([str(f) for f in files])
     
+    logger.info(f"📚 Library Scan: Found {len(document_files)} documents across all departments")
     return document_files
 
 async def auto_embed_documents():
@@ -816,8 +817,8 @@ async def chat(request: ChatRequest, user_id: Optional[str] = Depends(verify_tok
                 qdrant_url=os.getenv('QDRANT_URL'),
                 qdrant_client=global_qdrant_client, # Pass the global client!
                 collection_name=PERSISTENT_COLLECTION_NAME,
-                retrieval_k=5,
-                score_threshold=0.5,
+                retrieval_k=15, # Increased for thorough legal analysis (Satwik Branch)
+                score_threshold=0.35, # Slightly more lenient to capture relevant legal context
                 use_custom_llm=False,
                 custom_llm_url=None,
                 custom_llm_api_key=None,
