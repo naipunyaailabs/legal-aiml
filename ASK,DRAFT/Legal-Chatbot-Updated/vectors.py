@@ -183,8 +183,8 @@ class EmbeddingsManager:
         encode_kwargs: dict = None,
         qdrant_url: str = None,
         collection_name: str = None,
-        chunk_size: int = 800,  # Optimized for legal: smaller chunks = more precise retrieval
-        chunk_overlap: int = 150,  # ~20% overlap for context preservation
+        chunk_size: int = 1500,  # Increased for better legal context retention
+        chunk_overlap: int = 300,  # Increased overlap to prevent cutting legal clauses
         max_chunks: int = MAX_CHUNKS_PER_DOCUMENT,
         qdrant_client: Optional[Any] = None # NEW: Pre-initialized client support
     ):
@@ -537,21 +537,47 @@ class EmbeddingsManager:
             # Load document
             documents = self._load_document(file_path)
             
-            # Add file hash to metadata
+            # ⚖️ SPECIALIST TAGGING: Identify the legal domain based on the folder name
+            file_path_obj = Path(file_path)
+            parent_folder = file_path_obj.parent.name.lower()
+            specialty = "general_legal"
+            
+            # Map folder names to standard specialty tags
+            specialty_map = {
+                "corporate_law": "corporate_law",
+                "criminal_law": "criminal_law",
+                "taxation_law": "taxation_law",
+                "cyber_law": "cyber_law",
+                "banking_finance_law": "banking_finance_law",
+                "labour_employment_law": "labour_employment_law",
+                "litigation_cases": "litigation_cases",
+                "securities_capital_market_law": "securities_capital_market_law"
+            }
+            
+            for folder, tag in specialty_map.items():
+                if folder in parent_folder:
+                    specialty = tag
+                    break
+            
+            # Add file hash, name, and specialty to metadata
             for doc in documents:
                 doc.metadata['file_hash'] = file_hash
+                doc.metadata['file_name'] = file_path_obj.name
+                doc.metadata['specialty'] = specialty
                 doc.metadata['processed_time'] = time.time()
             
             # Split documents
             splits = self._split_documents(documents)
             
-            # SKIP LightRAG Indexing by default - It is too slow for demo environments
-            # try:
-            #     full_text = "\n\n".join([doc.page_content for doc in documents])
-            #     lrag = get_lightrag_manager()
-            #     logger.info(f"Session {self.session_id}: Skipping LightRAG indexing to maintain speed...")
-            # except Exception as e:
-            #     logger.error(f"Session {self.session_id}: LightRAG check error: {e}")
+            # ⚡ ENHANCEMENT: Enable LightRAG Knowledge Graph Indexing
+            try:
+                full_text = "\n\n".join([doc.page_content for doc in documents])
+                lrag = get_lightrag_manager()
+                logger.info(f"Session {self.session_id}: Building Knowledge Graph in LightRAG...")
+                # Run LightRAG insertion in background to avoid blocking vector storage
+                asyncio.create_task(lrag.insert_text(full_text))
+            except Exception as e:
+                logger.error(f"Session {self.session_id}: LightRAG Indexing error: {e}")
             
             if not splits:
                 logger.warning(f"Session {self.session_id}: No text chunks created from {file_path}. Skipping embeddings.")

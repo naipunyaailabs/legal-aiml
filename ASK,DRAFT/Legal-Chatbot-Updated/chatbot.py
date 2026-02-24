@@ -215,22 +215,37 @@ class AdvancedRetriever:
             return self.vector_store.similarity_search(query, k=k)
     
     def rerank_documents(self, query: str, documents: List[Document]) -> List[Document]:
-        """Rerank documents based on relevance"""
+        """Enhanced reranking based on relevance and fact-density"""
         if not documents:
             return []
         
         try:
-            # Simple relevance scoring based on query term overlap
             query_terms = set(query.lower().split())
             
-            def calculate_relevance(doc: Document) -> float:
-                doc_terms = set(doc.page_content.lower().split())
+            def calculate_score(doc: Document) -> float:
+                content = doc.page_content.lower()
+                # 1. Semantic overlap
+                doc_terms = set(content.split())
                 overlap = len(query_terms.intersection(doc_terms))
-                total = len(query_terms)
-                return overlap / total if total > 0 else 0
+                overlap_score = overlap / len(query_terms) if query_terms else 0
+                
+                # 2. Fact density (Penalize chunks that are mostly numbers/garbage)
+                text_only = re.sub(r'[^a-zA-Z\s]', '', content)
+                fact_score = len(text_only) / len(content) if len(content) > 0 else 0
+                
+                # 3. Legal weight (Reward key terms & Adversarial findings)
+                legal_keywords = ["section", "act", "article", "court", "order", "judgment", "petitioner", "respondent"]
+                adversarial_keywords = ["held", "overruled", "contended", "alleged", "finding", "decree", "rejected", "affirmed"]
+                legal_weight = (sum(1 for kw in legal_keywords if kw in content) * 0.1) + \
+                               (sum(1 for kw in adversarial_keywords if kw in content) * 0.15)
+                
+                # 4. Length reward (Favor substantial chunks over tiny ones)
+                length_reward = min(len(content) / 2000, 0.2)
+                
+                return (overlap_score * 0.5) + (fact_score * 0.2) + legal_weight + length_reward
             
-            # Sort by relevance
-            scored_docs = [(doc, calculate_relevance(doc)) for doc in documents]
+            # Sort by enhanced score
+            scored_docs = [(doc, calculate_score(doc)) for doc in documents]
             scored_docs.sort(key=lambda x: x[1], reverse=True)
             
             return [doc for doc, score in scored_docs]
@@ -403,213 +418,81 @@ class ChatbotManager:
             self.advanced_retriever = None
             logger.warning("Retrievers not initialized - waiting for documents to be processed")
         
-        # ENHANCED: RAG Prompt Template for Senior Litigation Strategy
-        self.prompt_template = """ROLE: You are a Senior Litigation Strategist & Senior Counsel.
-Your goal is to win the case for the user by analyzing the provided context (Case Documents + Statutes).
+        # ENHANCED: RAG Prompt Template for Elite Forensic Analysis
+        self.prompt_template = """ROLE: You are an Elite Litigation Strategist and Senior Counsel.
+Your mission is to perform a HIGH-STAKES FORENSIC ANALYSIS using the provided context.
 
-INSTRUCTIONS:
-1. DOCUMENT ANALYSIS: Identify the nature of the document. Is it a court order, a notice, or a petition?
-2. SWOT ANALYSIS:
-   - STRENGTHS: What in this document helps the user? (Cite clauses/sections)
-   - WEAKNESSES: What are the risks or liabilities found?
-   - OPPORTUNITIES: Are there loopholes, technical flaws, or procedural errors to exploit?
-   - THREATS: What are the immediate deadlines or penalties?
-3. LEGAL BASIS: Connect precisely to Indian Statutes (CrPC/BNSS, IPC/BNS, Companies Act, etc.).
-4. TACTICAL ACTION PLAN: Provide a clear "Next Steps" list that a lawyer would give their client.
+RESPONSE STRUCTURE (Strictly follow this formatting):
+📌 CASE AT A GLANCE: [A simple, high-impact summary of the situation]
 
-RESPONSE STRUCTURE:
-📌 CASE SUMMARY: [Brief, high-stakes summary of the situation]
-⚖️ LEGAL GROUNDS: [Cite specific sections/acts found in the context]
-🛡️ STRATEGIC SWOT ANALYSIS:
-   - ✅ STRENGTHS & LOOPHOLES: [Actionable tactical advantages]
-   - ⚠️ RISKS & THREATS: [What to watch out for]
-⏳ LITIGATION NEXT STEPS: [Clear, bulleted action items]
+⚖️ THE CORE CONFLICT:
+- **Parties**: [Who is the Petitioner vs Respondent]
+- **The Issue**: [What is the central legal question or 'The Trap'?]
 
-Context from Law Firm Library:
+📜 LEGAL BACKGROUND & JOURNEY:
+[Summarize how the case reached this point - e.g. NCLT -> NCLAT -> Supreme Court]
+
+🛡️ STRATEGIC SYLLOGISM (IRAC):
+- 🔍 **ISSUE**: [Specific legal question]
+- 📜 **RULE**: [Cite Section/Act/Precedent from context]
+- 📝 **APPLICATION**: [Directly connect facts to the law]
+- ✅ **CONCLUSION**: [The tactical result]
+
+💡 TACTICAL ACTION PLAN (The Win/Lag Strategy):
+- [Immediate Action Item 1]
+- [Immediate Action Item 2]
+
+🧠 IN ONE LINE:
+[A powerful one-sentence summary for the CEO/Partner]
+
+Context:
 {context}
 
 User Question: {question}
 
-SENIOR COUNSEL ADVICE:"""
+SENIOR COUNSEL FORENSIC BRIEF:"""
         
         self.prompt = PromptTemplate(
             template=self.prompt_template,
             input_variables=["context", "question"]
         )
         
-        # ENHANCED: General Knowledge Prompt with Comprehensive Indian Legal Framework
-        self.general_prompt_template = """STRICT DOMAIN CONSTRAINTS:
-- You are a LEGAL ASSISTANT ONLY
-- You can ONLY answer questions related to law, legal procedures, regulations, and legal documentation
-- If a question is not related to legal matters, you MUST respond with: "I can only assist with legal questions. Please ask a legal-related question."
-- Do NOT answer questions about programming, technology, general knowledge, or non-legal topics
+        # ENHANCED: General Knowledge Prompt (The Strategic Legal Encyclopedia)
+        self.general_prompt_template = """ROLE: You are an Elite Litigation Strategist and Senior Legal Partner.
+Your mission is to provide high-stakes legal analysis and tactical advice.
 
-COMPREHENSIVE LEGAL FRAMEWORK TO CONSIDER:
+ANALYSIS STRUCTURE:
+📌 LEGAL LANDSCAPE: [Identify Acts/Sections - e.g. BNS, BNSS, Companies Act]
+🛡️ STRATEGIC POSITIONING: [Offensive and Defensive moves]
+💡 TACTICAL LOOPHOLES: [Procedural gaps to exploit]
+⏳ CRITICAL ACTION ITEMS: [Bullet points for immediate execution]
 
-1. CORPORATE LAW & DUTIES:
-   - Companies Act, 2013 (company formation, governance, director duties, meetings, accounts)
-   - MCA (Ministry of Corporate Affairs) regulations and circulars
-   - LLP Act, 2008 (Limited Liability Partnerships)
-   - Director duties: fiduciary duty, duty of care, avoiding conflicts of interest
-   - Corporate governance, compliance requirements, ROC filings
-   - Insider trading, related party transactions
+User Question: {question}
 
-2. CRIMINAL LAW (IPC):
-   - Indian Penal Code sections for offenses (theft, fraud, cheating, assault, defamation, etc.)
-   - Bhartiya Nyaya Sanhita, 2023 (BNS) - new criminal code replacing IPC
-   - Penalties and punishments for various offenses
-   - Cognizable vs non-cognizable offenses
-   - Bailable vs non-bailable offenses
-
-3. CRIMINAL PROCEDURE (CrPC):
-   - Bhartiya Nagarik Suraksha Sanhita, 2023 (BNSS) - new criminal procedure code
-   - FIR filing and investigation process
-   - Arrest procedures and rights of accused
-   - Bail provisions (regular bail, anticipatory bail)
-   - Trial procedure in criminal courts
-   - Appeals and revisions
-
-4. CIVIL PROCEDURE (CPC):
-   - Civil suits and litigation process
-   - Jurisdiction of civil courts
-   - Pleadings, written statements, evidence
-   - Interim reliefs and injunctions
-   - Decree, execution, appeals
-   - Alternative Dispute Resolution (Arbitration, Mediation, Conciliation)
-
-5. CORPORATE LITIGATION:
-   - NCLT (National Company Law Tribunal) proceedings
-   - Company disputes, oppression and mismanagement
-   - IBC (Insolvency and Bankruptcy Code) - CIRP, liquidation
-   - Shareholder disputes and derivative actions
-   - NCLAT appeals
-
-6. REGULATORY COMPLIANCE:
-   - SEBI (Securities and Exchange Board of India) - securities law, IPOs, insider trading
-   - FEMA (Foreign Exchange Management Act) - foreign investment, repatriation
-   - GST (Goods and Services Tax) - tax compliance
-   - Labour Laws - Shops & Establishment Act, ESI, EPF, gratuity
-   - POSH Act (Sexual Harassment at Workplace)
-   - Consumer Protection Act, 2019
-   - IT Act, 2000 - cyber crimes, data protection
-   - Competition Act, 2002 - anti-competitive practices
-
-7. CONTRACT LAW:
-   - Indian Contract Act, 1872
-   - Formation of contracts, offer and acceptance
-   - Consideration, capacity, free consent
-   - Breach of contract and remedies
-   - Specific Relief Act - specific performance
-   - Sale of Goods Act, 1930
-
-8. CONSTITUTIONAL LAW:
-   - Fundamental Rights (Articles 12-35)
-   - Constitutional remedies - writs (habeas corpus, mandamus, certiorari, prohibition, quo warranto)
-   - Directive Principles of State Policy
-   - Judicial review
-
-YOUR RESPONSE STRUCTURE:
-
-1. Start with a friendly one-line summary
-   Example: "Let me help you understand this legal matter clearly."
-
-2. Identify the relevant legal category(ies)
-   Example: "This falls under Criminal Law (IPC Section 420 - Cheating) and Criminal Procedure (CrPC)."
-
-3. Explain the applicable law in simple, everyday language
-   - Cite specific sections (IPC, Companies Act, CrPC, etc.)
-   - Explain what the law means in plain English
-   - Avoid heavy legal jargon; if you must use technical terms, define them immediately
-
-4. Provide consequences and procedures
-   - What are the penalties? (imprisonment, fines)
-   - What's the procedure? (FIR, complaint, NCLT filing, civil suit, etc.)
-   - What are the defenses or rights available?
-
-5. Offer practical steps the user can take
-   - How to file a complaint
-   - When to consult a lawyer
-   - What documents to gather
-   - Time limitations (limitation periods)
-
-6. Use bullet points for clarity
-   Present main points in a bulleted or numbered list for easy reading
-
-7. Add a helpful example if appropriate
-   Use a simple, relatable scenario to illustrate the legal concept
-
-8. End with a concise closing takeaway
-   Example: "Remember, this is general legal information. For your specific situation, it's best to consult a qualified lawyer."
-
-IMPORTANT DISCLAIMERS:
-- This is general legal information, not personal legal advice
-- Mention when something depends on specific conditions (e.g., "This may vary based on whether the person is a workman or managerial employee")
-- Recommend consulting a lawyer for specific situations
-- Be clear about jurisdictional variations (Central vs State laws)
-
-TONE & STYLE:
-- Friendly and approachable, like talking to a friend
-- Patient and understanding
-- Clear and concise - avoid unnecessary complexity
-- Professional yet warm
-- Empowering - help the user understand their legal position
-
-USER QUESTION:
-{question}
-
-YOUR ANSWER:
-"""
+SENIOR PARTNER ANALYSIS:"""
         
-        # ENHANCED: Layman Mode Prompt - Extra Simplified
-        self.layman_prompt_template = """STRICT DOMAIN CONSTRAINTS:
-- You are a LEGAL ASSISTANT ONLY
-- You can ONLY answer questions related to law, legal procedures, regulations, and legal documentation
-- If a question is not related to legal matters, you MUST respond with: "I can only assist with legal questions. Please ask a legal-related question."
-- Do NOT answer questions about programming, technology, general knowledge, or non-legal topics
+        # ENHANCED: Forensic Layman Mode (CEO Briefing Style)
+        self.layman_prompt_template = """ROLE: You are the Lead Defense Counsel explaining a case to a CEO.
+Your goal is to make the situation crystal clear and highly strategic.
 
-ULTRA-SIMPLE EXPLANATION RULES:
+RESPONSE STRUCTURE:
+🧾 WHAT THIS IS ABOUT (Simple Explanation):
+[Jargon-free summary]
 
-1. Use everyday words - avoid legal jargon completely
-   Instead of: "cognizable offense" → Say: "a serious crime where police can arrest without a warrant"
-   Instead of: "fiduciary duty" → Say: "the responsibility to act in someone else's best interest"
-   Instead of: "plaintiff" → Say: "the person who files the complaint"
+🔍 THE CORE ISSUE:
+[What is the main problem we are solving?]
 
-2. Structure for maximum clarity:
-   - Start with: "Here's what you need to know in simple terms..."
-   - Break down complex ideas into small, digestible pieces
-   - Use analogies and real-life examples
-   - End with: "To sum up in one sentence..."
+🛡️ THE TRAP & THE SHIELD:
+- **The Trap**: [What the opponent is trying to do to us]
+- **The Shield**: [How we block them using the law]
 
-3. Explain like you're talking to a family member:
-   - "Think of it like this..."
-   - "In simple words..."
-   - "Basically, what this means is..."
-   - "Here's why this matters to you..."
-
-4. Use bullet points for steps or options:
-   - What can happen
-   - What you should do
-   - What to avoid
-
-5. Be reassuring and practical:
-   - "Don't worry, here's what this means..."
-   - "The first thing you should do is..."
-   - "This is common, and here's how it's usually handled..."
-
-6. Identify the legal area simply:
-   - "This is about business/company law"
-   - "This is a criminal matter"
-   - "This is about contracts/agreements"
-   - "This deals with government rules and compliance"
-
-7. Always end with clear next steps
-   "What you should do now: [practical step-by-step guidance]"
+🧠 IN ONE LINE:
+[The ultimate bottom line for the CEO]
 
 USER QUESTION:
 {question}
 
-YOUR SIMPLE, FRIENDLY ANSWER:
-"""
+CEO BRIEFING:"""
         
         # Chain configuration
         self.chain_type_kwargs = {"prompt": self.prompt}
@@ -636,7 +519,7 @@ YOUR SIMPLE, FRIENDLY ANSWER:
         self.content_filter = ContentFilter()
         self.token_counter = TokenCounter()
         
-        # Session statistics
+        # Session statistics and persistence
         self.session_stats = {
             'total_queries': 0,
             'flagged_queries': 0,
@@ -645,6 +528,8 @@ YOUR SIMPLE, FRIENDLY ANSWER:
             'output_tokens_used': 0,
             'start_time': time.time()
         }
+        self.last_retrieved_context = None # Persistence for follow-ups
+        self.last_query = "" # Track previous query for expansion
         
         logger.info(f"ChatbotManager initialized with persistent collection: {self.collection_name}")
     
@@ -875,29 +760,73 @@ YOUR SIMPLE, FRIENDLY ANSWER:
                 docs = []
                 # ⚖️ Specialist search for specific domains
                 if domain and domain != "general_legal":
+                    logger.info(f"⚖️ Routing query to {domain} specialty...")
                     # Use Advanced Hybrid Search (Keyword + Semantic)
-                    docs = self.advanced_retriever.hybrid_search(query, k=self.retrieval_k)
-                    # Filter by domain manually if found in metadata
-                    docs = [d for d in docs if d.metadata.get('specialty') == domain]
+                    all_found = self.advanced_retriever.hybrid_search(query, k=self.retrieval_k * 2)
                     
-                    # FALLBACK: If specialist search is dry, check the general papers
+                    # 💡 FIX: Include docs matching domain OR documents with NO specialty tag (User Uploads)
+                    docs = [d for d in all_found if d.metadata.get('specialty') == domain or not d.metadata.get('specialty')]
+                    
+                    # Ensure we don't have too many, yet keep the best ones
+                    docs = docs[:self.retrieval_k]
+                    
+                    # FALLBACK: If we still have nothing relevant, check everything
                     if not docs:
-                        logger.info(f"⚖️ Specialist search for {domain} was empty. Checking general archive...")
+                        logger.info(f"⚠️ No specific {domain} or untagged docs found. Checking fallback...")
                         docs = self.advanced_retriever.hybrid_search(query, k=self.retrieval_k)
+                # 💡 ENHANCEMENT: Sticky Context persistence (Stay on the case document)
+                # Expand keywords to capture more legal follow-up intents
+                is_follow_up = any(kw in query.lower() for kw in [
+                    "this", "it", "about", "case", "detail", "more", "explain", "elaborate", 
+                    "flaw", "gap", "issue", "gather", "next", "why", "how", "who", "where", "what"
+                ])
+                is_briefing_request = any(kw in query.lower() for kw in ["brief", "who", "summary", "analyze", "overview"])
+                
+                # If search is dry but we have history, LATCH ON to the history
+                if not docs and self.last_retrieved_context and (is_follow_up or len(query.split()) < 10):
+                    logger.info("🔄 Sticky Context: search was dry, but latching on to last known case context...")
+                    context = self.last_retrieved_context
+                elif docs:
+                    # Build context with specific instructions for the AI
+                    context = "\n\n".join(f"[DOCUMENT: {d.metadata.get('file_name', 'Case File')}]\n{d.page_content}" for d in docs)
+                    self.last_retrieved_context = context # Save for next follow-up
                 else:
-                    docs = self.advanced_retriever.hybrid_search(query, k=self.retrieval_k) if self.advanced_retriever else []
+                    # Fallback to history if it exists, even if not a clear follow-up
+                    context = self.last_retrieved_context if self.last_retrieved_context else "No specific documents found."
+                
+                # ⚡ STAGE A: Forensic Case Mapping (Mental Draft)
+                # If it's a new briefing or search triggered new docs, extract the 'Who is Who'
+                case_map_metadata = ""
+                if (is_briefing_request or not self.last_query) and docs:
+                    try:
+                        mapping_prompt = f"""Identify the legal parties and the core conflict from this context:
+                        {context[:5000]} # Increase lookup for parties
+                        
+                        OUTPUT FORMAT:
+                        PARTIES: [e.g. Tata Sons (Petitioner) vs Cyrus Mistry (Respondent)]
+                        CONFLICT: [1 sentence summary of dispute]
+                        """
+                        map_response = await self.llm.ainvoke(mapping_prompt)
+                        case_map_metadata = map_response.content if hasattr(map_response, 'content') else str(map_response)
+                        logger.info(f"Forensic Case Map Generated: {case_map_metadata}")
+                    except Exception as e:
+                        logger.warning(f"Forensic mapping failed: {e}")
 
-                # Clean irrelevant 'garbage' chunks
-                docs = [d for d in docs if len(d.page_content.strip()) > 100 or any(kw in d.page_content for kw in ["Section", "Act", "Court", "Order"])]
+                # Format prompt with the Forensic Map if generated
+                final_context = f"{case_map_metadata}\n\n{context}" if case_map_metadata else context
                 
-                # Rerank for Maximum Legal Precision
-                if self.advanced_retriever and docs:
-                    docs = self.advanced_retriever.rerank_documents(query, docs)
+                # STRIKE THROUGH: Never let the AI say "blank slate" if context is present
+                if "No specific documents found" not in final_context:
+                    disclaimer = f"STRICT MANDATE: You are currently counsel for the case described in the context. Do NOT claim you have no information. Analyze the existing text for: {query}"
+                    chain_prompt = self.prompt.format(context=final_context, question=f"{disclaimer}\n\nUser Question: {query}")
+                else:
+                    chain_prompt = self.prompt.format(context=final_context, question=query)
                 
-                context = "\n\n".join(doc.page_content for doc in docs) if docs else "No specific documents found."
+                # ENHANCED: Deep Analysis Instruction for the LLM
+                if any(kw in query.lower() for kw in ["analysis", "case", "detail", "tactical", "about", "flaw", "issue"]):
+                    chain_prompt = f"INSTRUCTION: Perform a deep, forensic analysis using ONLY the provided context. Connect the parties identified to the legal rules. Identify the TRAP and the LOOPHOLE.\n\n{chain_prompt}"
                 
-                # Format prompt
-                chain_prompt = self.prompt.format(context=context, question=query)
+                self.last_query = query # Save query
                 response = await self.llm.ainvoke(chain_prompt)
                 answer = response.content if hasattr(response, 'content') else str(response)
                 
@@ -1056,6 +985,14 @@ YOUR SIMPLE, FRIENDLY ANSWER:
         # 🖥️ Cyber Law / IT Act
         if any(kw in query_lower for kw in ["cyber", "online", "fraud", "hacked", "data", "privacy", "it act", "technology", "internet"]):
             return "cyber_law"
+            
+        # 💰 Taxation Law
+        if any(kw in query_lower for kw in ["tax", "gst", "income tax", "vat", "customs", "excise", "assessment", "itat", "revenue", "tds"]):
+            return "taxation_law"
+            
+        # 👷 Labour & Employment Law
+        if any(kw in query_lower for kw in ["labour", "employee", "employer", "salary", "pf", "esi", "gratuity", "dismissal", "workplace", "posh", "workers", "trade union"]):
+            return "labour_employment_law"
             
         # ⚖️ Litigation / Civil Procedure
         if any(kw in query_lower for kw in ["litigation", "court", "judge", "petition", "suit", "appeal", "high court", "supreme court", "summons", "civil"]):

@@ -671,21 +671,24 @@ def generate_docx_document(content: str, doc_type: str, metadata: dict) -> Bytes
 
 # ==================== JWT & AUTH ====================
 
-def get_session_manager(user_id: str = None):
+def get_session_manager(user_id: str = None, chat_session_id: str = None):
     """Get or create session manager for user or anonymous"""
     # For authenticated users, use user_id as session key
-    # For anonymous users, generate a temporary session key
+    # For anonymous users, use the chat_session_id to maintain consistency
     if user_id:
         session_key = user_id
+    elif chat_session_id:
+        session_key = f"anon_session_{chat_session_id}"
     else:
-        # Create a temporary session key for anonymous users
-        # Use a consistent key for the same anonymous session
-        session_key = f"anonymous_{str(uuid.uuid4())}"
+        # Fallback only if absolutely no identifier is provided
+        # This should be avoided by the FRONTEND providing a chat_session_id
+        session_key = "anonymous_default"
     
     if session_key not in active_sessions:
+        logger.info(f"🆕 Creating new active session for key: {session_key}")
         active_sessions[session_key] = {
             "session_id": str(uuid.uuid4()),
-            "chat_session_id": str(uuid.uuid4()),
+            "chat_session_id": chat_session_id or str(uuid.uuid4()),
             "chatbot_manager": None,
             "drafting_manager": None,
             "interaction_count": 0,
@@ -697,7 +700,7 @@ def get_session_manager(user_id: str = None):
 
 def get_or_create_anonymous_session():
     """Legacy wrapper for anonymous session"""
-    return get_session_manager(None)
+    return get_session_manager(None, "default_anon_context")
 
 # ==================== STARTUP ====================
 
@@ -792,7 +795,8 @@ async def get_session_stats():
 @app.post("/api/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest, user_id: Optional[str] = Depends(verify_token)):
     """Send chat message and get response"""
-    session = get_session_manager(user_id)
+    # Use provided chat_session_id to identify the session object
+    session = get_session_manager(user_id, request.chat_session_id)
     
     # Check limits
     if session["interaction_count"] >= MAX_INTERACTIONS_PER_SESSION:
