@@ -59,15 +59,15 @@ chroma_db/
 faiss_index/
 
 # --- Document Handling ---
-documents/
+# documents/
 !documents/.gitkeep
 # Only exclude contents if user wants, but usually we want documents/ folder itself
 # to exist. Added specific document types to keep folder structure.
-documents/*.pdf
-documents/*.docx
-documents/*.txt
-documents/*.png
-documents/*.jpg
+# documents/*.pdf
+# documents/*.docx
+# documents/*.txt
+# documents/*.png
+# documents/*.jpg
 
 # --- Node/Vue/React (if any) ---
 node_modules/

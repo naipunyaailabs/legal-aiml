@@ -73,10 +73,10 @@ DOCUMENTS_FOLDER = Path(__file__).parent / "documents"
 DEFAULT_CONFIG = {
     'llm_provider': 'Ollama',
     'llm_model': 'qwen2.5:14b',
-    'temperature': 0.3,
-    'max_tokens': 3000,
-    'retrieval_k': 5,
-    'score_threshold': 0.5,
+    'temperature': 0.0,
+    'max_tokens': 4000,
+    'retrieval_k': 14,
+    'score_threshold': 0.25,
     'enable_content_filter': True,
     'enable_pii_detection': True,
     'max_interactions': 25,
@@ -154,7 +154,7 @@ def auto_embed_documents():
         logger.info(f"Creating embeddings for {len(document_files)} documents...")
         
         embeddings_mgr = EmbeddingsManager(
-            model_name="sentence-transformers/all-MiniLM-L6-v2",
+            model_name="BAAI/bge-large-en-v1.5",
             device="cpu",
             encode_kwargs={"normalize_embeddings": True},
             qdrant_url=os.getenv('QDRANT_URL'),
@@ -1414,7 +1414,7 @@ else:
                     # Initialize chatbot with persistent collection
                     if not st.session_state.get('chatbot_manager'):
                         chatbot = ChatbotManager(
-                            model_name="sentence-transformers/all-MiniLM-L6-v2",
+                            model_name="BAAI/bge-large-en-v1.5",
                             device="cpu",
                             encode_kwargs={"normalize_embeddings": True},
                             llm_model=DEFAULT_CONFIG['llm_model'],

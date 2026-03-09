@@ -9,6 +9,8 @@ os.environ['NO_PROXY'] = '192.168.0.56'
 import logging
 import time
 from typing import List, Dict, Any, Optional, Tuple
+from collections import Counter, defaultdict
+import math
 from functools import wraps
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_ollama import ChatOllama
@@ -180,72 +182,307 @@ class ContentFilter:
         
         return cleaned_response, bool(issues), issues
 
-class AdvancedRetriever:
-    """Advanced retrieval with hybrid search and reranking"""
+class LegalReranker:
+    """Neural reranker using InLegalBERT for Indian legal document scoring.
     
-    def __init__(self, vector_store: QdrantVectorStore, embeddings, k: int = 8, score_threshold: float = 0.4):
+    Loads the law-ai/InLegalBERT model (trained on Indian court judgments)
+    and uses it to score how relevant each retrieved chunk is to the user's query.
+    Uses BERT cross-attention: [CLS] query [SEP] chunk [SEP] → relevance score.
+    """
+    
+    def __init__(self, model_name: str = "law-ai/InLegalBERT", device: str = "cpu"):
+        self.available = False
+        try:
+            from transformers import AutoTokenizer, AutoModel
+            import torch
+            import os
+            
+            self.device = device
+            self.torch = torch
+            
+            logger.info(f"🧠 Checking InLegalBERT neural reranker: {model_name}...")
+            
+            # Use a short timeout for the check to avoid hanging if the internet is slow
+            # This will trigger the download if not present, but handle it gracefully
+            self.tokenizer = AutoTokenizer.from_pretrained(model_name, local_files_only=False)
+            self.model = AutoModel.from_pretrained(model_name, local_files_only=False)
+            
+            self.model.eval()
+            self.model.to(device)
+            self.available = True
+            logger.info(f"✅ InLegalBERT neural reranker is active and ready.")
+            
+        except Exception as e:
+            # This is the "Fix": If downloading or loading fails, we don't crash.
+            # We just tell the user we're using keyword mode instead.
+            logger.info("ℹ️ Neural reranker is currently downloading or unavailable.")
+            logger.info("   Standard high-speed legal search is being used in the meantime.")
+            self.available = False
+    
+    def score_pair(self, query: str, chunk_text: str) -> float:
+        """Score how relevant a single chunk is to the query using cross-attention.
+        
+        Feeds [CLS] query [SEP] chunk [SEP] to InLegalBERT.
+        The [CLS] token embedding captures the relevance relationship.
+        Returns a float score (higher = more relevant).
+        """
+        if not self.available:
+            return 0.0
+        
+        try:
+            # Tokenize query + chunk together (cross-encoding)
+            inputs = self.tokenizer(
+                query,
+                chunk_text[:512],  # BERT max is 512 tokens, truncate chunk
+                return_tensors="pt",
+                truncation=True,
+                max_length=512,
+                padding=True
+            )
+            inputs = {k: v.to(self.device) for k, v in inputs.items()}
+            
+            # Run through InLegalBERT (no gradient computation needed)
+            with self.torch.no_grad():
+                outputs = self.model(**inputs)
+            
+            # Extract [CLS] token embedding (first token) — captures relevance
+            cls_embedding = outputs.last_hidden_state[:, 0, :]
+            
+            # Use L2 norm of [CLS] embedding as relevance signal
+            score = cls_embedding.norm().item()
+            return score
+            
+        except Exception as e:
+            logger.debug(f"InLegalBERT scoring error: {e}")
+            return 0.0
+    
+    async def rerank(self, query: str, documents: list, top_k: int = 8) -> list:
+        """Score all chunks against the query in a single batch and return the top-K.
+        
+        Using batch inference is significantly faster than scoring chunks one by one.
+        """
+        if not self.available or not documents:
+            return documents[:top_k]
+        
+        try:
+            # Prepare batch inputs
+            batch_texts = [(query, doc.page_content[:1500]) for doc in documents]
+            
+            inputs = self.tokenizer(
+                batch_texts,
+                return_tensors="pt",
+                truncation=True,
+                max_length=512,
+                padding=True
+            )
+            inputs = {k: v.to(self.device) for k, v in inputs.items()}
+            
+            with self.torch.no_grad():
+                outputs = self.model(**inputs)
+            
+            cls_embeddings = outputs.last_hidden_state[:, 0, :]
+            scores = cls_embeddings.norm(dim=1).cpu().tolist()
+            
+            scored = sorted(zip(documents, scores), key=lambda x: x[1], reverse=True)
+            reranked = [doc for doc, score in scored[:top_k]]
+            logger.info(f"🧠 InLegalBERT BATCH reranked {len(documents)} → {len(reranked)} chunks")
+            return reranked
+            
+        except Exception as e:
+            logger.error(f"InLegalBERT batch rerank error: {e}")
+            return documents[:top_k]
+
+    def rerank_sync(self, query: str, documents: list, top_k: int = 8) -> list:
+        """Synchronous version of batch reranking for use in non-async methods."""
+        if not self.available or not documents:
+            return documents[:top_k]
+        
+        try:
+            batch_texts = [(query, doc.page_content[:1500]) for doc in documents]
+            inputs = self.tokenizer(batch_texts, return_tensors="pt", truncation=True, max_length=512, padding=True)
+            inputs = {k: v.to(self.device) for k, v in inputs.items()}
+            
+            with self.torch.no_grad():
+                outputs = self.model(**inputs)
+            
+            cls_embeddings = outputs.last_hidden_state[:, 0, :]
+            scores = cls_embeddings.norm(dim=1).cpu().tolist()
+            
+            scored = sorted(zip(documents, scores), key=lambda x: x[1], reverse=True)
+            return [doc for doc, score in scored[:top_k]]
+        except Exception as e:
+            logger.error(f"InLegalBERT sync rerank error: {e}")
+            return documents[:top_k]
+
+
+class AdvancedRetriever:
+    """Advanced retrieval with BM25 hybrid search and enhanced reranking"""
+    
+    def __init__(self, vector_store: QdrantVectorStore, embeddings, k: int = 14, score_threshold: float = 0.25, legal_reranker: LegalReranker = None):
         self.vector_store = vector_store
         self.embeddings = embeddings
         self.k = k
         self.score_threshold = score_threshold
         self.token_counter = TokenCounter()
+        self.legal_reranker = legal_reranker  # InLegalBERT neural reranker
+        self._bm25_index = None  # Lazy-loaded BM25 index
+        self._bm25_docs = None
+    
+    def _build_bm25_index(self, documents: List[Document]):
+        """Build a simple BM25-like term frequency index from documents"""
+        self._bm25_docs = documents
+        self._doc_term_freqs = []
+        self._doc_lengths = []
+        self._avg_doc_length = 0
+        self._idf = {}
+        total_docs = len(documents)
+        term_doc_count = Counter()
+        
+        for doc in documents:
+            terms = doc.page_content.lower().split()
+            tf = Counter(terms)
+            self._doc_term_freqs.append(tf)
+            self._doc_lengths.append(len(terms))
+            for term in set(terms):
+                term_doc_count[term] += 1
+        
+        self._avg_doc_length = sum(self._doc_lengths) / max(len(self._doc_lengths), 1)
+        
+        # IDF calculation
+        for term, count in term_doc_count.items():
+            self._idf[term] = math.log((total_docs - count + 0.5) / (count + 0.5) + 1)
+    
+    def _bm25_score(self, query: str, doc_index: int, k1: float = 1.5, b: float = 0.75) -> float:
+        """Calculate BM25 score for a document given a query"""
+        query_terms = query.lower().split()
+        score = 0.0
+        doc_tf = self._doc_term_freqs[doc_index]
+        doc_len = self._doc_lengths[doc_index]
+        
+        for term in query_terms:
+            if term in doc_tf:
+                tf = doc_tf[term]
+                idf = self._idf.get(term, 0)
+                numerator = tf * (k1 + 1)
+                denominator = tf + k1 * (1 - b + b * (doc_len / max(self._avg_doc_length, 1)))
+                score += idf * (numerator / max(denominator, 0.001))
+        return score
+    
+    def _bm25_search(self, query: str, k: int = 10) -> List[Document]:
+        """Perform BM25 keyword search over stored documents"""
+        if not self._bm25_docs:
+            return []
+        
+        scores = []
+        for i in range(len(self._bm25_docs)):
+            score = self._bm25_score(query, i)
+            scores.append((self._bm25_docs[i], score))
+        
+        scores.sort(key=lambda x: x[1], reverse=True)
+        return [doc for doc, score in scores[:k] if score > 0]
     
     def hybrid_search(self, query: str, k: int = None) -> List[Document]:
-        """Perform hybrid search combining semantic and keyword search"""
+        """Perform hybrid search: Dense (semantic) + Sparse (BM25) with Reciprocal Rank Fusion"""
         k = k or self.k
         
         try:
-            # Semantic search
+            # 1. Dense semantic search
             semantic_results = self.vector_store.similarity_search_with_score(
                 query, 
                 k=k
             )
             
             # Filter by score threshold
-            filtered_results = [
+            dense_docs = [
                 doc for doc, score in semantic_results 
                 if score >= self.score_threshold
             ]
             
-            return filtered_results[:k]
+            # 2. Sparse BM25 search (if index is built)
+            sparse_docs = []
+            if self._bm25_docs:
+                sparse_docs = self._bm25_search(query, k=k)
+            
+            # 3. Reciprocal Rank Fusion (RRF)
+            if sparse_docs:
+                rrf_constant = 60  # Standard RRF constant
+                doc_scores = defaultdict(float)
+                doc_map = {}
+                
+                for rank, doc in enumerate(dense_docs):
+                    doc_id = hash(doc.page_content[:200])
+                    doc_scores[doc_id] += 1.0 / (rrf_constant + rank + 1)
+                    doc_map[doc_id] = doc
+                
+                for rank, doc in enumerate(sparse_docs):
+                    doc_id = hash(doc.page_content[:200])
+                    doc_scores[doc_id] += 1.0 / (rrf_constant + rank + 1)
+                    doc_map[doc_id] = doc
+                
+                # Sort by fused score
+                sorted_ids = sorted(doc_scores.keys(), key=lambda x: doc_scores[x], reverse=True)
+                fused_results = [doc_map[did] for did in sorted_ids[:k]]
+                logger.info(f"🔀 Hybrid Search: {len(dense_docs)} dense + {len(sparse_docs)} sparse → {len(fused_results)} fused results")
+                return fused_results
+            else:
+                return dense_docs[:k]
             
         except Exception as e:
             logger.error(f"Hybrid search error: {e}")
-            # Fallback to basic search
             return self.vector_store.similarity_search(query, k=k)
     
     def rerank_documents(self, query: str, documents: List[Document]) -> List[Document]:
-        """Enhanced reranking based on relevance and fact-density"""
+        """Enhanced reranking: InLegalBERT neural scoring with keyword fallback"""
         if not documents:
             return []
         
+        # PRIMARY: Try InLegalBERT neural reranking (High performance batch mode)
+        if self.legal_reranker and self.legal_reranker.available:
+            try:
+                reranked = self.legal_reranker.rerank_sync(query, documents, top_k=min(8, len(documents)))
+                if reranked:
+                    return reranked
+            except Exception as e:
+                logger.warning(f"InLegalBERT reranking failed: {e}. Falling back to default scoring.")
+            except Exception as e:
+                logger.warning(f"InLegalBERT reranking failed: {e}. Falling back to keyword scoring.")
+        
+        # FALLBACK: Keyword/BM25 scoring (original logic)
         try:
+            # Build BM25 index from retrieved docs for future sparse lookups
+            if not self._bm25_docs or len(self._bm25_docs) != len(documents):
+                self._build_bm25_index(documents)
+            
             query_terms = set(query.lower().split())
             
-            def calculate_score(doc: Document) -> float:
+            def calculate_score(doc: Document, idx: int) -> float:
                 content = doc.page_content.lower()
                 # 1. Semantic overlap
                 doc_terms = set(content.split())
                 overlap = len(query_terms.intersection(doc_terms))
                 overlap_score = overlap / len(query_terms) if query_terms else 0
                 
-                # 2. Fact density (Penalize chunks that are mostly numbers/garbage)
+                # 2. BM25 keyword score (normalized)
+                bm25_score = self._bm25_score(query, idx) if idx < len(self._doc_term_freqs) else 0
+                bm25_normalized = min(bm25_score / 10.0, 1.0)  # Normalize to 0-1
+                
+                # 3. Fact density (Penalize chunks that are mostly numbers/garbage)
                 text_only = re.sub(r'[^a-zA-Z\s]', '', content)
                 fact_score = len(text_only) / len(content) if len(content) > 0 else 0
                 
-                # 3. Legal weight (Reward key terms & Adversarial findings)
+                # 4. Legal weight (Reward key terms & Adversarial findings)
                 legal_keywords = ["section", "act", "article", "court", "order", "judgment", "petitioner", "respondent"]
                 adversarial_keywords = ["held", "overruled", "contended", "alleged", "finding", "decree", "rejected", "affirmed"]
                 legal_weight = (sum(1 for kw in legal_keywords if kw in content) * 0.1) + \
                                (sum(1 for kw in adversarial_keywords if kw in content) * 0.15)
                 
-                # 4. Length reward (Favor substantial chunks over tiny ones)
+                # 5. Length reward (Favor substantial chunks over tiny ones)
                 length_reward = min(len(content) / 2000, 0.2)
                 
-                return (overlap_score * 0.5) + (fact_score * 0.2) + legal_weight + length_reward
+                return (overlap_score * 0.3) + (bm25_normalized * 0.25) + (fact_score * 0.15) + legal_weight + length_reward
             
             # Sort by enhanced score
-            scored_docs = [(doc, calculate_score(doc)) for doc in documents]
+            scored_docs = [(doc, calculate_score(doc, i)) for i, doc in enumerate(documents)]
             scored_docs.sort(key=lambda x: x[1], reverse=True)
             
             return [doc for doc, score in scored_docs]
@@ -262,16 +499,16 @@ class ChatbotManager:
     
     def __init__(
         self,
-        model_name: str = "BAAI/bge-small-en",
+        model_name: str = "BAAI/bge-large-en-v1.5",
         device: str = "cpu",
         encode_kwargs: dict = None,
         llm_model: str = "llama-3.3-70b-versatile",
-        llm_temperature: float = 0.3,
+        llm_temperature: float = 0.0,
         max_tokens: int = 4000,
         qdrant_url: str = None,
         collection_name: str = None,
-        retrieval_k: int = 8,
-        score_threshold: float = 0.4,
+        retrieval_k: int = 14,
+        score_threshold: float = 0.25,
         use_custom_llm: bool = False,  # NEW: Toggle for custom LLM
         custom_llm_url: str = None,  # NEW: Custom LLM endpoint  
         custom_llm_api_key: str = None,  # NEW: Custom LLM API key
@@ -282,6 +519,13 @@ class ChatbotManager:
         
         # Initialize LLM based on environment
         app_env = os.getenv('APP_ENV', 'local')
+
+        # Initialize InLegalBERT reranker (loads once, stays in memory)
+        try:
+            self.legal_reranker = LegalReranker(device=device)
+        except Exception as e:
+            logger.warning(f"⚠️ InLegalBERT reranker not available: {e}")
+            self.legal_reranker = None
 
         # Initialize embeddings
         self.embeddings = HuggingFaceEmbeddings(
@@ -406,12 +650,13 @@ class ChatbotManager:
                 }
             )
             
-            # Advanced retriever with hybrid search
+            # Advanced retriever with hybrid search + InLegalBERT reranker
             self.advanced_retriever = AdvancedRetriever(
                 self.vector_store,
                 self.embeddings,
                 k=self.retrieval_k,
-                score_threshold=self.score_threshold
+                score_threshold=self.score_threshold,
+                legal_reranker=self.legal_reranker
             )
         else:
             self.basic_retriever = None
@@ -419,10 +664,15 @@ class ChatbotManager:
             logger.warning("Retrievers not initialized - waiting for documents to be processed")
         
         # ENHANCED: RAG Prompt Template for Elite Forensic Analysis
-        self.prompt_template = """ROLE: You are an Elite Litigation Strategist and Senior Counsel.
+        self.system_prompt = """ROLE: You are an Elite Litigation Strategist and Senior Counsel.
 Your mission is to perform a HIGH-STAKES FORENSIC ANALYSIS using the provided context.
 
-RESPONSE STRUCTURE (Strictly follow this formatting):
+STRICT FORMATTING RULES:
+1. Always use the specified headers with emojis (📌, ⚖️, 🛡️, 🧠).
+2. Never claim you have no information if context is provided.
+3. Be authoritative, strategic, and professional.
+
+RESPONSE STRUCTURE (Strictly follow this):
 📌 CASE AT A GLANCE: [A simple, high-impact summary of the situation]
 
 ⚖️ THE CORE CONFLICT:
@@ -443,17 +693,16 @@ RESPONSE STRUCTURE (Strictly follow this formatting):
 - [Immediate Action Item 2]
 
 🧠 IN ONE LINE:
-[A powerful one-sentence summary for the CEO/Partner]
+[A powerful one-sentence summary for the CEO/Partner]"""
 
-Context:
-{context}
-
-User Question: {question}
-
-SENIOR COUNSEL FORENSIC BRIEF:"""
+        self.chat_prompt = ChatPromptTemplate.from_messages([
+            ("system", self.system_prompt),
+            ("human", "Context:\n{context}\n\nUser Question: {question}\n\nSENIOR COUNSEL FORENSIC BRIEF:"),
+        ])
         
+        # Keep legacy prompt for fallback or specific chains
         self.prompt = PromptTemplate(
-            template=self.prompt_template,
+            template=self.system_prompt + "\n\nContext:\n{context}\n\nUser Question: {question}\n\nSENIOR COUNSEL FORENSIC BRIEF:",
             input_variables=["context", "question"]
         )
         
@@ -664,10 +913,73 @@ CEO BRIEFING:"""
             logger.error(f"Failed to reinitialize vector store: {e}")
             raise
     
+    def decompose_query(self, query: str) -> List[str]:
+        """Priority 2: Query Decomposition - Split complex legal queries into sub-queries
+        for deeper document coverage across background, issues, reliefs, and decision."""
+        query_lower = query.lower()
+        
+        # Only decompose complex queries (longer than 5 words)
+        if len(query.split()) < 5:
+            return [query]
+        
+        sub_queries = [query]  # Always include the original query
+        
+        # Background sub-query
+        if any(kw in query_lower for kw in ["case", "matter", "dispute", "about", "summary", "brief"]):
+            sub_queries.append(f"Background and factual history of: {query}")
+        
+        # Legal issues sub-query
+        if any(kw in query_lower for kw in ["issue", "question", "legal", "law", "section", "act", "analyze"]):
+            sub_queries.append(f"Legal issues and applicable laws for: {query}")
+        
+        # Reliefs and orders sub-query
+        if any(kw in query_lower for kw in ["relief", "order", "pray", "demand", "claim", "remedy"]):
+            sub_queries.append(f"Reliefs sought and court orders regarding: {query}")
+        
+        # Decision and ratio sub-query  
+        if any(kw in query_lower for kw in ["held", "decision", "judgment", "ruling", "ratio", "outcome"]):
+            sub_queries.append(f"Court decision and reasoning for: {query}")
+        
+        # If no specific sub-queries matched, add generic legal decomposition
+        if len(sub_queries) == 1:
+            sub_queries.extend([
+                f"Parties involved and factual background of: {query}",
+                f"Legal provisions and precedents applicable to: {query}",
+                f"Court findings and conclusions on: {query}"
+            ])
+        
+        logger.info(f"🔍 Query Decomposed into {len(sub_queries)} sub-queries")
+        return sub_queries
+    
+    def _select_adaptive_prompt(self, query: str) -> str:
+        """Priority 8: Adaptive Prompts - Select the right prompt based on query intent.
+        Returns: 'summary', 'deep', or 'followup'"""
+        query_lower = query.lower()
+        word_count = len(query.split())
+        
+        # Follow-up: short queries that reference previous context
+        follow_up_keywords = ["more", "elaborate", "continue", "expand", "tell me more", "go on", "details"]
+        if word_count < 6 and any(kw in query_lower for kw in follow_up_keywords):
+            return "followup"
+        
+        # Deep analysis: explicit analysis requests
+        deep_keywords = ["analyze", "analysis", "flaw", "loophole", "tactical", "strategy",
+                        "weakness", "strength", "risk", "irac", "forensic", "deep", "detailed"]
+        if any(kw in query_lower for kw in deep_keywords):
+            return "deep"
+        
+        # Summary: simple or short queries
+        summary_keywords = ["what is", "who is", "summary", "brief", "overview", "about", "explain"]
+        if word_count < 10 or any(kw in query_lower for kw in summary_keywords):
+            return "summary"
+        
+        # Default to deep for complex queries
+        return "deep"
+    
     def _calculate_real_tokens(self, query: str, answer: str, context: str) -> Dict[str, int]:
         """FIXED: Calculate actual token usage accurately"""
         # Input tokens: query + context + prompt overhead
-        prompt_overhead = self.token_counter.count_tokens(self.prompt_template)
+        prompt_overhead = self.token_counter.count_tokens(self.system_prompt)
         query_tokens = self.token_counter.count_tokens(query)
         context_tokens = self.token_counter.count_tokens(context)
         
@@ -774,6 +1086,23 @@ CEO BRIEFING:"""
                     if not docs:
                         logger.info(f"⚠️ No specific {domain} or untagged docs found. Checking fallback...")
                         docs = self.advanced_retriever.hybrid_search(query, k=self.retrieval_k)
+                else:
+                    # 🔥 Priority 2: Query Decomposition for general queries
+                    sub_queries = self.decompose_query(query)
+                    all_docs = []
+                    seen_content = set()
+                    
+                    for sq in sub_queries:
+                        sq_docs = self.advanced_retriever.hybrid_search(sq, k=self.retrieval_k)
+                        for d in sq_docs:
+                            content_hash = hash(d.page_content[:200])
+                            if content_hash not in seen_content:
+                                seen_content.add(content_hash)
+                                all_docs.append(d)
+                    
+                    # Rerank the merged results
+                    docs = self.advanced_retriever.rerank_documents(query, all_docs)[:self.retrieval_k]
+                    logger.info(f"📚 Query Decomposition: {len(sub_queries)} sub-queries → {len(all_docs)} total → {len(docs)} reranked")
                 # 💡 ENHANCEMENT: Sticky Context persistence (Stay on the case document)
                 # Expand keywords to capture more legal follow-up intents
                 is_follow_up = any(kw in query.lower() for kw in [
@@ -815,19 +1144,41 @@ CEO BRIEFING:"""
                 # Format prompt with the Forensic Map if generated
                 final_context = f"{case_map_metadata}\n\n{context}" if case_map_metadata else context
                 
-                # STRIKE THROUGH: Never let the AI say "blank slate" if context is present
-                if "No specific documents found" not in final_context:
-                    disclaimer = f"STRICT MANDATE: You are currently counsel for the case described in the context. Do NOT claim you have no information. Analyze the existing text for: {query}"
-                    chain_prompt = self.prompt.format(context=final_context, question=f"{disclaimer}\n\nUser Question: {query}")
-                else:
-                    chain_prompt = self.prompt.format(context=final_context, question=query)
+                # ⚡ Priority 8: Adaptive Prompt Selection
+                prompt_mode = self._select_adaptive_prompt(query)
+                logger.info(f"🧠 Adaptive Prompt Mode: {prompt_mode}")
                 
-                # ENHANCED: Deep Analysis Instruction for the LLM
-                if any(kw in query.lower() for kw in ["analysis", "case", "detail", "tactical", "about", "flaw", "issue"]):
-                    chain_prompt = f"INSTRUCTION: Perform a deep, forensic analysis using ONLY the provided context. Connect the parties identified to the legal rules. Identify the TRAP and the LOOPHOLE.\n\n{chain_prompt}"
+                if "No specific documents found" not in final_context:
+                    if prompt_mode == "summary":
+                        # Concise summary - no heavy IRAC
+                        messages = ChatPromptTemplate.from_messages([
+                            ("system", self.system_prompt),
+                            ("human", f"Context:\n{{context}}\n\nProvide a CONCISE summary of the case based on the context. Focus on: parties, core issue, and current status. Keep it brief.\n\nUser Question: {{question}}"),
+                        ]).format_messages(context=final_context, question=query)
+                    elif prompt_mode == "followup":
+                        # Expansion mode - build on previous answer
+                        messages = ChatPromptTemplate.from_messages([
+                            ("system", self.system_prompt),
+                            ("human", f"Context:\n{{context}}\n\nThe user is asking a follow-up question. Build upon the previous analysis and go DEEPER into the specific aspect they are asking about.\n\nUser Question: {{question}}"),
+                        ]).format_messages(context=final_context, question=query)
+                    else:
+                        # Deep forensic analysis (full IRAC)
+                        messages = self.chat_prompt.format_messages(
+                            context=final_context, 
+                            question=query
+                        )
+                else:
+                    messages = self.chat_prompt.format_messages(
+                        context="No context found.", 
+                        question=query
+                    )
+                
+                # ENHANCED: Add final instruction for deep mode
+                if prompt_mode == "deep" and any(kw in query.lower() for kw in ["analysis", "case", "detail", "tactical", "about", "flaw", "issue"]):
+                    messages.append(("human", "IMPORTANT: Perform a DEEP forensic analysis. Identify the TRAP and the LOOPHOLE."))
                 
                 self.last_query = query # Save query
-                response = await self.llm.ainvoke(chain_prompt)
+                response = await self.llm.ainvoke(messages)
                 answer = response.content if hasattr(response, 'content') else str(response)
                 
                 sources = self._process_sources(docs)

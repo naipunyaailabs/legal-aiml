@@ -305,11 +305,12 @@ class EmbeddingsManager:
         allowed_models = [
             "BAAI/bge-small-en",
             "BAAI/bge-base-en",
+            "BAAI/bge-large-en-v1.5",
             "sentence-transformers/all-MiniLM-L6-v2",
             "sentence-transformers/all-mpnet-base-v2",
             "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
         ]
-        return model_name if model_name in allowed_models else "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+        return model_name if model_name in allowed_models else "BAAI/bge-large-en-v1.5"
     
     def _sanitize_collection_name(self, collection_name: str) -> str:
         """Sanitize collection name for security"""
@@ -336,7 +337,7 @@ class EmbeddingsManager:
                 self.qdrant_client.create_collection(
                     collection_name=self.collection_name,
                     vectors_config=VectorParams(
-                        size=384,  # BGE-small embedding dimension
+                        size=1024,  # BGE-large-en-v1.5 embedding dimension
                         distance=Distance.COSINE
                     )
                 )
@@ -587,7 +588,6 @@ class EmbeddingsManager:
             # This adds to existing data, does NOT clear or recreate the collection
             success = False
             methods = [
-                ("standard_langchain", self._create_embeddings_method1),
                 ("manual_upsert", self._create_embeddings_method2),
                 ("batch_texts", self._create_embeddings_method3)
             ]

@@ -545,7 +545,7 @@ async def auto_embed_documents():
             return False, "No documents found"
         
         embeddings_mgr = EmbeddingsManager(
-            model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+            model_name="BAAI/bge-large-en-v1.5",
             device="cpu",
             encode_kwargs={"normalize_embeddings": True},
             qdrant_url=os.getenv('QDRANT_URL'),
@@ -812,17 +812,17 @@ async def chat(request: ChatRequest, user_id: Optional[str] = Depends(verify_tok
         # Initialize chatbot if needed
         if not session["chatbot_manager"]:
             session["chatbot_manager"] = ChatbotManager(
-                model_name="BAAI/bge-small-en",
+                model_name="BAAI/bge-large-en-v1.5",
                 device="cpu",
                 encode_kwargs={"normalize_embeddings": True},
                 llm_model=os.getenv("OLLAMA_MODEL", "qwen2.5:14b"),
-                llm_temperature=0.3,
-                max_tokens=3000,
+                llm_temperature=0.0,
+                max_tokens=4000,
                 qdrant_url=os.getenv('QDRANT_URL'),
-                qdrant_client=global_qdrant_client, # Pass the global client!
+                qdrant_client=global_qdrant_client,
                 collection_name=PERSISTENT_COLLECTION_NAME,
-                retrieval_k=15, # Increased for thorough legal analysis (Satwik Branch)
-                score_threshold=0.35, # Slightly more lenient to capture relevant legal context
+                retrieval_k=14,
+                score_threshold=0.25,
                 use_custom_llm=False,
                 custom_llm_url=None,
                 custom_llm_api_key=None,
@@ -977,21 +977,26 @@ async def delete_chat(chat_session_id: str, user_id: Optional[str] = Depends(ver
     raise HTTPException(status_code=404, detail="Chat not found")
 
 @app.post("/api/chat/new")
-async def new_chat(user_id: Optional[str] = Depends(verify_token)):
-    """Start a new chat session"""
-    session = get_session_manager(user_id)
+async def new_chat(user_id: Optional[str] = Depends(verify_token), chat_session_id: Optional[str] = None):
+    """Start a new chat session and wipe the old AI brain state"""
+    session = get_session_manager(user_id, chat_session_id)
     new_chat_id = str(uuid.uuid4())
+    
+    # ⚡ CRITICAL: Wipe the old managers to ensure new prompts are loaded
+    session["chatbot_manager"] = None
+    session["drafting_manager"] = None
     session["chat_session_id"] = new_chat_id
     session["interaction_count"] = 0
+    session["total_tokens_used"] = 0
     
-    return {"chat_session_id": new_chat_id, "message": "New chat started"}
+    logger.info(f"🚀 New Chat Started: {new_chat_id} (Internal Brain Reset)")
+    return {"chat_session_id": new_chat_id, "message": "New chat started with fresh AI brain"}
 
 @app.post("/api/documents/upload")
 async def upload_documents(
     files: List[UploadFile] = File(...)
 ):
     """Upload and process documents
-    
     Note: Documents in the /documents folder are auto-embedded on startup.
     This endpoint is for adding additional documents dynamically.
     """
@@ -1000,11 +1005,11 @@ async def upload_documents(
     
     try:
         embeddings_mgr = EmbeddingsManager(
-            model_name="BAAI/bge-small-en",
+            model_name="BAAI/bge-large-en-v1.5",
             device="cpu",
             encode_kwargs={"normalize_embeddings": True},
             qdrant_url=os.getenv('QDRANT_URL'),
-            qdrant_client=global_qdrant_client, # Pass the global client!
+            qdrant_client=global_qdrant_client,
             collection_name=PERSISTENT_COLLECTION_NAME,
             chunk_size=1200,
             chunk_overlap=300
@@ -1066,11 +1071,11 @@ async def refresh_embeddings():
         logger.info("Refreshing embeddings: Clearing collection and re-processing all documents...")
         
         embeddings_mgr = EmbeddingsManager(
-            model_name="BAAI/bge-small-en",
+            model_name="BAAI/bge-large-en-v1.5",
             device="cpu",
             encode_kwargs={"normalize_embeddings": True},
             qdrant_url=os.getenv('QDRANT_URL'),
-            qdrant_client=global_qdrant_client, # Pass the global client!
+            qdrant_client=global_qdrant_client,
             collection_name=PERSISTENT_COLLECTION_NAME,
             chunk_size=1200,
             chunk_overlap=300
@@ -1389,8 +1394,8 @@ async def chat_with_uploaded_document(
         chatbot_mgr = session.get("chatbot_manager")
         doc_chat_manager = get_document_chat_manager(chatbot_mgr)
         
-        # Chat with document
-        result = doc_chat_manager.chat_with_document(
+        # Chat with document (async for Full Doc / Map-Reduce modes)
+        result = await doc_chat_manager.chat_with_document(
             session_id=session_id,
             query=request.query,
             include_legal_knowledge=request.include_legal_knowledge

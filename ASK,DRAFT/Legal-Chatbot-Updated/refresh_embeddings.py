@@ -1,4 +1,5 @@
 import os
+import asyncio
 import logging
 from pathlib import Path
 from vectors import EmbeddingsManager
@@ -18,14 +19,14 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def refresh_embeddings():
+async def refresh_embeddings():
     """Clear existing embeddings and re-embed all documents from the documents folder"""
     try:
         logger.info(f"Starting embeddings refresh for collection: {PERSISTENT_COLLECTION_NAME}")
         
         # Initialize EmbeddingsManager
         embeddings_mgr = EmbeddingsManager(
-            model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+            model_name="BAAI/bge-large-en-v1.5",
             device="cpu",
             encode_kwargs={"normalize_embeddings": True},
             qdrant_url=os.getenv('QDRANT_URL'),
@@ -35,9 +36,11 @@ def refresh_embeddings():
         )
         
         # Clear the collection
-        logger.info("Step 1: Clearing existing collection...")
-        embeddings_mgr.clear_collection()
-        logger.info("Collection cleared successfully.")
+        # Skip clearing — ADD new documents to existing collection
+        # To do a full refresh, uncomment the next 2 lines:
+        # embeddings_mgr.clear_collection()
+        # logger.info("Collection cleared successfully.")
+        logger.info("Step 1: Keeping existing embeddings, adding new documents...")
         
         # Get documents to process
         logger.info(f"Step 2: Scanning {DOCUMENTS_FOLDER} for documents...")
@@ -48,8 +51,8 @@ def refresh_embeddings():
             logger.error(f"Documents folder {DOCUMENTS_FOLDER} not found!")
             return
             
-        for file in DOCUMENTS_FOLDER.glob('*'):
-            if file.suffix.lower() in allowed_extensions:
+        for file in DOCUMENTS_FOLDER.rglob('*'):
+            if file.is_file() and file.suffix.lower() in allowed_extensions:
                 document_files.append(file)
         
         if not document_files:
@@ -58,16 +61,16 @@ def refresh_embeddings():
             
         logger.info(f"Found {len(document_files)} documents to process.")
         
-        # Process each document
+        # Process each document (FIXED: await the async create_embeddings)
         processed_count = 0
         for doc_path in document_files:
             logger.info(f"Processing: {doc_path.name}...")
             try:
-                msg = embeddings_mgr.create_embeddings(str(doc_path))
-                logger.info(f"Success: {doc_path.name}")
+                msg = await embeddings_mgr.create_embeddings(str(doc_path))
+                logger.info(f"✅ Success: {doc_path.name} - {msg}")
                 processed_count += 1
             except Exception as e:
-                logger.error(f"Error processing {doc_path.name}: {e}")
+                logger.error(f"❌ Error processing {doc_path.name}: {e}")
         
         logger.info("=" * 50)
         logger.info(f"REFRESH COMPLETE")
@@ -78,4 +81,4 @@ def refresh_embeddings():
         logger.error(f"An error occurred during refresh: {e}")
 
 if __name__ == "__main__":
-    refresh_embeddings()
+    asyncio.run(refresh_embeddings())
