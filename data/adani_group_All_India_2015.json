@@ -1,0 +1,2024 @@
+[
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020321302015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI ENTERPRISES LTD.",
+        "raw_respondent": "DELTA NAVIGATION WLL",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "NMS /3279/2015",
+                "2": "Filing Date",
+                "3": "24-11-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "NMS /2092/2015",
+                "2": "Registration Date",
+                "3": "05-12-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-032130-2015",
+                "2": "HCBM02-032130-2015",
+                "3": "HCBM02-032130-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "08th September 2016",
+            "Decision Date": "08th September 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) DELTA NAVIGATION WLL",
+        "acts": [
+            {
+                "Under Act(s)": "Code of Civil Procedure 1908",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "NMS/2092/2015",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "08-09-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "NMS/2092/2015",
+                "2": "HON'BLE SHRI JUSTICE K.K. TATED",
+                "3": "24-11-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "12-04-2016",
+                "Filed by": "AMIT PUJARE",
+                "Name of Advocate": "ECONOMIC LAWS PRACTICE",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "HCBM020099592015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI POWER RAJASTHAN LTD. AND ANR.",
+        "raw_respondent": "MURMANSK SHIPPING CO. AND ANR.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "NMS /1015/2015",
+                "2": "Filing Date",
+                "3": "07-04-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "NMS /740/2015",
+                "2": "Registration Date",
+                "3": "05-06-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-009959-2015",
+                "2": "HCBM02-009959-2015",
+                "3": "HCBM02-009959-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "24th August 2015",
+            "Decision Date": "22nd January 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SHRI JUSTICE S.J. KATHAWALLA",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) ADANI POWER RAJASTHAN LTD. AND ANR.",
+        "respondent_advocate": "1) MURMANSK SHIPPING CO. AND ANR.",
+        "acts": [
+            {
+                "Under Act(s)": "Code of Civil Procedure 1908",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "NMS/740/2015",
+                "2": "HON'BLE SHRI JUSTICE S.C. GUPTE",
+                "3": "10-04-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "NMS/740/2015",
+                "2": "HON'BLE SHRI JUSTICE S.J. KATHAWALLA",
+                "3": "22-01-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "01-07-2015",
+                "Filed by": "ADANI POWER RAJASTHAN LTD. AND ANR.",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit in reply"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "HCBM020043302015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI POWER RAJASTHAN LTD. AND ANR.",
+        "raw_respondent": "MURMANSK SHIPPING CO.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "ADMS /156/2015",
+                "2": "Filing Date",
+                "3": "13-02-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "COMAS /258/2015",
+                "2": "Registration Date",
+                "3": "17-03-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-004330-2015",
+                "2": "HCBM02-004330-2015",
+                "3": "HCBM02-004330-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "16th April 2016",
+            "Decision Date": "05th November 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--WITHDRAWN",
+            "Coram": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) ADANI POWER RAJASTHAN LTD. AND ANR.",
+        "respondent_advocate": "1) MURMANSK SHIPPING CO.",
+        "acts": [
+            {
+                "Under Act(s)": "Code of Civil Procedure 1908",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "21-02-2018",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "07-02-2018",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "24-01-2018",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "4",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "13-07-2018",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "5",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "05-11-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "6",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE S.J. KATHAWALLA",
+                "3": "16-04-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "7",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE S.C. GUPTE",
+                "3": "10-10-2017",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "8",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE R.D. DHANUKA",
+                "3": "21-11-2017",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "9",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "22-12-2017",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "10",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "21-08-2017",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "11",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE S.C. GUPTE",
+                "3": "20-07-2017",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "12",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "03-10-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "13",
+                "1": "COMAS/258/2015",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "30-09-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "03-07-2019",
+                "Filed by": "ADANI POWER RAJASTHAN LTD. AND ANR.",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Misc. Document / Other"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "03-07-2019",
+                "Filed by": "AJAY ACHUTHAN",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit of examination in chief"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "03-07-2019",
+                "Filed by": "JAIDEEP SINHA",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit of documents"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 4,
+                "Date of Receiving": "03-07-2019",
+                "Filed by": "PARESH SHAH",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidaivt of Evidence"
+            },
+            {
+                "Sr. No.": 5,
+                "Document No.": 5,
+                "Date of Receiving": "03-07-2019",
+                "Filed by": "AJAY ACHUTHAN",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Compilation of documents"
+            },
+            {
+                "Sr. No.": 6,
+                "Document No.": 6,
+                "Date of Receiving": "03-07-2019",
+                "Filed by": "PARESH SHAH",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Compilation of documents"
+            },
+            {
+                "Sr. No.": 7,
+                "Document No.": 7,
+                "Date of Receiving": "24-08-2017",
+                "Filed by": "P. C. SREEKUMAR",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit of documents"
+            },
+            {
+                "Sr. No.": 8,
+                "Document No.": 8,
+                "Date of Receiving": "24-08-2017",
+                "Filed by": "ADANI POWER RAJASTHAN LTD. AND ANR.",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Misc. Document / Other"
+            },
+            {
+                "Sr. No.": 9,
+                "Document No.": 9,
+                "Date of Receiving": "24-08-2017",
+                "Filed by": "ADANI POWER RAJASTHAN LTD. AND ANR.",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Compilation of documents"
+            },
+            {
+                "Sr. No.": 10,
+                "Document No.": 10,
+                "Date of Receiving": "24-08-2017",
+                "Filed by": "YOGESH MESHRAM",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit of examination in chief"
+            },
+            {
+                "Sr. No.": 11,
+                "Document No.": 11,
+                "Date of Receiving": "24-08-2017",
+                "Filed by": "YOGESH MESHRAM",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Compilation of documents"
+            },
+            {
+                "Sr. No.": 12,
+                "Document No.": 12,
+                "Date of Receiving": "24-08-2017",
+                "Filed by": "ADANI POWER RAJASTHAN LTD. AND ANR.",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Compilation of documents"
+            },
+            {
+                "Sr. No.": 13,
+                "Document No.": 13,
+                "Date of Receiving": "24-08-2017",
+                "Filed by": "P C SREEKUMAR",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit of documents"
+            },
+            {
+                "Sr. No.": 14,
+                "Document No.": 14,
+                "Date of Receiving": "24-08-2017",
+                "Filed by": "YOGESH MESHRAM",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit of examination in chief"
+            },
+            {
+                "Sr. No.": 15,
+                "Document No.": 15,
+                "Date of Receiving": "24-08-2017",
+                "Filed by": "YOGESH MESHRAM",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidaivt of Evidence"
+            },
+            {
+                "Sr. No.": 16,
+                "Document No.": 16,
+                "Date of Receiving": "21-10-2016",
+                "Filed by": "SATISH R CHANDE",
+                "Name of Advocate": "BIMAL RAJASEKHAR",
+                "Document Filed": "Affidavit of documents"
+            },
+            {
+                "Sr. No.": 17,
+                "Document No.": 17,
+                "Date of Receiving": "12-06-2015",
+                "Filed by": "MURMANSK SHIPPING CO. AND ANR.",
+                "Name of Advocate": "Bimal Rajasekhar",
+                "Document Filed": "Written Statement"
+            },
+            {
+                "Sr. No.": 18,
+                "Document No.": 18,
+                "Date of Receiving": "19-07-2018",
+                "Filed by": "JAIDEEP SINHA",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit"
+            },
+            {
+                "Sr. No.": 19,
+                "Document No.": 19,
+                "Date of Receiving": "07-02-2018",
+                "Filed by": "SRINIVASAN VENKATARAMANI",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit of examination in chief"
+            },
+            {
+                "Sr. No.": 20,
+                "Document No.": 20,
+                "Date of Receiving": "07-02-2018",
+                "Filed by": "ADANI POWER RAJASTHAN LTD. AND ANR.",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Compilation of documents"
+            },
+            {
+                "Sr. No.": 21,
+                "Document No.": 21,
+                "Date of Receiving": "07-02-2018",
+                "Filed by": "ADANI POWER RAJASTHAN LTD. AND ANR.",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Compilation of documents"
+            },
+            {
+                "Sr. No.": 22,
+                "Document No.": 22,
+                "Date of Receiving": "09-06-2015",
+                "Filed by": "",
+                "Name of Advocate": "BIMAL RAJASEKHAR",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Andhra Pradesh High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "APHC010017712015",
+        "search_year": 2015,
+        "raw_petitioner": "THE COMMISSIONER OF CUSTOMS",
+        "raw_respondent": "M/S ADANI ENTERPRISES LTD.,",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CEA /165/2015",
+                "2": "Filing Date",
+                "3": "05-02-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CEA /60/2015",
+                "2": "Registration Date",
+                "3": "28-04-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "APHC01-001771-2015",
+                "2": "APHC01-001771-2015",
+                "3": "APHC01-001771-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "01st May 2015",
+            "Next Hearing Date": "01st May 2015",
+            "Stage of Case": "FOR ADMISSION & HEARING",
+            "Coram": "",
+            "Bench Type": "Division Bench",
+            "Judicial Branch": "CIVIL Section",
+            "State": "ANDHRAPRADESH",
+            "District": "VISAKHAPATNAM"
+        },
+        "petitioner_advocate": "1) THE COMMISSIONER OF CUSTOMS",
+        "respondent_advocate": "1) M/S ADANI ENTERPRISES LTD.,",
+        "acts": [
+            {
+                "Under Act(s)": "ACT NOT GIVEN",
+                "Under Section(s)": "HC SECTION"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240197012015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI ENTERPRISES LIMITED",
+        "raw_respondent": "UNION OF INDIA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "SCA /19855/2015",
+                "2": "Filing Date",
+                "3": "09-12-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "SCA /20311/2015",
+                "2": "Registration Date",
+                "3": "10-12-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-019701-2015",
+                "2": "GJHC24-019701-2015",
+                "3": "GJHC24-019701-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "16th December 2015",
+            "Decision Date": "23rd November 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--35-ANY OTHER MODE @ ADM.STAGE",
+            "Coram": "HONOURABLE MS. JUSTICE HARSHA DEVANI , HONOURABLE MR. JUSTICE A.S. SUPEHIA",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD",
+            "Not Before Me": "HONOURABLE MR. JUSTICE K.M.THAKER ,HONOURABLE MR. JUSTICE Z.K.SAIYED ,HONOURABLE MR. JUSTICE RAJESH H.SHUKLA"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "respondent_advocate": "1) UNION OF INDIA",
+        "acts": [
+            {
+                "Under Act(s)": "CUSTOMS ACT, 1962",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240197002015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI ENTERPRISES LIMITED (EARLIER KNOWN AS ADANI EXPORTS LTD.)",
+        "raw_respondent": "UNION OF INDIA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "SCA /19813/2015",
+                "2": "Filing Date",
+                "3": "08-12-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "SCA /20310/2015",
+                "2": "Registration Date",
+                "3": "10-12-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-019700-2015",
+                "2": "GJHC24-019700-2015",
+                "3": "GJHC24-019700-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "16th December 2015",
+            "Decision Date": "23rd November 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--35-ANY OTHER MODE @ ADM.STAGE",
+            "Coram": "HONOURABLE MS. JUSTICE HARSHA DEVANI , HONOURABLE MR. JUSTICE A.S. SUPEHIA",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD",
+            "Not Before Me": "HONOURABLE MR. JUSTICE K.M.THAKER ,HONOURABLE MR. JUSTICE Z.K.SAIYED ,HONOURABLE MR. JUSTICE RAJESH H.SHUKLA"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LIMITED (EARLIER KNOWN AS ADANI EXPORTS LTD.)",
+        "respondent_advocate": "1) UNION OF INDIA",
+        "acts": [
+            {
+                "Under Act(s)": "CUSTOMS ACT, 1962",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "MCA/1/2018",
+                "2": "HONOURABLE MS. JUSTICE HARSHA DEVANI,HONOURABLE MR. JUSTICE A.S. SUPEHIA",
+                "3": "04-04-2018",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "MCA/1/2017",
+                "2": "HONOURABLE MS. JUSTICE HARSHA DEVANI,HONOURABLE MR. JUSTICE A.S. SUPEHIA",
+                "3": "04-04-2018",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "GJHC240189722015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI POWER LIMITED",
+        "raw_respondent": "UNION OF INDIA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "SCA /18327/2015",
+                "2": "Filing Date",
+                "3": "03-11-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "SCA /19319/2015",
+                "2": "Registration Date",
+                "3": "23-11-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-018972-2015",
+                "2": "GJHC24-018972-2015",
+                "3": "GJHC24-018972-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "24th November 2015",
+            "Decision Date": "07th April 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--35-ANY OTHER MODE @ ADM.STAGE",
+            "Coram": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE MR. JUSTICE A.Y. KOGJE",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD",
+            "Not Before Me": "HONOURABLE MR. JUSTICE K.M.THAKER ,HONOURABLE MR. JUSTICE RAJESH H.SHUKLA"
+        },
+        "petitioner_advocate": "1) ADANI POWER LIMITED",
+        "respondent_advocate": "1) UNION OF INDIA",
+        "acts": [
+            {
+                "Under Act(s)": "CENTRAL EXCISES AND SALT ACT, 1944",
+                "Under Section(s)": "---"
+            },
+            {
+                "Under Act(s)": "CONSTITUTION OF INDIA",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240183692015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI ENTERPRISES LIMITED",
+        "raw_respondent": "UNION OF INDIA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "SCA /17753/2015",
+                "2": "Filing Date",
+                "3": "27-10-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "SCA /18525/2015",
+                "2": "Registration Date",
+                "3": "02-11-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-018369-2015",
+                "2": "GJHC24-018369-2015",
+                "3": "GJHC24-018369-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "03rd November 2015",
+            "Decision Date": "26th November 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--56-DISPOSED AT ADMISSION STAGE",
+            "Coram": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE MR. JUSTICE MOHINDER PAL",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD",
+            "Not Before Me": "HONOURABLE MR. JUSTICE K.M.THAKER ,HONOURABLE MR. JUSTICE RAJESH H.SHUKLA"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "respondent_advocate": "1) UNION OF INDIA",
+        "acts": [
+            {
+                "Under Act(s)": "CUSTOMS ACT, 1962",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240152362015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI ENTERPRISES LIMITED",
+        "raw_respondent": "UNION OF INDIA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "SCA /14099/2015",
+                "2": "Filing Date",
+                "3": "08-09-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "SCA /14545/2015",
+                "2": "Registration Date",
+                "3": "08-09-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-015236-2015",
+                "2": "GJHC24-015236-2015",
+                "3": "GJHC24-015236-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "09th September 2015",
+            "Decision Date": "12th October 2017",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--39-RULE DISCHARGED/DISMISSED @ FH",
+            "Coram": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE MR. JUSTICE BIREN VAISHNAV",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD",
+            "Not Before Me": "HONOURABLE MR. JUSTICE K.M.THAKER ,HONOURABLE MR. JUSTICE RAJESH H.SHUKLA"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "respondent_advocate": "1) UNION OF INDIA",
+        "acts": [
+            {
+                "Under Act(s)": "FOREIGN TRADE (DEVELOPMENT & REGULATION) ACT, 1992",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "SCA/14545/2015",
+                "2": "HONOURABLE MR. JUSTICE AKIL KURESHI,HONOURABLE MR. JUSTICE B.N. KARIA",
+                "3": "13-07-2018",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "GJHC240208432015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI POWER LIMITED",
+        "raw_respondent": "..",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "COMA /790/2015",
+                "2": "Filing Date",
+                "3": "16-03-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "COMA /56/2015",
+                "2": "Registration Date",
+                "3": "16-03-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-020843-2015",
+                "2": "GJHC24-020843-2015",
+                "3": "GJHC24-020843-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "17th March 2015",
+            "Decision Date": "17th March 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--56-DISPOSED AT ADMISSION STAGE",
+            "Coram": "HONOURABLE MR. JUSTICE S.R.BRAHMBHATT",
+            "Bench Type": "SINGLE",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI POWER LIMITED",
+        "respondent_advocate": "1) ..",
+        "acts": [
+            {
+                "Under Act(s)": "COMPANIES ACT, 1956",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Ports"
+        ],
+        "cino": "GJHC240208422015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LIMITED",
+        "raw_respondent": "..",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "COMA /789/2015",
+                "2": "Filing Date",
+                "3": "16-03-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "COMA /55/2015",
+                "2": "Registration Date",
+                "3": "16-03-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-020842-2015",
+                "2": "GJHC24-020842-2015",
+                "3": "GJHC24-020842-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "17th March 2015",
+            "Decision Date": "17th March 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--56-DISPOSED AT ADMISSION STAGE",
+            "Coram": "HONOURABLE MR. JUSTICE S.R.BRAHMBHATT",
+            "Bench Type": "SINGLE",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI PORTS AND SPECIAL ECONOMIC ZONE LIMITED",
+        "respondent_advocate": "1) ..",
+        "acts": [
+            {
+                "Under Act(s)": "COMPANIES ACT, 1956",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240208412015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI ENTERPRISES LIMITED",
+        "raw_respondent": "..",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "COMA /788/2015",
+                "2": "Filing Date",
+                "3": "16-03-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "COMA /54/2015",
+                "2": "Registration Date",
+                "3": "16-03-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-020841-2015",
+                "2": "GJHC24-020841-2015",
+                "3": "GJHC24-020841-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "17th March 2015",
+            "Decision Date": "17th March 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--56-DISPOSED AT ADMISSION STAGE",
+            "Coram": "HONOURABLE MR. JUSTICE S.R.BRAHMBHATT",
+            "Bench Type": "SINGLE",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "respondent_advocate": "1) ..",
+        "acts": [
+            {
+                "Under Act(s)": "COMPANIES ACT, 1956",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "GJHC240212612015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI POWER LIMITED",
+        "raw_respondent": "..",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "COMP /1211/2015",
+                "2": "Filing Date",
+                "3": "22-04-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "COMP /133/2015",
+                "2": "Registration Date",
+                "3": "22-04-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-021261-2015",
+                "2": "GJHC24-021261-2015",
+                "3": "GJHC24-021261-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "23rd April 2015",
+            "Decision Date": "07th May 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--38-RULE ABSOLUTE/ALLOWED @ FH",
+            "Coram": "HONOURABLE MR. JUSTICE S.R.BRAHMBHATT",
+            "Bench Type": "SINGLE",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI POWER LIMITED",
+        "respondent_advocate": "1) ..",
+        "acts": [
+            {
+                "Under Act(s)": "COMPANIES ACT, 1956",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "COMP/133/2015",
+                "2": "HONOURABLE MR. JUSTICE S.R.BRAHMBHATT",
+                "3": "07-05-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Ports"
+        ],
+        "cino": "GJHC240212602015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LIMITED",
+        "raw_respondent": "..",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "COMP /1210/2015",
+                "2": "Filing Date",
+                "3": "22-04-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "COMP /132/2015",
+                "2": "Registration Date",
+                "3": "22-04-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-021260-2015",
+                "2": "GJHC24-021260-2015",
+                "3": "GJHC24-021260-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "23rd April 2015",
+            "Decision Date": "07th May 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--38-RULE ABSOLUTE/ALLOWED @ FH",
+            "Coram": "HONOURABLE MR. JUSTICE S.R.BRAHMBHATT",
+            "Bench Type": "SINGLE",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI PORTS AND SPECIAL ECONOMIC ZONE LIMITED",
+        "respondent_advocate": "1) ..",
+        "acts": [
+            {
+                "Under Act(s)": "COMPANIES ACT, 1956",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "COMP/132/2015",
+                "2": "HONOURABLE MR. JUSTICE S.R.BRAHMBHATT",
+                "3": "07-05-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240212592015",
+        "search_year": 2015,
+        "raw_petitioner": "ADANI ENTERPRISES LIMITED",
+        "raw_respondent": "..",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "COMP /1209/2015",
+                "2": "Filing Date",
+                "3": "22-04-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "COMP /131/2015",
+                "2": "Registration Date",
+                "3": "22-04-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-021259-2015",
+                "2": "GJHC24-021259-2015",
+                "3": "GJHC24-021259-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "23rd April 2015",
+            "Decision Date": "07th May 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--38-RULE ABSOLUTE/ALLOWED @ FH",
+            "Coram": "HONOURABLE MR. JUSTICE S.R.BRAHMBHATT",
+            "Bench Type": "SINGLE",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "respondent_advocate": "1) ..",
+        "acts": [
+            {
+                "Under Act(s)": "COMPANIES ACT, 1956",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "COMP/131/2015",
+                "2": "HONOURABLE MR. JUSTICE S.R.BRAHMBHATT",
+                "3": "07-05-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010284022015",
+        "search_year": 2015,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER OF COMMERCIAL TAXES,ORISSA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /20682/2015",
+                "2": "Filing Date",
+                "3": "18-11-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /20682/2015",
+                "2": "Registration Date",
+                "3": "18-11-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-028402-2015",
+                "2": "ODHC01-028402-2015",
+                "3": "ODHC01-028402-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "23rd November 2015",
+            "Decision Date": "01st December 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Disposed Off",
+            "Coram": "MR. JUSTICE I.MAHANTY , DR. JUSTICE D.P.CHOUDHURY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER OF COMMERCIAL TAXES,ORISSA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/20682/2015",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "23-11-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP(C)/20682/2015",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "01-12-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010145582015",
+        "search_year": 2015,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "UNION OF INDIA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /17391/2015",
+                "2": "Filing Date",
+                "3": "22-09-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /17391/2015",
+                "2": "Registration Date",
+                "3": "22-09-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-014558-2015",
+                "2": "ODHC01-014558-2015",
+                "3": "ODHC01-014558-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "07th October 2015",
+            "Next Hearing Date": "07th October 2015",
+            "Stage of Case": "FRESH ADMISSION",
+            "Coram": "MR. JUSTICE B.K.NAYAK",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) UNION OF INDIA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010298492015",
+        "search_year": 2015,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER FO COMMERCIAL TAXES",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /15945/2015",
+                "2": "Filing Date",
+                "3": "31-08-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /15945/2015",
+                "2": "Registration Date",
+                "3": "31-08-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-029849-2015",
+                "2": "ODHC01-029849-2015",
+                "3": "ODHC01-029849-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "10th September 2015",
+            "Decision Date": "06th October 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Disposed Off",
+            "Coram": "MR. JUSTICE I.MAHANTY , MR. JUSTICE K.R.MOHAPATRA",
+            "Bench Type": "Division Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER FO COMMERCIAL TAXES",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/15945/2015",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "10-09-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP(C)/15945/2015",
+                "2": "MR. JUSTICE I.MAHANTY,MR. JUSTICE K.R.MOHAPATRA",
+                "3": "06-10-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010660492015",
+        "search_year": 2015,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER OF COMMERCIAL TAXES",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /15938/2015",
+                "2": "Filing Date",
+                "3": "31-08-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /15938/2015",
+                "2": "Registration Date",
+                "3": "31-08-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-066049-2015",
+                "2": "ODHC01-066049-2015",
+                "3": "ODHC01-066049-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "10th September 2015",
+            "Decision Date": "29th September 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Disposed Off",
+            "Coram": "MR. JUSTICE I.MAHANTY , DR. JUSTICE D.P.CHOUDHURY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER OF COMMERCIAL TAXES",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/15938/2015",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "10-09-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP(C)/15938/2015",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "29-09-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010043372015",
+        "search_year": 2015,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "UNION OF INDIA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /5227/2015",
+                "2": "Filing Date",
+                "3": "23-03-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /5227/2015",
+                "2": "Registration Date",
+                "3": "23-03-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-004337-2015",
+                "2": "ODHC01-004337-2015",
+                "3": "ODHC01-004337-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "25th March 2015",
+            "Next Hearing Date": "25th June 2015",
+            "Stage of Case": "FOR ADMISSION",
+            "Coram": "DR. JUSTICE A.K.RATH",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) UNION OF INDIA   Advocate- A.K SAHOO 1123",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/5227/2015",
+                "2": "",
+                "3": "27-03-2017",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 2,
+                "Date of Receiving": "16-03-2022",
+                "Filed by": "M/S.ADANI ENTERPRISES LTD.",
+                "Name of Advocate": "JYOTSNAMAYEE SAHOO",
+                "Document Filed": "Memo Of Appearance"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Punjab and Haryana High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "PHHC010065042015",
+        "search_year": 2015,
+        "raw_petitioner": "TOTA RAM",
+        "raw_respondent": "ADANI POWER LTD AND ANR",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CR /3346/2015",
+                "2": "Filing Date",
+                "3": "29-04-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CR /3346/2015",
+                "2": "Registration Date",
+                "3": "14-05-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "PHHC01-006504-2015",
+                "2": "PHHC01-006504-2015",
+                "3": "PHHC01-006504-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "14th July 2015",
+            "Decision Date": "13th December 2022",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--DISPOSED OF",
+            "Coram": "MR. JUSTICE ANIL KSHETARPAL",
+            "Bench Type": "Single",
+            "Judicial Branch": "CIVIL REVISION BRANCH-I",
+            "State": "HARYANA",
+            "District": "MAHENDERGARH"
+        },
+        "petitioner_advocate": "1) TOTA RAM",
+        "respondent_advocate": "1) ADANI POWER LTD AND ANR",
+        "acts": [
+            {
+                "Under Act(s)": "No Acts defined",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CR/3346/2015",
+                "2": "MRS JUSTICE SABINA",
+                "3": "14-07-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "CR/3346/2015",
+                "2": "MR. JUSTICE KULDIP SINGH",
+                "3": "10-12-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "CR/3346/2015",
+                "2": "MRS. JUSTICE REKHA MITTAL",
+                "3": "01-03-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "4",
+                "1": "CR/3346/2015",
+                "2": "MRS. JUSTICE REKHA MITTAL",
+                "3": "10-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "5",
+                "1": "CR/3346/2015",
+                "2": "MS. JUSTICE RITU BAHRI",
+                "3": "12-09-2017",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "6",
+                "1": "CR/3346/2015",
+                "2": "MR. JUSTICE B.S. WALIA",
+                "3": "05-07-2018",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "7",
+                "1": "CR/3346/2015",
+                "2": "",
+                "3": "13-12-2022",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "14-05-2015",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Madras High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCMA010651782015",
+        "search_year": 2015,
+        "raw_petitioner": "M/s.Adani Enterprises Ltd.",
+        "raw_respondent": "M/s.Hothur Steels",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CS /13999/2015",
+                "2": "Filing Date",
+                "3": "01-04-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CS /291/2015",
+                "2": "Registration Date",
+                "3": "07-04-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCMA01-065178-2015",
+                "2": "HCMA01-065178-2015",
+                "3": "HCMA01-065178-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "19th August 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--DECREED",
+            "Coram": "",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "ORIGINALSECTION",
+            "State": "TAMIL NADU",
+            "District": ""
+        },
+        "petitioner_advocate": "1) M/s.Adani Enterprises Ltd.",
+        "respondent_advocate": "1) M/s.Hothur Steels   Advocate- D-2 MOHAMMED TAUSEEF,D-3 MOHAMMED ASIF,M/S.G.ANANDAKUMAR,FOR DEFTS.-D.NO.35722/18,NO.346/161, THAMBUCHETTY ST.,CH-1 1123",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "",
+                "Judge": "MASTER",
+                "Business On Date": "",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "",
+                "Business On Date": "05-08-2022",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "MASTER",
+                "Business On Date": "05-08-2022",
+                "Hearing Date": "05-08-2022",
+                "Purpose of hearing": "Revoked"
+            },
+            {
+                "Cause List Type": "Regular List",
+                "Judge": "MASTER",
+                "Business On Date": "28-06-2019",
+                "Hearing Date": "18-07-2019",
+                "Purpose of hearing": "FOR ENQUIRY"
+            },
+            {
+                "Cause List Type": "Regular List",
+                "Judge": "MASTER",
+                "Business On Date": "14-06-2019",
+                "Hearing Date": "28-06-2019",
+                "Purpose of hearing": "FOR ENQUIRY"
+            },
+            {
+                "Cause List Type": "Regular List",
+                "Judge": "MASTER",
+                "Business On Date": "07-03-2019",
+                "Hearing Date": "28-03-2019",
+                "Purpose of hearing": "FOR ENQUIRY"
+            },
+            {
+                "Cause List Type": "Regular List",
+                "Judge": "MASTER",
+                "Business On Date": "19-02-2019",
+                "Hearing Date": "07-03-2019",
+                "Purpose of hearing": "FOR ENQUIRY"
+            },
+            {
+                "Cause List Type": "Regular List",
+                "Judge": "MASTER",
+                "Business On Date": "01-02-2019",
+                "Hearing Date": "15-02-2019",
+                "Purpose of hearing": "FOR ENQUIRY"
+            },
+            {
+                "Cause List Type": "Regular List",
+                "Judge": "MASTER",
+                "Business On Date": "22-01-2019",
+                "Hearing Date": "01-02-2019",
+                "Purpose of hearing": "FOR ENQUIRY"
+            },
+            {
+                "Cause List Type": "Regular List",
+                "Judge": "MASTER",
+                "Business On Date": "18-12-2018",
+                "Hearing Date": "10-01-2019",
+                "Purpose of hearing": "FOR ENQUIRY"
+            },
+            {
+                "Cause List Type": "Regular List",
+                "Judge": "MASTER",
+                "Business On Date": "03-12-2018",
+                "Hearing Date": "18-12-2018",
+                "Purpose of hearing": "FOR ENQUIRY"
+            },
+            {
+                "Cause List Type": "Regular List",
+                "Judge": "MASTER",
+                "Business On Date": "22-11-2018",
+                "Hearing Date": "03-12-2018",
+                "Purpose of hearing": "FOR ENQUIRY"
+            },
+            {
+                "Cause List Type": "Regular List",
+                "Judge": "MASTER",
+                "Business On Date": "11-10-2018",
+                "Hearing Date": "08-11-2018",
+                "Purpose of hearing": "FOR ENQUIRY"
+            }
+        ],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Madras High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCMA010179932015",
+        "search_year": 2015,
+        "raw_petitioner": "M/s. Adani Enterprises Ltd",
+        "raw_respondent": "M/s. Hothur Steels",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "A /13185/2015",
+                "2": "Filing Date",
+                "3": "27-03-2015"
+            },
+            {
+                "0": "Registration Number",
+                "1": "A /2446/2015",
+                "2": "Registration Date",
+                "3": "30-03-2015"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCMA01-017993-2015",
+                "2": "HCMA01-017993-2015",
+                "3": "HCMA01-017993-2015"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "31st March 2015",
+            "Decision Date": "31st March 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--ORDERED",
+            "Court Number and Judge": "",
+            "Judicial Branch": "ORIGINALSECTION",
+            "State": "TAMIL NADU",
+            "District": ""
+        },
+        "petitioner_advocate": "1) M/s. Adani Enterprises Ltd",
+        "respondent_advocate": "1) M/s. Hothur Steels",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    }
+]

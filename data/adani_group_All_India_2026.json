@@ -1,0 +1,690 @@
+[
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020055122026",
+        "search_year": 2026,
+        "raw_petitioner": "MAHAGUJ COLLIERIES LIMITED",
+        "raw_respondent": "ADANI ENTERPRISES LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number 3 :",
+                "1": "CARBP/1572/2024"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "01st April 2026",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SHRI JUSTICE SANDEEP V. MARNE",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original"
+        },
+        "petitioner_advocate": "1) MAHAGUJ COLLIERIES LIMITED",
+        "respondent_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "acts": [
+            {
+                "Under Act(s)": "Arbitration and Conciliation Act 1996",
+                "Under Section(s)": "section34"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "16-02-2026",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Delhi High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "DLHC010055452026",
+        "search_year": 2026,
+        "raw_petitioner": "ADANI ENTERPRISES LTD",
+        "raw_respondent": "MS ORIENTAL INSURANCE COMPANY LTD",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "O.M.P.(MISC.)(COMM.) /71160/2026",
+                "2": "Filing Date",
+                "3": "13-02-2026"
+            },
+            {
+                "0": "Registration Number",
+                "1": "O.M.P.(MISC.)(COMM.) /172/2026",
+                "2": "Registration Date",
+                "3": "13-02-2026"
+            },
+            {
+                "0": "CNR Number",
+                "1": "DLHC01-005545-2026",
+                "2": "DLHC01-005545-2026",
+                "3": "DLHC01-005545-2026"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "16th February 2026",
+            "Decision Date": "16th February 2026",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--",
+            "Coram": "HON'BLE MR. JUSTICE AVNEESH JHINGAN",
+            "Judicial Branch": "Original side",
+            "Not Before Me": "NO COURT NO COURT AT PRESENT"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD",
+        "respondent_advocate": "1) MS ORIENTAL INSURANCE COMPANY LTD",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "O.M.P.(MISC.)(COMM.)/172/2026",
+                "2": "DELHI HIGH COURT,HON'BLE MR. JUSTICE SIDDHARTH MRIDUL,HON'BLE MR. JUSTICE ANISH DAYAL",
+                "3": "16-02-2026",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Green Energy"
+        ],
+        "cino": "GJHC240196162026",
+        "search_year": 2026,
+        "raw_petitioner": "ADANI GREEN ENERGY THIRTY -TWO LTD. THROUGH AUTHORIZED SIGNATORY",
+        "raw_respondent": "STATE OF GUJARAT",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "SCA /8314/2026",
+                "2": "Filing Date",
+                "3": "12-03-2026"
+            },
+            {
+                "0": "Registration Number",
+                "1": "SCA /4006/2026",
+                "2": "Registration Date",
+                "3": "17-03-2026"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-019616-2026",
+                "2": "GJHC24-019616-2026",
+                "3": "GJHC24-019616-2026"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Next Hearing Date": "23rd April 2026",
+            "Stage of Case": "192-NOTICE & ADJOURNED MATTERS",
+            "Coram": "HONOURABLE MS. JUSTICE VAIBHAVI D. NANAVATI",
+            "Bench Type": "SINGLE",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "KACHCHH"
+        },
+        "petitioner_advocate": "1) ADANI GREEN ENERGY THIRTY -TWO LTD. THROUGH AUTHORIZED SIGNATORY",
+        "respondent_advocate": "1) STATE OF GUJARAT",
+        "acts": [
+            {
+                "Under Act(s)": "LAND REVENUE CODE, 1879",
+                "Under Section(s)": 0
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MS. JUSTICE VAIBHAVI D. NANAVATI",
+                "Business On Date": "",
+                "Hearing Date": "23-03-2026",
+                "Purpose of hearing": "3600-FRESH MATTERS"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MS. JUSTICE VAIBHAVI D. NANAVATI",
+                "Business On Date": "23-03-2026",
+                "Hearing Date": "23-04-2026",
+                "Purpose of hearing": "192-NOTICE & ADJOURNED MATTERS"
+            }
+        ],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "SCA/4006/2026",
+                "2": "HONOURABLE MS. JUSTICE VAIBHAVI D. NANAVATI",
+                "3": "23-03-2026",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "17-03-2026",
+                "Filed by": "ADANI GREEN ENERGY THIRTY -TWO LTD. THROUGH AUTHORIZED SIGNATORY",
+                "Name of Advocate": "MR HARSHIT S BHATT(12874)",
+                "Document Filed": "MEMO OF PETITION"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "17-03-2026",
+                "Filed by": "ADANI GREEN ENERGY THIRTY -TWO LTD. THROUGH AUTHORIZED SIGNATORY",
+                "Name of Advocate": "MR HARSHIT S BHATT(12874)",
+                "Document Filed": "VAKALATNAMA"
+            }
+        ],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "12-03-2026",
+                "2": "1) 17. WHETHER COPIES ARE TRUE COPIES SIGNED BY THE ADVOCATE? (event not filed)",
+                "3": "",
+                "4": ""
+            },
+            {
+                "0": "2",
+                "1": "16-03-2026",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Ports"
+        ],
+        "cino": "GJHC240061402026",
+        "search_year": 2026,
+        "raw_petitioner": "ADANI PORTS SPECIAL ECONOMIC ZONE LTD.",
+        "raw_respondent": "JOINT COMMISSIONER OF INCOME TAX (OSD)",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "TAXAP /2415/2026",
+                "2": "Filing Date",
+                "3": "23-01-2026"
+            },
+            {
+                "0": "Registration Number",
+                "1": "TAXAP /79/2026",
+                "2": "Registration Date",
+                "3": "30-01-2026"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-006140-2026",
+                "2": "GJHC24-006140-2026",
+                "3": "GJHC24-006140-2026"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Next Hearing Date": "15th June 2026",
+            "Stage of Case": "111-URGENT ADMISSION ( FRESH MATTERS )",
+            "Coram": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI PORTS SPECIAL ECONOMIC ZONE LTD.",
+        "respondent_advocate": "1) JOINT COMMISSIONER OF INCOME TAX (OSD)",
+        "acts": [
+            {
+                "Under Act(s)": "INCOME-TAX ACT, 1961",
+                "Under Section(s)": "260A"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "",
+                "Hearing Date": "05-02-2026",
+                "Purpose of hearing": "111-URGENT ADMISSION ( FRESH MATTERS )"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "03-03-2026",
+                "Hearing Date": "15-06-2026",
+                "Purpose of hearing": "111-URGENT ADMISSION ( FRESH MATTERS )"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "05-02-2026",
+                "Hearing Date": "03-03-2026",
+                "Purpose of hearing": "111-URGENT ADMISSION ( FRESH MATTERS )"
+            }
+        ],
+        "orders": [],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "30-01-2026",
+                "Filed by": "ADANI PORTS SPECIAL ECONOMIC ZONE LTD.",
+                "Name of Advocate": "MR B S SOPARKAR(6851)",
+                "Document Filed": "MEMO"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "30-01-2026",
+                "Filed by": "ADANI PORTS SPECIAL ECONOMIC ZONE LTD.",
+                "Name of Advocate": "MR B S SOPARKAR(6851)",
+                "Document Filed": "VAKALATNAMA"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "30-01-2026",
+                "Filed by": "ADANI PORTS SPECIAL ECONOMIC ZONE LTD.",
+                "Name of Advocate": "MR B S SOPARKAR(6851)",
+                "Document Filed": "CERTIFIED COPY"
+            }
+        ],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "28-01-2026",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            },
+            {
+                "0": "2",
+                "1": "29-01-2026",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            },
+            {
+                "0": "3",
+                "1": "29-01-2026",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Ports"
+        ],
+        "cino": "GJHC240837812025",
+        "search_year": 2026,
+        "raw_petitioner": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD",
+        "raw_respondent": "JOINT COMMISSIONER OF INCOME TAX (OSD), O/O PRINCIPAL COMMISSIONER OF INCOME TAX (OSD)",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "X-OBJ(O) /36018/2025",
+                "2": "Filing Date",
+                "3": "25-11-2025"
+            },
+            {
+                "0": "Registration Number",
+                "1": "X-OBJ(O) /1/2026",
+                "2": "Registration Date",
+                "3": "21-01-2026"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-083781-2025",
+                "2": "GJHC24-083781-2025",
+                "3": "GJHC24-083781-2025"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Next Hearing Date": "15th June 2026",
+            "Stage of Case": "111-URGENT ADMISSION ( FRESH MATTERS )",
+            "Coram": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD",
+        "respondent_advocate": "1) JOINT COMMISSIONER OF INCOME TAX (OSD), O/O PRINCIPAL COMMISSIONER OF INCOME TAX (OSD)",
+        "acts": [
+            {
+                "Under Act(s)": "CIVIL PROCEDURE CODE, 1908",
+                "Under Section(s)": 100
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "",
+                "Hearing Date": "03-02-2026",
+                "Purpose of hearing": "111-URGENT ADMISSION ( FRESH MATTERS )"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "03-03-2026",
+                "Hearing Date": "15-06-2026",
+                "Purpose of hearing": "111-URGENT ADMISSION ( FRESH MATTERS )"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "03-02-2026",
+                "Hearing Date": "03-03-2026",
+                "Purpose of hearing": "111-URGENT ADMISSION ( FRESH MATTERS )"
+            }
+        ],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "X-OBJ(O)/36018/2025",
+                "2": "ADDITIONAL REGISTRAR (JUDICIAL)",
+                "3": "03-12-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "X-OBJ(O)/36018/2025",
+                "2": "HONOURABLE MR. JUSTICE A.S. SUPEHIA",
+                "3": "05-01-2026",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "21-01-2026",
+                "Filed by": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD",
+                "Name of Advocate": "MR B S SOPARKAR(6851)",
+                "Document Filed": "MEMO"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "21-01-2026",
+                "Filed by": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD",
+                "Name of Advocate": "MR B S SOPARKAR(6851)",
+                "Document Filed": "VAKALATNAMA"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "21-01-2026",
+                "Filed by": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD",
+                "Name of Advocate": "MR B S SOPARKAR(6851)",
+                "Document Filed": "CERTIFIED COPY"
+            }
+        ],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "27-11-2025",
+                "2": "1) 22. WHETHER COPIES ARE LEGIBLE AND WHETHER TYPED COPIES OF HAND WRITTEN ANNEXURES FILED ? (SUB TO NOTICE)",
+                "3": "27-11-2025",
+                "4": ""
+            },
+            {
+                "0": "2",
+                "1": "20-01-2026",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Karnataka High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "KAHC010160932026",
+        "search_year": 2026,
+        "raw_petitioner": "POWER COMPANY OF KARNATAKA LTD (PCKL),",
+        "raw_respondent": "ADANI POWER PRIVATE LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP /7291/2026",
+                "2": "Filing Date",
+                "3": "27-02-2026"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP /7296/2026",
+                "2": "Registration Date",
+                "3": "03-03-2026"
+            },
+            {
+                "0": "CNR Number",
+                "1": "KAHC01-016093-2026",
+                "2": "KAHC01-016093-2026",
+                "3": "KAHC01-016093-2026"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Next Hearing Date": ": -",
+            "Stage of Case": "ORDERS",
+            "Coram": "K.S. HEMALEKHA",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Judicial Section",
+            "Not Before Me": "Unknown"
+        },
+        "petitioner_advocate": "1) POWER COMPANY OF KARNATAKA LTD (PCKL),",
+        "respondent_advocate": "1) ADANI POWER PRIVATE LIMITED",
+        "acts": [
+            {
+                "Under Act(s)": "Constitution of India",
+                "Under Section(s)": "226, 227"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "K.S. HEMALEKHA",
+                "Business On Date": "",
+                "Hearing Date": "05-03-2026",
+                "Purpose of hearing": "PRELIMINARY HEARING"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "K.S. HEMALEKHA",
+                "Business On Date": "06-04-2026",
+                "Hearing Date": "",
+                "Purpose of hearing": "ORDERS"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "K.S. HEMALEKHA",
+                "Business On Date": "26-03-2026",
+                "Hearing Date": "02-04-2026",
+                "Purpose of hearing": "HEARING - INTERLOCUTORY APPLN"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "K.S. HEMALEKHA",
+                "Business On Date": "25-03-2026",
+                "Hearing Date": "26-03-2026",
+                "Purpose of hearing": "HEARING - INTERLOCUTORY APPLN"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "K.S. HEMALEKHA",
+                "Business On Date": "23-03-2026",
+                "Hearing Date": "25-03-2026",
+                "Purpose of hearing": "ORDERS"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "K.S. HEMALEKHA",
+                "Business On Date": "05-03-2026",
+                "Hearing Date": "23-03-2026",
+                "Purpose of hearing": "PRELIMINARY HEARING"
+            }
+        ],
+        "orders": [],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "27-02-2026",
+                "Filed by": "P1",
+                "Name of Advocate": "",
+                "Document Filed": "Vakalat"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "09-03-2026",
+                "Filed by": "R1",
+                "Name of Advocate": "SHIVAPRASAD SHANTANAGOUDAR",
+                "Document Filed": "Vakalat"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "13-03-2026",
+                "Filed by": "P1",
+                "Name of Advocate": "",
+                "Document Filed": "Process Memo"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 4,
+                "Date of Receiving": "23-03-2026",
+                "Filed by": "R1",
+                "Name of Advocate": "",
+                "Document Filed": "Statement of Objection"
+            },
+            {
+                "Sr. No.": 5,
+                "Document No.": 5,
+                "Date of Receiving": "24-03-2026",
+                "Filed by": "R 2",
+                "Name of Advocate": "NISHANTH A V",
+                "Document Filed": "Vakalat"
+            },
+            {
+                "Sr. No.": 6,
+                "Document No.": 6,
+                "Date of Receiving": "27-03-2026",
+                "Filed by": "P1",
+                "Name of Advocate": "",
+                "Document Filed": "WRITTEN SUBMISSION"
+            },
+            {
+                "Sr. No.": 7,
+                "Document No.": 7,
+                "Date of Receiving": "27-03-2026",
+                "Filed by": "R1",
+                "Name of Advocate": "",
+                "Document Filed": "Written Arguments"
+            }
+        ],
+        "objections": []
+    }
+]

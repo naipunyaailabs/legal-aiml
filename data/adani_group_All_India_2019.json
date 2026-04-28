@@ -1,0 +1,3131 @@
+[
+    {
+        "state": "Bombay High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM010530972019",
+        "search_year": 2019,
+        "raw_petitioner": "ADANI ENTERPRISES LIMITED FORMERLY KNOWN AS ADANI EXPORTS LIMITED",
+        "raw_respondent": "THE STATE OF MAHARASHTRA AND ANR",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP /6290/2019",
+                "2": "Filing Date",
+                "3": "16-12-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP /6290/2019",
+                "2": "Registration Date",
+                "3": "16-12-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM01-053097-2019",
+                "2": "HCBM01-053097-2019",
+                "3": "HCBM01-053097-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "20th December 2019",
+            "Decision Date": "17th March 2025",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Disposed Off",
+            "Coram": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+            "Bench Type": "Single",
+            "Judicial Branch": "Criminal",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LIMITED FORMERLY KNOWN AS ADANI EXPORTS LIMITED",
+        "respondent_advocate": "1) THE STATE OF MAHARASHTRA AND ANR",
+        "acts": [
+            {
+                "Under Act(s)": "Constitution of India",
+                "Under Section(s)": "226227"
+            },
+            {
+                "Under Act(s)": "Criminal Procedure Code (Cr.PC)",
+                "Under Section(s)": "482"
+            },
+            {
+                "Under Act(s)": "Indian Penal Code (I.P.C)",
+                "Under Section(s)": "420,120B"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE A.M. BADAR",
+                "Business On Date": "",
+                "Hearing Date": "20-12-2019",
+                "Purpose of hearing": "FOR ADMISSION - CIRCULATION (CRIMINAL SIDE MATTERS)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "Business On Date": "17-03-2025",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "Business On Date": "12-03-2025",
+                "Hearing Date": "",
+                "Purpose of hearing": "AT 2.30 P.M."
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "Business On Date": "05-03-2025",
+                "Hearing Date": "12-03-2025",
+                "Purpose of hearing": "PART-HEARD"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "Business On Date": "24-02-2025",
+                "Hearing Date": "05-03-2025",
+                "Purpose of hearing": "AT 2.30 P.M."
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "Business On Date": "10-02-2025",
+                "Hearing Date": "24-02-2025",
+                "Purpose of hearing": "AT 2.30 P.M."
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "Business On Date": "29-01-2025",
+                "Hearing Date": "10-02-2025",
+                "Purpose of hearing": "AT 2.30 P.M."
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "Business On Date": "08-01-2025",
+                "Hearing Date": "29-01-2025",
+                "Purpose of hearing": "AT 2.30 P.M."
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE MADHAV J. JAMDAR",
+                "Business On Date": "19-11-2024",
+                "Hearing Date": "08-01-2025",
+                "Purpose of hearing": "DUE ADMISSION - 1"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE SARANG VIJAYKUMAR KOTWAL",
+                "Business On Date": "04-10-2024",
+                "Hearing Date": "19-11-2024",
+                "Purpose of hearing": "- WRIT PETITION -"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE SARANG VIJAYKUMAR KOTWAL",
+                "Business On Date": "01-07-2024",
+                "Hearing Date": "16-08-2024",
+                "Purpose of hearing": "- WRIT PETITION -"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE N. J. JAMADAR",
+                "Business On Date": "17-04-2024",
+                "Hearing Date": "01-07-2024",
+                "Purpose of hearing": "FOR ADMISSION"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE N. J. JAMADAR",
+                "Business On Date": "13-03-2024",
+                "Hearing Date": "17-04-2024",
+                "Purpose of hearing": "FOR ORDERS (DUE MATTERS)"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE N. J. JAMADAR",
+                "Business On Date": "31-01-2024",
+                "Hearing Date": "13-03-2024",
+                "Purpose of hearing": "FOR ADMISSION"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE N. J. JAMADAR",
+                "Business On Date": "04-01-2024",
+                "Hearing Date": "31-01-2024",
+                "Purpose of hearing": "FOR ADMISSION"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE SARANG VIJAYKUMAR KOTWAL",
+                "Business On Date": "11-10-2023",
+                "Hearing Date": "04-01-2024",
+                "Purpose of hearing": "FOR ADMISSION"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE SARANG VIJAYKUMAR KOTWAL",
+                "Business On Date": "23-08-2023",
+                "Hearing Date": "11-10-2023",
+                "Purpose of hearing": "FOR CIRCULATION"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE AMIT BORKAR",
+                "Business On Date": "18-04-2023",
+                "Hearing Date": "22-08-2023",
+                "Purpose of hearing": "DUE ADMISSION - 1"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE R. G. AVACHAT",
+                "Business On Date": "22-02-2023",
+                "Hearing Date": "18-04-2023",
+                "Purpose of hearing": "FOR CIRCULATION"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE SANDEEP KASHINATH SHINDE",
+                "Business On Date": "23-12-2021",
+                "Hearing Date": "10-02-2022",
+                "Purpose of hearing": "FOR CIRCULATION"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE SANDEEP KASHINATH SHINDE",
+                "Business On Date": "28-10-2021",
+                "Hearing Date": "22-12-2021",
+                "Purpose of hearing": "FOR CIRCULATION"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "According To Sitting List",
+                "Business On Date": "11-03-2020",
+                "Hearing Date": "04-09-2020",
+                "Purpose of hearing": "FOR ADMISSION - FRESH [CRIMINAL SIDE MATTERS]"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SMT. JUSTICE S.S. JADHAV",
+                "Business On Date": "29-01-2020",
+                "Hearing Date": "11-03-2020",
+                "Purpose of hearing": "APPLICATIONS FOR ADMISSION FRESH CRIMINAL SIDE MATTERS"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE A.M. BADAR",
+                "Business On Date": "13-01-2020",
+                "Hearing Date": "29-01-2020",
+                "Purpose of hearing": "PETITIONS FOR ORDER"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE A.M. BADAR",
+                "Business On Date": "20-12-2019",
+                "Hearing Date": "13-01-2020",
+                "Purpose of hearing": "APPLICATIONS FOR ADMISSION FRESH CRIMINAL SIDE MATTERS"
+            }
+        ],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE A.M. BADAR",
+                "3": "29-01-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE A.M. BADAR",
+                "3": "13-01-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SMT. JUSTICE S.S. JADHAV",
+                "3": "11-03-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "4",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE A.M. BADAR",
+                "3": "11-02-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "5",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE PRITHVIRAJ K. CHAVAN",
+                "3": "17-02-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "7",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE A.M. BADAR",
+                "3": "20-12-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "8",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE SANDEEP KASHINATH SHINDE",
+                "3": "28-10-2021",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "9",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE SANDEEP KASHINATH SHINDE",
+                "3": "23-12-2021",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "10",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE R. G. AVACHAT",
+                "3": "22-02-2023",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "11",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE AMIT BORKAR",
+                "3": "18-04-2023",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "12",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE SARANG VIJAYKUMAR KOTWAL",
+                "3": "23-08-2023",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "13",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE SARANG VIJAYKUMAR KOTWAL",
+                "3": "23-08-2023",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "14",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE SARANG VIJAYKUMAR KOTWAL",
+                "3": "11-10-2023",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "15",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE N. J. JAMADAR",
+                "3": "04-01-2024",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "16",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE N. J. JAMADAR",
+                "3": "13-03-2024",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "17",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE N. J. JAMADAR",
+                "3": "17-04-2024",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "18",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE SARANG VIJAYKUMAR KOTWAL",
+                "3": "01-07-2024",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "19",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE SARANG VIJAYKUMAR KOTWAL",
+                "3": "16-08-2024",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "20",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE SARANG VIJAYKUMAR KOTWAL",
+                "3": "04-10-2024",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "21",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE MADHAV J. JAMDAR",
+                "3": "19-11-2024",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "22",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "3": "08-01-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "23",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "3": "10-02-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "24",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "3": "24-02-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "25",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "3": "05-03-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "26",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "3": "12-03-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "27",
+                "1": "WP/6290/2019",
+                "2": "HON'BLE SHRI JUSTICE R. N. LADDHA",
+                "3": "17-03-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "30-01-2020",
+                "Filed by": "RAHUL PANDYA",
+                "Name of Advocate": "",
+                "Document Filed": "Report"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "01-02-2020",
+                "Filed by": "MUNISH GARG S/O. DHARAM CHAND GARG",
+                "Name of Advocate": "",
+                "Document Filed": "Report"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "16-01-2020",
+                "Filed by": "",
+                "Name of Advocate": "HITEN SHYAMRAO VENEGAOKAR",
+                "Document Filed": "Vakalatnama"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 4,
+                "Date of Receiving": "18-07-2024",
+                "Filed by": "UNION OF INDIA",
+                "Name of Advocate": "HITEN VENEGAVKAR",
+                "Document Filed": "Affidavit in reply"
+            },
+            {
+                "Sr. No.": 5,
+                "Document No.": 5,
+                "Date of Receiving": "10-01-2025",
+                "Filed by": "ADANI ENTERPRISES LIMITED FORMERLY KNOWN AS ADANI EXPORTS LIMITED",
+                "Name of Advocate": "Nankani Associates",
+                "Document Filed": "Rejoinder Affidavit"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020235812018",
+        "search_year": 2019,
+        "raw_petitioner": "ADANI ENTERPRISES LTD.",
+        "raw_respondent": "ANTIKEROS SHIPPING CORPORATION",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "RP /13/2018",
+                "2": "Filing Date",
+                "3": "24-08-2018"
+            },
+            {
+                "0": "Registration Number",
+                "1": "RP /3/2019",
+                "2": "Registration Date",
+                "3": "05-04-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-023581-2018",
+                "2": "HCBM02-023581-2018",
+                "3": "HCBM02-023581-2018"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "22nd March 2019",
+            "Next Hearing Date": "22nd March 2019",
+            "Stage of Case": "A",
+            "Coram": "HON'BLE SHRI JUSTICE S.J. KATHAWALLA",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) ANTIKEROS SHIPPING CORPORATION",
+        "acts": [
+            {
+                "Under Act(s)": "Arbitration and Conciliation Act 1996",
+                "Under Section(s)": 11
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "08-10-2018",
+                "Filed by": "ANIL SHAMRAO JADHAV",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit in reply"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "06-09-2018",
+                "Filed by": "",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020122552019",
+        "search_year": 2019,
+        "raw_petitioner": "ANTIKEROS SHIPPING CORPORATION",
+        "raw_respondent": "ADANI ENTERPRISES LIMITED.",
+        "basic_details": [
+            {
+                "Filing Number2": "IA Details",
+                "Case Number": "IA Details",
+                "Unnamed: 2": "IA Details",
+                "Unnamed: 3": "IA Details",
+                "Unnamed: 4": "IA Details"
+            },
+            {
+                "Filing Number2": "APP/241/2019 ( main )",
+                "Case Number": "APP/535/2019 ( main ) ( Disposed )",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "APP/245/2019",
+                "Case Number": "APP/533/2019 ( Disposed )",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "09th August 2019",
+            "Decision Date": "18th February 2020",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--JUDGEMENT",
+            "Coram": "HON'BLE THE CHIEF JUSTICE , HON'BLE SMT. JUSTICE BHARATI DANGRE",
+            "Bench Type": "Division",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) ANTIKEROS SHIPPING CORPORATION",
+        "respondent_advocate": "1) ADANI ENTERPRISES LIMITED.",
+        "acts": [
+            {
+                "Under Act(s)": "Arbitration and Conciliation Act 1996",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "APP/535/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "05-07-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "APP/535/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "31-01-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "APP/535/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "03-02-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "4",
+                "1": "APP/535/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "11-02-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "5",
+                "1": "APP/535/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "18-02-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "6",
+                "1": "APP/535/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "13-01-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "7",
+                "1": "APP/535/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SHRI JUSTICE NITIN JAMDAR",
+                "3": "07-08-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "8",
+                "1": "APP/535/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SHRI JUSTICE NITIN JAMDAR",
+                "3": "09-08-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "9",
+                "1": "APP/535/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "13-11-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "10",
+                "1": "APP/535/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "14-10-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "08-08-2019",
+                "Name of Advocate": "Economic Laws Practice",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020124252019",
+        "search_year": 2019,
+        "raw_petitioner": "ANTIKEROS SHIPPIING CORPORATION",
+        "raw_respondent": "ADANI ENTERPRISES LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "APP /245/2019",
+                "2": "Filing Date",
+                "3": "07-05-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "APP /533/2019",
+                "2": "Registration Date",
+                "3": "20-11-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-012425-2019",
+                "2": "HCBM02-012425-2019",
+                "3": "HCBM02-012425-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "09th August 2019",
+            "Decision Date": "18th February 2020",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--JUDGEMENT",
+            "Coram": "HON'BLE THE CHIEF JUSTICE , HON'BLE SMT. JUSTICE BHARATI DANGRE",
+            "Bench Type": "Division",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) ANTIKEROS SHIPPIING CORPORATION",
+        "respondent_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "acts": [
+            {
+                "Under Act(s)": "Arbitration and Conciliation Act 1996",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "APP/533/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "13-01-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "APP/533/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SHRI JUSTICE NITIN JAMDAR",
+                "3": "09-08-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "APP/533/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "31-01-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "4",
+                "1": "APP/533/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "03-02-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "5",
+                "1": "APP/533/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "11-02-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "6",
+                "1": "APP/533/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "18-02-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "7",
+                "1": "APP/533/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "05-07-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "8",
+                "1": "APP/533/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "13-11-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "9",
+                "1": "APP/533/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SMT. JUSTICE BHARATI DANGRE",
+                "3": "14-10-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "08-08-2019",
+                "Name of Advocate": "Economic Laws Practice",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020235862018",
+        "search_year": 2019,
+        "raw_petitioner": "ADANI ENTERPRISES LTD.",
+        "raw_respondent": "ANTIKEROS SHIPPING CORPORATION",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "NMS /2015/2018",
+                "2": "Filing Date",
+                "3": "24-08-2018"
+            },
+            {
+                "0": "Registration Number",
+                "1": "NMS /1015/2019",
+                "2": "Registration Date",
+                "3": "05-04-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-023586-2018",
+                "2": "HCBM02-023586-2018",
+                "3": "HCBM02-023586-2018"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "18th September 2018",
+            "Next Hearing Date": "22nd March 2019",
+            "Stage of Case": "FOR PRODUCTION",
+            "Coram": "HON'BLE SHRI JUSTICE S.J. KATHAWALLA",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) ANTIKEROS SHIPPING CORPORATION",
+        "acts": [
+            {
+                "Under Act(s)": "Arbitration and Conciliation Act 1996",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "3",
+                "1": "NMS/1015/2019",
+                "2": "HON'BLE SHRI JUSTICE S.J. KATHAWALLA",
+                "3": "22-03-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "4",
+                "1": "NMS/1015/2019",
+                "2": "HON'BLE SHRI JUSTICE S.J. KATHAWALLA",
+                "3": "28-03-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "5",
+                "1": "NMS/1015/2019",
+                "2": "HON'BLE SHRI JUSTICE S.J. KATHAWALLA",
+                "3": "30-08-2018",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "6",
+                "1": "NMS/1015/2019",
+                "2": "HON'BLE SHRI JUSTICE S.J. KATHAWALLA",
+                "3": "01-02-2018",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "7",
+                "1": "NMS/1015/2019",
+                "2": "HON'BLE SHRI JUSTICE S.J. KATHAWALLA",
+                "3": "01-02-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "8",
+                "1": "NMS/1015/2019",
+                "2": "HON'BLE SHRI JUSTICE S.J. KATHAWALLA",
+                "3": "05-02-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "25-09-2018",
+                "Filed by": "SIDDHESH SHAM KSHIRSAGAR",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit in reply"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "30-08-2018",
+                "Filed by": "",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020143852019",
+        "search_year": 2019,
+        "raw_petitioner": "ANTIKEROS SHIPPIING CORPORATION",
+        "raw_respondent": "ADANI ENTERPRISES LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "NMA /593/2019",
+                "2": "Filing Date",
+                "3": "10-06-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "NMA /572/2019",
+                "2": "Registration Date",
+                "3": "18-06-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-014385-2019",
+                "2": "HCBM02-014385-2019",
+                "3": "HCBM02-014385-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "07th August 2019",
+            "Decision Date": "07th August 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE THE CHIEF JUSTICE , HON'BLE SHRI JUSTICE NITIN JAMDAR",
+            "Bench Type": "Division",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) ANTIKEROS SHIPPIING CORPORATION",
+        "respondent_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "acts": [
+            {
+                "Under Act(s)": "Arbitration and Conciliation Act 1996",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "NMA/572/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SHRI JUSTICE NITIN JAMDAR",
+                "3": "07-08-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020143872019",
+        "search_year": 2019,
+        "raw_petitioner": "ANTIKEROS SHIPPING CORPORATION",
+        "raw_respondent": "ADANI ENTERPRISES LIMITED.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "NMA /594/2019",
+                "2": "Filing Date",
+                "3": "10-06-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "NMA /571/2019",
+                "2": "Registration Date",
+                "3": "18-06-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-014387-2019",
+                "2": "HCBM02-014387-2019",
+                "3": "HCBM02-014387-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "07th August 2019",
+            "Decision Date": "07th August 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE THE CHIEF JUSTICE , HON'BLE SHRI JUSTICE NITIN JAMDAR",
+            "Bench Type": "Division",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) ANTIKEROS SHIPPING CORPORATION",
+        "respondent_advocate": "1) ADANI ENTERPRISES LIMITED.",
+        "acts": [
+            {
+                "Under Act(s)": "Arbitration and Conciliation Act 1996",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "NMA/571/2019",
+                "2": "HON'BLE THE CHIEF JUSTICE,HON'BLE SHRI JUSTICE NITIN JAMDAR",
+                "3": "07-08-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020262622019",
+        "search_year": 2019,
+        "raw_petitioner": "ADANI ENTERPRISES LIMITED",
+        "raw_respondent": "MAHAGUJ COLLIERIES LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CARBP /1290/2019",
+                "2": "Filing Date",
+                "3": "22-10-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CARBP /1434/2019",
+                "2": "Registration Date",
+                "3": "15-11-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-026262-2019",
+                "2": "HCBM02-026262-2019",
+                "3": "HCBM02-026262-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "13th November 2019",
+            "Decision Date": "13th November 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SHRI JUSTICE G.S. PATEL",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "respondent_advocate": "1) MAHAGUJ COLLIERIES LIMITED",
+        "acts": [
+            {
+                "Under Act(s)": "Arbitration and Conciliation Act 1996",
+                "Under Section(s)": "29A"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CARBP/1434/2019",
+                "2": "HON'BLE SHRI JUSTICE G.S. PATEL",
+                "3": "13-11-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020194702019",
+        "search_year": 2019,
+        "raw_petitioner": "MAHAGUJ COLLIERIES LIMITED",
+        "raw_respondent": "ADANI ENTERPRISES LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CARBP /865/2019",
+                "2": "Filing Date",
+                "3": "03-08-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CARBP /1077/2019",
+                "2": "Registration Date",
+                "3": "29-08-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-019470-2019",
+                "2": "HCBM02-019470-2019",
+                "3": "HCBM02-019470-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "17th February 2020",
+            "Decision Date": "17th February 2020",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SHRI JUSTICE G.S. PATEL",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) MAHAGUJ COLLIERIES LIMITED",
+        "respondent_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "acts": [
+            {
+                "Under Act(s)": "Arbitration and Conciliation Act 1996",
+                "Under Section(s)": 27
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CARBP/1077/2019",
+                "2": "HON'BLE SHRI JUSTICE G.S. PATEL",
+                "3": "17-02-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 4,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "HCBM040359072018",
+        "search_year": 2019,
+        "raw_petitioner": "ADANI POWER PLANT KAMGAR SHRAMIK SANGH, THROUGH ITS PRESIDENT HARISH UKANDRAO MORE, GONDIA",
+        "raw_respondent": "THE DEPUTY DIRECTOR, EXERCISING JURISDICTION UNDER THE TRADE UNIONS ACT, 1926, NAGPUR",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP /27001/2018",
+                "2": "Filing Date",
+                "3": "24-11-2018"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP /897/2019",
+                "2": "Registration Date",
+                "3": "31-01-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM04-035907-2018",
+                "2": "HCBM04-035907-2018",
+                "3": "HCBM04-035907-2018"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "11th February 2019",
+            "Decision Date": "18th February 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Dismissed/Rule Discharged",
+            "Coram": "HON'BLE SHRI JUSTICE Z.A. HAQ",
+            "Bench Type": "Single",
+            "Judicial Branch": "Civil",
+            "State": "MAHARASHTRA",
+            "District": "GONDIA"
+        },
+        "petitioner_advocate": "1) ADANI POWER PLANT KAMGAR SHRAMIK SANGH, THROUGH ITS PRESIDENT HARISH UKANDRAO MORE, GONDIA",
+        "respondent_advocate": "1) THE DEPUTY DIRECTOR, EXERCISING JURISDICTION UNDER THE TRADE UNIONS ACT, 1926, NAGPUR",
+        "acts": [
+            {
+                "Under Act(s)": "Trade Unions Act, 1926",
+                "Under Section(s)": "U/A226&227"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP/897/2019",
+                "2": "HON'BLE SHRI JUSTICE Z.A. HAQ",
+                "3": "18-02-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP/897/2019",
+                "2": "HON'BLE SHRI JUSTICE Z.A. HAQ",
+                "3": "11-02-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Calcutta High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "WBCHCO0014562019",
+        "search_year": 2019,
+        "raw_petitioner": "ADANI ENTERPRISES LTD",
+        "raw_respondent": "WEST BENGAL POWER DEVELOPMENT CORPORATION",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "AP /569/2019",
+                "2": "Filing Date",
+                "3": "17-06-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "AP /347/2019",
+                "2": "Registration Date",
+                "3": "17-06-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "WBCHCO-001456-2019",
+                "2": "WBCHCO-001456-2019",
+                "3": "WBCHCO-001456-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "22nd August 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--DISPOSED",
+            "Coram": "HON'BLE JUSTICE ARINDAM SINHA",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "CURRENT RECORD DEPARTMENT",
+            "State": "West Bengal",
+            "District": "KOLKATA",
+            "Not Before Me": "JUDGE NAME UNKNOWN"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD",
+        "respondent_advocate": "1) WEST BENGAL POWER DEVELOPMENT CORPORATION",
+        "acts": [
+            {
+                "Under Act(s)": "Arbitration and Conciliation Act ,1996",
+                "Under Section(s)": "29A"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "Daily List",
+                "Judge": "HON'BLE JUSTICE ARINDAM SINHA",
+                "Business On Date": "",
+                "Hearing Date": "24-06-2019",
+                "Purpose of hearing": "NEW MOTIONS(1)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE JUSTICE ARINDAM SINHA",
+                "Business On Date": "22-08-2019",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "Daily List",
+                "Judge": "HON'BLE JUSTICE ARINDAM SINHA",
+                "Business On Date": "24-06-2019",
+                "Hearing Date": "27-06-2019",
+                "Purpose of hearing": "NEW MOTIONS(1)"
+            }
+        ],
+        "orders": [],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "17-06-2019",
+                "Filed by": "ADANI ENTERPRISES LTD",
+                "Name of Advocate": "ASHOK KUMAR SINGH",
+                "Document Filed": "PETITION"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "17-06-2019",
+                "Filed by": "ADANI ENTERPRISES LTD",
+                "Name of Advocate": "ASHOK KUMAR SINGH",
+                "Document Filed": "VAKALATNAMA"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "17-06-2019",
+                "Filed by": "ADANI ENTERPRISES LTD",
+                "Name of Advocate": "A. K SINGH",
+                "Document Filed": "AFFIDAVIT OF COMPETANCY"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 4,
+                "Date of Receiving": "17-06-2019",
+                "Filed by": "ADANI ENTERPRISES LTD",
+                "Name of Advocate": "A K SINGH",
+                "Document Filed": "NOTICE OF MOTION"
+            }
+        ],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "17-06-2019",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Calcutta High Court",
+        "bench_id": 3,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "WBCHCA0110242019",
+        "search_year": 2019,
+        "raw_petitioner": "ADANI ENTERPRISES LTD",
+        "raw_respondent": "UNION OF INDIA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "FMAT /11024/2019",
+                "2": "Filing Date",
+                "3": "25-02-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "FMAT /234/2019",
+                "2": "Registration Date",
+                "3": "25-02-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "WBCHCA-011024-2019",
+                "2": "WBCHCA-011024-2019",
+                "3": "WBCHCA-011024-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Next Hearing Date": "07th August 2019",
+            "Stage of Case": "ORDER XLI RULE 11",
+            "Coram": "HON'BLE JUSTICE I. P. MUKERJI , HON'BLE JUSTICE BISWAROOP CHOWDHURY",
+            "Bench Type": "Division Bench",
+            "Judicial Branch": "STAMP REPORTER (SR) SECTION"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD",
+        "respondent_advocate": "1) UNION OF INDIA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Himachal Pradesh High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "HPHC010035542019",
+        "search_year": 2019,
+        "raw_petitioner": "M/S ADANI POWER LIMITED",
+        "raw_respondent": "STATE OF HP",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CWP /2669/2019",
+                "2": "Filing Date",
+                "3": "27-02-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CWP /406/2019",
+                "2": "Registration Date",
+                "3": "01-03-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HPHC01-003554-2019",
+                "2": "HPHC01-003554-2019",
+                "3": "HPHC01-003554-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "24th September 2021",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--Disposed Off",
+            "Coram": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+            "Bench Type": "Single",
+            "Judicial Branch": "Civil Section",
+            "State": "HIMACHAL PRADESH",
+            "District": "SHIMLA"
+        },
+        "petitioner_advocate": "1) M/S ADANI POWER LIMITED(Not Applicable)",
+        "respondent_advocate": "1) STATE OF HP(Not Applicable)",
+        "acts": [
+            {
+                "Under Act(s)": "CODE OF CIVIL PROCEDURE, 1908",
+                "Under Section(s)": "A-226"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE SURYA KANT , HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "",
+                "Hearing Date": "19-03-2019",
+                "Purpose of hearing": "NOTICE BEFORE ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "12-04-2022",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "14-03-2022",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "04-03-2022",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "23-02-2022",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "02-12-2021",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "23-11-2021",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "24-09-2021",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "06-09-2021",
+                "Hearing Date": "",
+                "Purpose of hearing": "HEARING"
+            },
+            {
+                "Cause List Type": "Supplementary",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "02-09-2021",
+                "Hearing Date": "",
+                "Purpose of hearing": "HEARING"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "25-08-2021",
+                "Hearing Date": "",
+                "Purpose of hearing": "HEARING"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "20-04-2021",
+                "Hearing Date": "",
+                "Purpose of hearing": "HEARING"
+            },
+            {
+                "Cause List Type": "Supplementary",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "17-03-2021",
+                "Hearing Date": "20-04-2021",
+                "Purpose of hearing": "HEARING"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "16-03-2021",
+                "Hearing Date": "17-03-2021",
+                "Purpose of hearing": "HEARING"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "05-11-2020",
+                "Hearing Date": "26-11-2020",
+                "Purpose of hearing": "ORDERS"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "06-10-2020",
+                "Hearing Date": "05-11-2020",
+                "Purpose of hearing": "ORDERS"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY , HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "Business On Date": "28-09-2020",
+                "Hearing Date": "",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY , HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "Business On Date": "01-09-2020",
+                "Hearing Date": "28-09-2020",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY , HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "Business On Date": "05-08-2020",
+                "Hearing Date": "01-09-2020",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY , HON'BLE MS. JUSTICE JYOTSNA REWAL DUA",
+                "Business On Date": "17-03-2020",
+                "Hearing Date": "",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY , HON'BLE MS. JUSTICE JYOTSNA REWAL DUA",
+                "Business On Date": "04-03-2020",
+                "Hearing Date": "17-03-2020",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY , HON'BLE MS. JUSTICE JYOTSNA REWAL DUA",
+                "Business On Date": "24-12-2019",
+                "Hearing Date": "",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY , HON'BLE MS. JUSTICE JYOTSNA REWAL DUA",
+                "Business On Date": "19-12-2019",
+                "Hearing Date": "",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Production",
+                "Judge": "HONOURABLE MR. JUSTICE DHARAM CHAND CHAUDHARY , HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "Business On Date": "04-12-2019",
+                "Hearing Date": "18-12-2019",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY , HONOURABLE MR. JUSTICE DHARAM CHAND CHAUDHARY",
+                "Business On Date": "07-11-2019",
+                "Hearing Date": "",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN , HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "Business On Date": "19-09-2019",
+                "Hearing Date": "07-11-2019",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Supplementary",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN , HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "Business On Date": "16-09-2019",
+                "Hearing Date": "",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Production",
+                "Judge": "HONOURABLE MR. JUSTICE DHARAM CHAND CHAUDHARY , HON'BLE MS. JUSTICE JYOTSNA REWAL DUA",
+                "Business On Date": "12-09-2019",
+                "Hearing Date": "16-09-2019",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Production",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN , HON'BLE MR. JUSTICE CHANDER BHUSAN BAROWALIA",
+                "Business On Date": "05-09-2019",
+                "Hearing Date": "",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Production",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN , HON'BLE MR. JUSTICE CHANDER BHUSAN BAROWALIA",
+                "Business On Date": "03-09-2019",
+                "Hearing Date": "",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Supplementary",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN , HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "Business On Date": "29-08-2019",
+                "Hearing Date": "03-09-2019",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Supplementary",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN , HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "Business On Date": "28-08-2019",
+                "Hearing Date": "29-08-2019",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN , HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "Business On Date": "26-08-2019",
+                "Hearing Date": "28-08-2019",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN , HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "Business On Date": "06-08-2019",
+                "Hearing Date": "",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN , HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "Business On Date": "11-07-2019",
+                "Hearing Date": "06-08-2019",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE MR. JUSTICE DHARAM CHAND CHAUDHARY, ACTING CHIEF JUSTICE , HON'BLE MS. JUSTICE JYOTSNA REWAL DUA",
+                "Business On Date": "20-06-2019",
+                "Hearing Date": "11-07-2019",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE SURYA KANT , HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "26-04-2019",
+                "Hearing Date": "20-06-2019",
+                "Purpose of hearing": "ADMISSION AFTER NOTICE"
+            },
+            {
+                "Cause List Type": "Daily",
+                "Judge": "HONOURABLE THE CHIEF JUSTICE SURYA KANT , HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "Business On Date": "19-03-2019",
+                "Hearing Date": "26-04-2019",
+                "Purpose of hearing": "NOTICE BEFORE ADMISSION"
+            }
+        ],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE SURYA KANT,HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "19-03-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE SURYA KANT,HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "26-04-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE MR. JUSTICE DHARAM CHAND CHAUDHARY, ACTING CHIEF JUSTICE,HON'BLE MS. JUSTICE JYOTSNA REWAL DUA",
+                "3": "20-06-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "4",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN,HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "3": "11-07-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "5",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN,HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "3": "06-08-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "6",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN,HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "3": "26-08-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "7",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN,HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "3": "28-08-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "8",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN,HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "3": "29-08-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "9",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN,HON'BLE MR. JUSTICE CHANDER BHUSAN BAROWALIA",
+                "3": "03-09-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "10",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN,HON'BLE MR. JUSTICE CHANDER BHUSAN BAROWALIA",
+                "3": "05-09-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "11",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE MR. JUSTICE DHARAM CHAND CHAUDHARY,HON'BLE MS. JUSTICE JYOTSNA REWAL DUA",
+                "3": "12-09-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "12",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN,HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "3": "16-09-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "13",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE V .RAMASUBRAMANIAN,HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "3": "19-09-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "14",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY,HONOURABLE MR. JUSTICE DHARAM CHAND CHAUDHARY",
+                "3": "07-11-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "15",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE MR. JUSTICE DHARAM CHAND CHAUDHARY,HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "3": "04-12-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "16",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY,HON'BLE MS. JUSTICE JYOTSNA REWAL DUA",
+                "3": "19-12-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "17",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY,HON'BLE MS. JUSTICE JYOTSNA REWAL DUA",
+                "3": "24-12-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "18",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY,HON'BLE MS. JUSTICE JYOTSNA REWAL DUA",
+                "3": "04-03-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "19",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY,HON'BLE MS. JUSTICE JYOTSNA REWAL DUA",
+                "3": "17-03-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "20",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY,HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "3": "17-07-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "21",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY,HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "3": "05-08-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "22",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY,HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "3": "01-09-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "23",
+                "1": "CWP/406/2019",
+                "2": "HONOURABLE THE CHIEF JUSTICE L. NARAYANA SWAMY,HON'BLE MR. JUSTICE ANOOP CHITKARA",
+                "3": "28-09-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "24",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "06-10-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "25",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "05-11-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "26",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "17-03-2021",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "27",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "20-04-2021",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "28",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "25-08-2021",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "29",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "02-09-2021",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "30",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "06-09-2021",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "31",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "24-09-2021",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "32",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "22-10-2021",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "33",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "15-11-2021",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "34",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "23-11-2021",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "35",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "23-02-2022",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "36",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "04-03-2022",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "37",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "14-03-2022",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "38",
+                "1": "CWP/406/2019",
+                "2": "HON'BLE MR. JUSTICE SANDEEP SHARMA",
+                "3": "12-04-2022",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "24-04-2019",
+                "Filed by": "M/S ADANI POWER LIMITED",
+                "Name of Advocate": "Janesh Gupta",
+                "Document Filed": "Reply"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "09-07-2019",
+                "Filed by": "STATE OF HP",
+                "Name of Advocate": "AG",
+                "Document Filed": "COMPLIANCE AFFIDAVIT"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "26-07-2019",
+                "Filed by": "STATE OF HP",
+                "Name of Advocate": "AG",
+                "Document Filed": "Reply"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 4,
+                "Date of Receiving": "02-08-2019",
+                "Filed by": "M/S ADANI POWER LIMITED",
+                "Name of Advocate": "Janesh Gupta",
+                "Document Filed": "Rejoinder"
+            },
+            {
+                "Sr. No.": 5,
+                "Document No.": 5,
+                "Date of Receiving": "22-08-2019",
+                "Filed by": "STATE OF HP",
+                "Name of Advocate": "AG",
+                "Document Filed": "ADDITIONAL AFFIDAVIT"
+            },
+            {
+                "Sr. No.": 6,
+                "Document No.": 6,
+                "Date of Receiving": "30-08-2019",
+                "Filed by": "M/S ADANI POWER LIMITED",
+                "Name of Advocate": "Janesh Gupta",
+                "Document Filed": "Submission"
+            },
+            {
+                "Sr. No.": 7,
+                "Document No.": 7,
+                "Date of Receiving": "16-04-2021",
+                "Filed by": "STATE OF HP",
+                "Name of Advocate": "AG",
+                "Document Filed": "Affidavit"
+            },
+            {
+                "Sr. No.": 8,
+                "Document No.": 8,
+                "Date of Receiving": "04-09-2021",
+                "Filed by": "STATE OF HP",
+                "Name of Advocate": "Virender Thakur",
+                "Document Filed": "Power of Attorney"
+            },
+            {
+                "Sr. No.": 9,
+                "Document No.": 9,
+                "Date of Receiving": "23-09-2021",
+                "Filed by": "STATE OF HP",
+                "Name of Advocate": "AG",
+                "Document Filed": "Reply"
+            },
+            {
+                "Sr. No.": 10,
+                "Document No.": 10,
+                "Date of Receiving": "04-10-2021",
+                "Filed by": "M/S ADANI POWER LIMITED",
+                "Name of Advocate": "Janesh Gupta",
+                "Document Filed": "Reply"
+            }
+        ],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "27-02-2019",
+                "2": "Other Objection : 1. One of the necessary paragraph is not mentioned in the grounds. 2. Ann. G and Ann.I are Too dim at few places to be read easily i.e Page no. 136,137,144,146,149,150,155,156,158 and Page no. 165.",
+                "3": "06-03-2019",
+                "4": ""
+            },
+            {
+                "0": "2",
+                "1": "01-03-2019",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Himachal Pradesh High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "HPHC010194172019",
+        "search_year": 2019,
+        "raw_petitioner": "M/S ADANI POWER LIMITED",
+        "raw_respondent": "STATE OF HP",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CMP /15014/2019",
+                "2": "Filing Date",
+                "3": "23-08-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CMP /8433/2019",
+                "2": "Registration Date",
+                "3": "27-08-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HPHC01-019417-2019",
+                "2": "HPHC01-019417-2019",
+                "3": "HPHC01-019417-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "24th September 2021",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Disposed Off",
+            "Court Number and Judge": "",
+            "Bench Type": "Single",
+            "Judicial Branch": "Civil Section",
+            "State": "HIMACHAL PRADESH",
+            "District": "SHIMLA"
+        },
+        "petitioner_advocate": "1) M/S ADANI POWER LIMITED(Not Applicable)",
+        "respondent_advocate": "1) STATE OF HP(Not Applicable)",
+        "acts": [
+            {
+                "Under Act(s)": "CODE OF CIVIL PROCEDURE, 1908",
+                "Under Section(s)": 151
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "27-08-2019",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Himachal Pradesh High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "HPHC010194162019",
+        "search_year": 2019,
+        "raw_petitioner": "M/S ADANI POWER LIMITED",
+        "raw_respondent": "STATE OF HP",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CMP /15013/2019",
+                "2": "Filing Date",
+                "3": "23-08-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CMP /8430/2019",
+                "2": "Registration Date",
+                "3": "27-08-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HPHC01-019416-2019",
+                "2": "HPHC01-019416-2019",
+                "3": "HPHC01-019416-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "24th September 2021",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Disposed Off",
+            "Court Number and Judge": "",
+            "Bench Type": "Single",
+            "Judicial Branch": "Civil Section",
+            "State": "HIMACHAL PRADESH",
+            "District": "SHIMLA"
+        },
+        "petitioner_advocate": "1) M/S ADANI POWER LIMITED(Not Applicable)",
+        "respondent_advocate": "1) STATE OF HP(Not Applicable)",
+        "acts": [
+            {
+                "Under Act(s)": "CODE OF CIVIL PROCEDURE, 1908",
+                "Under Section(s)": 151
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "27-08-2019",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Himachal Pradesh High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "HPHC010128902019",
+        "search_year": 2019,
+        "raw_petitioner": "M/S ADANI POWER LIMITED",
+        "raw_respondent": "STATE OF HP",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CMP /9946/2019",
+                "2": "Filing Date",
+                "3": "15-06-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CMP /5381/2019",
+                "2": "Registration Date",
+                "3": "17-06-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HPHC01-012890-2019",
+                "2": "HPHC01-012890-2019",
+                "3": "HPHC01-012890-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "20th June 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Allowed",
+            "Court Number and Judge": "",
+            "Bench Type": "Single",
+            "Judicial Branch": "Civil Section",
+            "State": "HIMACHAL PRADESH",
+            "District": "SHIMLA"
+        },
+        "petitioner_advocate": "1) M/S ADANI POWER LIMITED(Not Applicable)",
+        "respondent_advocate": "1) STATE OF HP(Not Applicable)   Advocate- ag 1123",
+        "acts": [
+            {
+                "Under Act(s)": "CODE OF CIVIL PROCEDURE, 1908",
+                "Under Section(s)": 151
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "17-06-2019",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Himachal Pradesh High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "HPHC010081802019",
+        "search_year": 2019,
+        "raw_petitioner": "M/S ADANI POWER LIMITED",
+        "raw_respondent": "STATE OF HP",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CMP /6317/2019",
+                "2": "Filing Date",
+                "3": "22-04-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CMP /3369/2019",
+                "2": "Registration Date",
+                "3": "22-04-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HPHC01-008180-2019",
+                "2": "HPHC01-008180-2019",
+                "3": "HPHC01-008180-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "24th September 2021",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Disposed Off",
+            "Court Number and Judge": "",
+            "Bench Type": "Single",
+            "Judicial Branch": "Civil Section",
+            "State": "HIMACHAL PRADESH",
+            "District": "SHIMLA"
+        },
+        "petitioner_advocate": "1) M/S ADANI POWER LIMITED(Not Applicable)",
+        "respondent_advocate": "1) STATE OF HP(Not Applicable)   Advocate- AG 1123",
+        "acts": [
+            {
+                "Under Act(s)": "CODE OF CIVIL PROCEDURE, 1908",
+                "Under Section(s)": "u/s 151"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "22-04-2019",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Karnataka High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "KAHC010015652019",
+        "search_year": 2019,
+        "raw_petitioner": "ADANI ENTERPRISES LTD.,",
+        "raw_respondent": "KARNATAKA POWER CORPORATION LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP /4996/2019",
+                "2": "Filing Date",
+                "3": "25-01-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP /4996/2019",
+                "2": "Registration Date",
+                "3": "25-01-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "KAHC01-001565-2019",
+                "2": "KAHC01-001565-2019",
+                "3": "KAHC01-001565-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "29th January 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED",
+            "Coram": "ALOK ARADHE",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Judicial Section",
+            "State": "",
+            "District": "",
+            "Not Before Me": "Unknown"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD.,",
+        "respondent_advocate": "1) KARNATAKA POWER CORPORATION LIMITED",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "ALOK ARADHE",
+                "Business On Date": "29-01-2019",
+                "Hearing Date": "29-01-2019",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "ALOK ARADHE",
+                "Business On Date": "29-01-2019",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            }
+        ],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP/4996/2019",
+                "2": "ALOK ARADHE",
+                "3": "29-01-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "25-01-2019",
+                "Filed by": "P1",
+                "Document Filed": "Vakalat"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Rajasthan High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "RJHC020633122019",
+        "search_year": 2019,
+        "raw_petitioner": "M/S ADANI ENTERPRISES LTD.",
+        "raw_respondent": "M/S BALAJI INDUSTRIES PRODUCTS LTD.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CMS /37642/2019",
+                "2": "Filing Date",
+                "3": "18-07-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CMS /11424/2019",
+                "2": "Registration Date",
+                "3": "18-07-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "RJHC02-063312-2019",
+                "2": "RJHC02-063312-2019",
+                "3": "RJHC02-063312-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "19th July 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--DISPOSED OF",
+            "Coram": "ASHOK KUMAR GAUR",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "WRIT",
+            "State": "",
+            "District": ""
+        },
+        "petitioner_advocate": "1) M/S ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) M/S BALAJI INDUSTRIES PRODUCTS LTD.",
+        "acts": [
+            {
+                "Under Act(s)": "Other Acts",
+                "Under Section(s)": "no"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "18-07-2019",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Rajasthan High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "RJHC020164262019",
+        "search_year": 2019,
+        "raw_petitioner": "THE STATE OF RAJASTHAN",
+        "raw_respondent": "ADANI POWER RAJASTHAN LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CMS /10544/2019",
+                "2": "Filing Date",
+                "3": "18-02-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CMS /3773/2019",
+                "2": "Registration Date",
+                "3": "21-02-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "RJHC02-016426-2019",
+                "2": "RJHC02-016426-2019",
+                "3": "RJHC02-016426-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "06th February 2020",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISMISSED",
+            "Court Number and Judge": "",
+            "Bench Type": "Division Bench",
+            "Judicial Branch": "WRIT",
+            "State": "",
+            "District": ""
+        },
+        "petitioner_advocate": "1) THE STATE OF RAJASTHAN",
+        "respondent_advocate": "1) ADANI POWER RAJASTHAN LIMITED",
+        "acts": [
+            {
+                "Under Act(s)": "Other Acts",
+                "Under Section(s)": "no"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "18-02-2019",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Rajasthan High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "RJHC020633112019",
+        "search_year": 2019,
+        "raw_petitioner": "M/S ADANI ENTERPRISES LTD.",
+        "raw_respondent": "M/S BALAJI INDUSTRIES PRODUCTS LTD.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CW /37641/2019",
+                "2": "Filing Date",
+                "3": "18-07-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CW /12173/2019",
+                "2": "Registration Date",
+                "3": "18-07-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "RJHC02-063311-2019",
+                "2": "RJHC02-063311-2019",
+                "3": "RJHC02-063311-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "19th July 2019",
+            "Decision Date": "19th July 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--DISMISSED",
+            "Coram": "ASHOK KUMAR GAUR",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "WRIT"
+        },
+        "petitioner_advocate": "1) M/S ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) M/S BALAJI INDUSTRIES PRODUCTS LTD.",
+        "acts": [
+            {
+                "Under Act(s)": "Other Acts",
+                "Under Section(s)": "NO"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CW/12173/2019",
+                "2": "ASHOK KUMAR GAUR",
+                "3": "19-07-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "18-07-2019",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Rajasthan High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "RJHC020164232019",
+        "search_year": 2019,
+        "raw_petitioner": "THE STATE OF RAJASTHAN",
+        "raw_respondent": "ADANI POWER RAJASTHAN LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "SAW /10542/2019",
+                "2": "Filing Date",
+                "3": "18-02-2019"
+            },
+            {
+                "0": "Registration Number",
+                "1": "SAW /395/2019",
+                "2": "Registration Date",
+                "3": "21-02-2019"
+            },
+            {
+                "0": "CNR Number",
+                "1": "RJHC02-016423-2019",
+                "2": "RJHC02-016423-2019",
+                "3": "RJHC02-016423-2019"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "06th February 2020",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--DISMISSED",
+            "Coram": "SANGEET LODHA , MAHENDAR KUMAR GOYAL",
+            "Bench Type": "Division Bench",
+            "Judicial Branch": "WRIT"
+        },
+        "petitioner_advocate": "1) THE STATE OF RAJASTHAN",
+        "respondent_advocate": "1) ADANI POWER RAJASTHAN LIMITED",
+        "acts": [
+            {
+                "Under Act(s)": "Other Acts",
+                "Under Section(s)": "NO"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "SAW/395/2019",
+                "2": "MOHAMMAD RAFIQ,GOVERDHAN BARDHAR",
+                "3": "10-04-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "SAW/395/2019",
+                "2": "SANGEET LODHA,MAHENDAR KUMAR GOYAL",
+                "3": "06-02-2020",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 25009,
+                "Date of Receiving": "01-04-2019",
+                "Filed by": "THE STATE OF RAJASTHAN",
+                "Name of Advocate": "RB MATHUR",
+                "Document Filed": "OTHERS"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 30009,
+                "Date of Receiving": "12-04-2019",
+                "Filed by": "THE STATE OF RAJASTHAN",
+                "Name of Advocate": "RB MATHUR",
+                "Document Filed": "NOTICE+EXTRA"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 61830,
+                "Date of Receiving": "06-08-2019",
+                "Filed by": "THE STATE OF RAJASTHAN",
+                "Name of Advocate": "ABHISHEK SHARMA",
+                "Document Filed": "POWER"
+            }
+        ],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "18-02-2019",
+                "2": "Other Objection : DEFECT (1) As per paras, present appeal filed on behalf of the Appellant/Non-Petitioners No. 1 to 3, hence title pages not proper. Vakalatnama not proper/incomplete. (2) Provision of law not correct in subject. (3) Marking of notes of appeal not numbered consecutively. (4) Second set not initialed. (5) Application dated 28.11.2018 of the SBCW Petition not filed with the paper book set of the SBCW Petition.",
+                "3": "25-02-2019",
+                "4": ""
+            },
+            {
+                "0": "2",
+                "1": "08-04-2019",
+                "2": "All Objections are Complied",
+                "3": "08-04-2019",
+                "4": ""
+            }
+        ]
+    }
+]

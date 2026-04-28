@@ -1,0 +1,2246 @@
+[
+    {
+        "state": "Calcutta High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "WBCHCO0001362010",
+        "search_year": 2010,
+        "raw_petitioner": "ADANI ENTERPRISES LTD.",
+        "raw_respondent": "UNION OF INDIA & ORS.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "APO /136/2010",
+                "2": "Filing Date",
+                "3": "07-01-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "APO /32/2010",
+                "2": "Registration Date",
+                "3": "07-01-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "WBCHCO-000136-2010",
+                "2": "WBCHCO-000136-2010",
+                "3": "WBCHCO-000136-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "12th January 2010",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED",
+            "Coram": "HON'BLE JUSTICE KALYAN JYOTI SENGUPTA , HON'BLE JUSTICE I. P. MUKERJI",
+            "Bench Type": "Division Bench",
+            "Judicial Branch": "APPEAL SECTION",
+            "Not Before Me": "JUDGE NAME UNKNOWN"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) UNION OF INDIA & ORS.",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240438722010",
+        "search_year": 2010,
+        "raw_petitioner": "NEW INDIA ASSURANCE CO LTD, REGISTERED OFFICE AT 87, MG ROAD",
+        "raw_respondent": "ADANI ENTERPRISES LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "FA /323/2010",
+                "2": "Filing Date",
+                "3": "28-01-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "FA /1181/2010",
+                "2": "Registration Date",
+                "3": "28-01-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-043872-2010",
+                "2": "GJHC24-043872-2010",
+                "3": "GJHC24-043872-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "27th July 2010",
+            "Next Hearing Date": "08th April 2026",
+            "Stage of Case": "182-FOR FINAL HEARING",
+            "Coram": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR.JUSTICE L. S. PIRZADA",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD",
+            "Not Before Me": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN"
+        },
+        "petitioner_advocate": "1) NEW INDIA ASSURANCE CO LTD, REGISTERED OFFICE AT 87, MG ROAD",
+        "respondent_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "acts": [
+            {
+                "Under Act(s)": "CIVIL PROCEDURE CODE, 1908",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR.JUSTICE L. S. PIRZADA",
+                "Business On Date": "01-04-2026",
+                "Hearing Date": "08-04-2026",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR.JUSTICE L. S. PIRZADA",
+                "Business On Date": "25-03-2026",
+                "Hearing Date": "01-04-2026",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR.JUSTICE L. S. PIRZADA",
+                "Business On Date": "18-03-2026",
+                "Hearing Date": "25-03-2026",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR.JUSTICE L. S. PIRZADA",
+                "Business On Date": "11-03-2026",
+                "Hearing Date": "18-03-2026",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "25-02-2026",
+                "Hearing Date": "11-03-2026",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "18-02-2026",
+                "Hearing Date": "25-02-2026",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "11-02-2026",
+                "Hearing Date": "18-02-2026",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "04-02-2026",
+                "Hearing Date": "11-02-2026",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "28-01-2026",
+                "Hearing Date": "04-02-2026",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "21-01-2026",
+                "Hearing Date": "28-01-2026",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "07-01-2026",
+                "Hearing Date": "21-01-2026",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "24-12-2025",
+                "Hearing Date": "07-01-2026",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "17-12-2025",
+                "Hearing Date": "24-12-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "10-12-2025",
+                "Hearing Date": "17-12-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "03-12-2025",
+                "Hearing Date": "10-12-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "26-11-2025",
+                "Hearing Date": "03-12-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "19-11-2025",
+                "Hearing Date": "26-11-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "12-11-2025",
+                "Hearing Date": "19-11-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "15-10-2025",
+                "Hearing Date": "12-11-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "08-10-2025",
+                "Hearing Date": "15-10-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "01-10-2025",
+                "Hearing Date": "08-10-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "24-09-2025",
+                "Hearing Date": "01-10-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE J. L. ODEDRA",
+                "Business On Date": "15-09-2025",
+                "Hearing Date": "16-10-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.Y. KOGJE , HONOURABLE MR.JUSTICE N.S.SANJAY GOWDA",
+                "Business On Date": "05-08-2025",
+                "Hearing Date": "15-09-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN , HONOURABLE MR.JUSTICE MOOL CHAND TYAGI",
+                "Business On Date": "23-07-2025",
+                "Hearing Date": "",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "WEDNESDAY WEEKLY LIST",
+                "Judge": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN , HONOURABLE MR.JUSTICE MOOL CHAND TYAGI",
+                "Business On Date": "16-07-2025",
+                "Hearing Date": "23-07-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN , HONOURABLE MR.JUSTICE MOOL CHAND TYAGI",
+                "Business On Date": "10-07-2025",
+                "Hearing Date": "25-08-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN , HONOURABLE MR.JUSTICE MOOL CHAND TYAGI",
+                "Business On Date": "16-06-2025",
+                "Hearing Date": "09-07-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN , HONOURABLE MR. JUSTICE NIRAL R. MEHTA",
+                "Business On Date": "17-03-2025",
+                "Hearing Date": "16-06-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN , HONOURABLE MR. JUSTICE NIRAL R. MEHTA",
+                "Business On Date": "20-01-2025",
+                "Hearing Date": "17-03-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN , HONOURABLE MR.JUSTICE SANJEEV J.THAKER",
+                "Business On Date": "19-12-2024",
+                "Hearing Date": "20-01-2025",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN , HONOURABLE MR.JUSTICE SANJEEV J.THAKER",
+                "Business On Date": "22-10-2024",
+                "Hearing Date": "19-12-2024",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN , HONOURABLE MR.JUSTICE SANJEEV J.THAKER",
+                "Business On Date": "10-10-2024",
+                "Hearing Date": "22-10-2024",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BIREN VAISHNAV , HONOURABLE MS. JUSTICE NISHA M. THAKORE",
+                "Business On Date": "05-09-2024",
+                "Hearing Date": "10-10-2024",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BIREN VAISHNAV , HONOURABLE MS. JUSTICE NISHA M. THAKORE",
+                "Business On Date": "18-07-2024",
+                "Hearing Date": "05-09-2024",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BIREN VAISHNAV , HONOURABLE MS. JUSTICE NISHA M. THAKORE",
+                "Business On Date": "20-06-2024",
+                "Hearing Date": "18-07-2024",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN , HONOURABLE MS. JUSTICE NISHA M. THAKORE",
+                "Business On Date": "26-04-2024",
+                "Hearing Date": "20-06-2024",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN , HONOURABLE MS. JUSTICE NISHA M. THAKORE",
+                "Business On Date": "27-03-2024",
+                "Hearing Date": "26-04-2024",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MS. JUSTICE SANGEETA K. VISHEN , HONOURABLE MS. JUSTICE NISHA M. THAKORE",
+                "Business On Date": "27-02-2024",
+                "Hearing Date": "27-03-2024",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BIREN VAISHNAV , HONOURABLE MS. JUSTICE NISHA M. THAKORE",
+                "Business On Date": "24-01-2024",
+                "Hearing Date": "27-02-2024",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE UMESH A. TRIVEDI , HONOURABLE MR. JUSTICE SAMIR J. DAVE",
+                "Business On Date": "02-11-2023",
+                "Hearing Date": "24-01-2024",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE UMESH A. TRIVEDI , HONOURABLE MRS. JUSTICE M. K. THAKKER",
+                "Business On Date": "21-09-2023",
+                "Hearing Date": "02-11-2023",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE D.H.WAGHELA , HONOURABLE MR. JUSTICE Z.K.SAIYED",
+                "Business On Date": "26-09-2012",
+                "Hearing Date": "26-09-2012",
+                "Purpose of hearing": "182-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE JAYANT PATEL , HONOURABLE MR. JUSTICE H.B.ANTANI",
+                "Business On Date": "18-10-2010",
+                "Hearing Date": "29-06-2011",
+                "Purpose of hearing": "323-FOR FINAL HEARING - F.A."
+            }
+        ],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "FA/1181/2010",
+                "2": "HONOURABLE MR. JUSTICE K.M.THAKER,HONOURABLE MS. JUSTICE SANGEETA K. VISHEN",
+                "3": "23-07-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "28-01-2010",
+                "Filed by": "NEW INDIA ASSURANCE CO LTD, REGISTERED OFFICE AT 87, MG ROAD",
+                "Name of Advocate": "MR GC MAZMUDAR",
+                "Document Filed": "MEMO OF PETITION/APPEAL/SUIT"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 3,
+                "Date of Receiving": "01-04-2010",
+                "Filed by": "NEW INDIA ASSURANCE CO LTD, REGISTERED OFFICE AT 87, MG ROAD",
+                "Name of Advocate": "MR GC MAZMUDAR",
+                "Document Filed": "MEMO OF PETITION/APPEAL/SUIT"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 4,
+                "Date of Receiving": "13-04-2010",
+                "Filed by": "NEW INDIA ASSURANCE CO LTD, REGISTERED OFFICE AT 87, MG ROAD",
+                "Name of Advocate": "MR GC MAZMUDAR",
+                "Document Filed": "VAKALATNAMA"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 6,
+                "Date of Receiving": "15-08-2010",
+                "Filed by": "NEW INDIA ASSURANCE CO LTD, REGISTERED OFFICE AT 87, MG ROAD",
+                "Name of Advocate": "MR GC MAZMUDAR",
+                "Document Filed": "VAKALATNAMA"
+            },
+            {
+                "Sr. No.": 5,
+                "Document No.": 11,
+                "Date of Receiving": "15-08-2010",
+                "Filed by": "NEW INDIA ASSURANCE CO LTD, REGISTERED OFFICE AT 87, MG ROAD",
+                "Name of Advocate": "MR HG MAZMUDAR",
+                "Document Filed": "VAKALATNAMA"
+            },
+            {
+                "Sr. No.": 6,
+                "Document No.": 2,
+                "Date of Receiving": "28-01-2010",
+                "Filed by": "NEW INDIA ASSURANCE CO LTD, REGISTERED OFFICE AT 87, MG ROAD",
+                "Name of Advocate": "MR GC MAZMUDAR",
+                "Document Filed": "CERTIFIED COPY"
+            },
+            {
+                "Sr. No.": 7,
+                "Document No.": 7,
+                "Date of Receiving": "15-08-2010",
+                "Filed by": "ADANI ENTERPRISES LIMITED",
+                "Name of Advocate": "MR AMAR N BHATT",
+                "Document Filed": "VAKALATNAMA"
+            },
+            {
+                "Sr. No.": 8,
+                "Document No.": 5,
+                "Date of Receiving": "13-12-2012",
+                "Filed by": "ADANI ENTERPRISES LIMITED",
+                "Name of Advocate": "MR AMAR N BHATT",
+                "Document Filed": "UNDERTAKING"
+            },
+            {
+                "Sr. No.": 9,
+                "Document No.": 12,
+                "Date of Receiving": "20-02-2026",
+                "Filed by": "ADANI ENTERPRISES LIMITED",
+                "Name of Advocate": "MR KUNAL P VAISHNAV(5111)",
+                "Document Filed": "VAKALATNAMA"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "GJHC240159122010",
+        "search_year": 2010,
+        "raw_petitioner": "NARSHI HIRJI SORATHIA",
+        "raw_respondent": "ADANI POWER LTD",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "SCA /1432/2010",
+                "2": "Filing Date",
+                "3": "11-02-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "SCA /7734/2010",
+                "2": "Registration Date",
+                "3": "11-02-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-015912-2010",
+                "2": "GJHC24-015912-2010",
+                "3": "GJHC24-015912-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "26th March 2010",
+            "Decision Date": "07th July 2010",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--28-REJECTED @ ADM.STAGE",
+            "Coram": "HONOURABLE MR. JUSTICE ANANT S. DAVE",
+            "Bench Type": "SINGLE",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "KACHCHH"
+        },
+        "petitioner_advocate": "1) NARSHI HIRJI SORATHIA",
+        "respondent_advocate": "1) ADANI POWER LTD",
+        "acts": [
+            {
+                "Under Act(s)": "CIVIL PROCEDURE CODE, 1908",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "GJHC240116772010",
+        "search_year": 2010,
+        "raw_petitioner": "M/S ADANI POWER LIMITED",
+        "raw_respondent": "UNION OF INDIA, THROUGH SECRETARY, MINISTRY OF FINANCE",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "SCA /3119/2010",
+                "2": "Filing Date",
+                "3": "04-03-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "SCA /3142/2010",
+                "2": "Registration Date",
+                "3": "04-03-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-011677-2010",
+                "2": "GJHC24-011677-2010",
+                "3": "GJHC24-011677-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "11th March 2010",
+            "Decision Date": "15th July 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--",
+            "Coram": "HONOURABLE MR. JUSTICE VIJAY MANOHAR SAHAI , HONOURABLE MR. JUSTICE R.P.DHOLARIA",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD",
+            "Not Before Me": "HONOURABLE MR. JUSTICE K.M.THAKER ,HONOURABLE MR. JUSTICE RAJESH H.SHUKLA"
+        },
+        "petitioner_advocate": "1) M/S ADANI POWER LIMITED",
+        "respondent_advocate": "1) UNION OF INDIA, THROUGH SECRETARY, MINISTRY OF FINANCE",
+        "acts": [
+            {
+                "Under Act(s)": "CUSTOMS ACT, 1962",
+                "Under Section(s)": "---"
+            },
+            {
+                "Under Act(s)": "CUSTOMS TARIFF ACT, 1975",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 6,
+                "Date of Receiving": "21-04-2010",
+                "Filed by": "DEVELOPMENT COMMISSIONER, MUNDRA, SPECIAL ECONOMICS ZONE",
+                "Name of Advocate": "MR PS CHAMPANERI",
+                "Document Filed": "AFFIDAVIT IN REPLY"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 7,
+                "Date of Receiving": "16-06-2010",
+                "Filed by": "DEVELOPMENT COMMISSIONER, MUNDRA, SPECIAL ECONOMICS ZONE",
+                "Name of Advocate": "MR PS CHAMPANERI",
+                "Document Filed": "AFFIDAVIT IN REPLY"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 5,
+                "Date of Receiving": "09-04-2010",
+                "Filed by": "DEVELOPMENT COMMISSIONER, MUNDRA, SPECIAL ECONOMICS ZONE",
+                "Name of Advocate": "MR PS CHAMPANERI",
+                "Document Filed": "APPEARANCE NOTE"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 19,
+                "Date of Receiving": "15-08-2010",
+                "Filed by": "DEVELOPMENT COMMISSIONER, MUNDRA, SPECIAL ECONOMICS ZONE",
+                "Name of Advocate": "MR PS CHAMPANERI",
+                "Document Filed": "VAKALATNAMA"
+            },
+            {
+                "Sr. No.": 5,
+                "Document No.": 27,
+                "Date of Receiving": "15-08-2010",
+                "Filed by": "DEVELOPMENT COMMISSIONER, MUNDRA, SPECIAL ECONOMICS ZONE",
+                "Name of Advocate": "RULE SERVED",
+                "Document Filed": "DOCUMENT"
+            },
+            {
+                "Sr. No.": 6,
+                "Document No.": 9,
+                "Date of Receiving": "23-06-2010",
+                "Filed by": "M/S ADANI POWER LIMITED",
+                "Name of Advocate": "M/S TRIVEDI & GUPTA",
+                "Document Filed": "AFFIDAVIT IN RE-JOINDER"
+            },
+            {
+                "Sr. No.": 7,
+                "Document No.": 3,
+                "Date of Receiving": "26-03-2010",
+                "Filed by": "M/S ADANI POWER LIMITED",
+                "Name of Advocate": "M/S TRIVEDI & GUPTA",
+                "Document Filed": "AFFIDAVIT OF DS"
+            },
+            {
+                "Sr. No.": 8,
+                "Document No.": 4,
+                "Date of Receiving": "26-03-2010",
+                "Filed by": "M/S ADANI POWER LIMITED",
+                "Name of Advocate": "M/S TRIVEDI & GUPTA",
+                "Document Filed": "AFFIDAVIT OF DS"
+            },
+            {
+                "Sr. No.": 9,
+                "Document No.": 8,
+                "Date of Receiving": "17-06-2010",
+                "Filed by": "M/S ADANI POWER LIMITED",
+                "Name of Advocate": "M/S TRIVEDI & GUPTA",
+                "Document Filed": "AFFIDAVIT OF DS"
+            },
+            {
+                "Sr. No.": 10,
+                "Document No.": 1,
+                "Date of Receiving": "04-03-2010",
+                "Filed by": "M/S ADANI POWER LIMITED",
+                "Name of Advocate": "M/S TRIVEDI & GUPTA",
+                "Document Filed": "MEMO OF PETITION/APPEAL/SUIT"
+            },
+            {
+                "Sr. No.": 11,
+                "Document No.": 2,
+                "Date of Receiving": "04-03-2010",
+                "Filed by": "M/S ADANI POWER LIMITED",
+                "Name of Advocate": "M/S TRIVEDI & GUPTA",
+                "Document Filed": "VAKALATNAMA"
+            },
+            {
+                "Sr. No.": 12,
+                "Document No.": 9,
+                "Date of Receiving": "15-08-2010",
+                "Filed by": "M/S ADANI POWER LIMITED",
+                "Name of Advocate": "M/S TRIVEDI & GUPTA",
+                "Document Filed": "VAKALATNAMA"
+            },
+            {
+                "Sr. No.": 13,
+                "Document No.": 28,
+                "Date of Receiving": "06-02-2014",
+                "Filed by": "UNION OF INDIA, THROUGH SECRETARY, MINISTRY OF FINANCE",
+                "Name of Advocate": "MR IH SYED",
+                "Document Filed": "APPEARANCE NOTE"
+            },
+            {
+                "Sr. No.": 14,
+                "Document No.": 29,
+                "Date of Receiving": "14-08-2014",
+                "Filed by": "UNION OF INDIA, THROUGH SECRETARY, MINISTRY OF FINANCE",
+                "Name of Advocate": "MR DEVANG VYAS",
+                "Document Filed": "APPEARANCE NOTE"
+            },
+            {
+                "Sr. No.": 15,
+                "Document No.": 11,
+                "Date of Receiving": "15-08-2010",
+                "Filed by": "UNION OF INDIA, THROUGH SECRETARY, MINISTRY OF FINANCE",
+                "Name of Advocate": "RULE SERVED BY DS",
+                "Document Filed": "DOCUMENT"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240254242010",
+        "search_year": 2010,
+        "raw_petitioner": "ADANI ENTERPRISES LIMITED",
+        "raw_respondent": ".",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "COMA /1432/2010",
+                "2": "Filing Date",
+                "3": "03-05-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "COMA /136/2010",
+                "2": "Registration Date",
+                "3": "03-05-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-025424-2010",
+                "2": "GJHC24-025424-2010",
+                "3": "GJHC24-025424-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "07th May 2010",
+            "Decision Date": "07th May 2010",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--44-PARTLY ALLOWED @ FH",
+            "Coram": "HONOURABLE MR. JUSTICE M.R. SHAH",
+            "Bench Type": "SINGLE",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "respondent_advocate": "1) .",
+        "acts": [
+            {
+                "Under Act(s)": "COMPANIES ACT, 1956",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240257832010",
+        "search_year": 2010,
+        "raw_petitioner": "ADANI ENTERPRISES LIMITED",
+        "raw_respondent": ".",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "COMP /1842/2010",
+                "2": "Filing Date",
+                "3": "21-06-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "COMP /80/2010",
+                "2": "Registration Date",
+                "3": "21-06-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-025783-2010",
+                "2": "GJHC24-025783-2010",
+                "3": "GJHC24-025783-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "25th June 2010",
+            "Decision Date": "12th August 2010",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--38-RULE ABSOLUTE/ALLOWED @ FH",
+            "Coram": "HONOURABLE MR. JUSTICE K.A.PUJ",
+            "Bench Type": "SINGLE",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "respondent_advocate": "1) .",
+        "acts": [
+            {
+                "Under Act(s)": "COMPANIES ACT, 1956",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240449302011",
+        "search_year": 2010,
+        "raw_petitioner": "VASANT SHANTILAL ADANI DIRECTOR,M/S ADANI ENTERPRISES",
+        "raw_respondent": "COMMISSIONER OF CUSTOMS, KANDLA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "TAXAP /3650/2010",
+                "2": "Filing Date",
+                "3": "23-12-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "TAXAP /36/2011",
+                "2": "Registration Date",
+                "3": "23-12-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-044930-2011",
+                "2": "GJHC24-044930-2011",
+                "3": "GJHC24-044930-2011"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "10th January 2011",
+            "Decision Date": "14th September 2022",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--47-DISPOSAL IN ANY OTHER MODE FH",
+            "Coram": "HONOURABLE MR. JUSTICE N.V.ANJARIA , HONOURABLE MR. JUSTICE BHARGAV D. KARIA",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD",
+            "Not Before Me": "HONOURABLE MR. JUSTICE K.M.THAKER ,HONOURABLE MR. JUSTICE RAJESH H.SHUKLA ,HONOURABLE MR. JUSTICE S.G. SHAH"
+        },
+        "petitioner_advocate": "1) VASANT SHANTILAL ADANI DIRECTOR,M/S ADANI ENTERPRISES",
+        "respondent_advocate": "1) COMMISSIONER OF CUSTOMS, KANDLA",
+        "acts": [
+            {
+                "Under Act(s)": "CUSTOMS ACT, 1962",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE N.V.ANJARIA , HONOURABLE MR. JUSTICE BHARGAV D. KARIA",
+                "Business On Date": "14-09-2022",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE N.V.ANJARIA , HONOURABLE MR. JUSTICE BHARGAV D. KARIA",
+                "Business On Date": "16-03-2016",
+                "Hearing Date": "14-09-2022",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE N.V.ANJARIA , HONOURABLE MR. JUSTICE BHARGAV D. KARIA",
+                "Business On Date": "23-02-2016",
+                "Hearing Date": "14-09-2022",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE MR. JUSTICE Z.K.SAIYED",
+                "Business On Date": "09-02-2016",
+                "Hearing Date": "23-02-2016",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE MR. JUSTICE MOHINDER PAL",
+                "Business On Date": "23-11-2015",
+                "Hearing Date": "09-02-2016",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MS. JUSTICE HARSHA DEVANI , HONOURABLE MR. JUSTICE A.G.URAIZEE",
+                "Business On Date": "13-10-2015",
+                "Hearing Date": "23-11-2015",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE THE ACTING CHIEF JUSTICE MR. JUSTICE A.J.DESAI , HONOURABLE MR. JUSTICE A.G.URAIZEE",
+                "Business On Date": "11-08-2015",
+                "Hearing Date": "13-10-2015",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE VIJAY MANOHAR SAHAI , HONOURABLE MR. JUSTICE N.V.ANJARIA",
+                "Business On Date": "01-10-2012",
+                "Hearing Date": "11-08-2015",
+                "Purpose of hearing": "142-FOR ADMISSION ON SPECIAL BOARD"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE VIJAY MANOHAR SAHAI , HONOURABLE MR. JUSTICE N.V.ANJARIA",
+                "Business On Date": "27-08-2012",
+                "Hearing Date": "01-10-2012",
+                "Purpose of hearing": "142-FOR ADMISSION ON SPECIAL BOARD"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE VIJAY MANOHAR SAHAI , HONOURABLE MR. JUSTICE N.V.ANJARIA",
+                "Business On Date": "20-06-2012",
+                "Hearing Date": "26-06-2012",
+                "Purpose of hearing": "142-FOR ADMISSION ON SPECIAL BOARD"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "12-01-2012",
+                "Hearing Date": "16-02-2012",
+                "Purpose of hearing": "480-BACK LOG RULE/NOTICE ENTRY"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "15-12-2011",
+                "Hearing Date": "28-12-2011",
+                "Purpose of hearing": "142-FOR ADMISSION ON SPECIAL BOARD"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "25-11-2011",
+                "Hearing Date": "15-12-2011",
+                "Purpose of hearing": "142-FOR ADMISSION ON SPECIAL BOARD"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "14-10-2011",
+                "Hearing Date": "25-11-2011",
+                "Purpose of hearing": "142-FOR ADMISSION ON SPECIAL BOARD"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "30-09-2011",
+                "Hearing Date": "14-10-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "09-09-2011",
+                "Hearing Date": "30-09-2011",
+                "Purpose of hearing": "142-FOR ADMISSION ON SPECIAL BOARD"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "26-08-2011",
+                "Hearing Date": "09-09-2011",
+                "Purpose of hearing": "142-FOR ADMISSION ON SPECIAL BOARD"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "23-08-2011",
+                "Hearing Date": "26-08-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "11-08-2011",
+                "Hearing Date": "23-08-2011",
+                "Purpose of hearing": "142-FOR ADMISSION ON SPECIAL BOARD"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "14-07-2011",
+                "Hearing Date": "11-08-2011",
+                "Purpose of hearing": "142-FOR ADMISSION ON SPECIAL BOARD"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "04-07-2011",
+                "Hearing Date": "14-07-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "29-06-2011",
+                "Hearing Date": "04-07-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "23-06-2011",
+                "Hearing Date": "29-06-2011",
+                "Purpose of hearing": "142-FOR ADMISSION ON SPECIAL BOARD"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "21-06-2011",
+                "Hearing Date": "23-06-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "15-06-2011",
+                "Hearing Date": "21-06-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "20-05-2011",
+                "Hearing Date": "15-06-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "02-05-2011",
+                "Hearing Date": "04-05-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "22-04-2011",
+                "Hearing Date": "28-04-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "18-04-2011",
+                "Hearing Date": "22-04-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "22-03-2011",
+                "Hearing Date": "24-03-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "08-03-2011",
+                "Hearing Date": "09-03-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "01-03-2011",
+                "Hearing Date": "07-03-2011",
+                "Purpose of hearing": "130-FOR REGULAR ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "ADDITIONAL REGISTRAR ( JUDICIAL)",
+                "Business On Date": "10-01-2011",
+                "Hearing Date": "01-03-2011",
+                "Purpose of hearing": "526-OFFICE OBJECTION (FILING STAGE)"
+            }
+        ],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CA/1/2022",
+                "2": "HONOURABLE MS. JUSTICE HARSHA DEVANI,HONOURABLE MR. JUSTICE BHARGAV D. KARIA",
+                "3": "01-09-2022",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "TAXAP/36/2011",
+                "2": "HONOURABLE MS. JUSTICE HARSHA DEVANI,HONOURABLE MR. JUSTICE BHARGAV D. KARIA",
+                "3": "14-09-2022",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "23-12-2010",
+                "Filed by": "VASANT SHANTILAL ADANI DIRECTOR,M/S ADANI ENTERPRISES",
+                "Name of Advocate": "M/S TRIVEDI & GUPTA",
+                "Document Filed": "MEMO OF PETITION/APPEAL/SUIT"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "23-12-2010",
+                "Filed by": "VASANT SHANTILAL ADANI DIRECTOR,M/S ADANI ENTERPRISES",
+                "Name of Advocate": "M/S TRIVEDI & GUPTA",
+                "Document Filed": "VAKALATNAMA"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "23-12-2010",
+                "Filed by": "VASANT SHANTILAL ADANI DIRECTOR,M/S ADANI ENTERPRISES",
+                "Name of Advocate": "M/S TRIVEDI & GUPTA",
+                "Document Filed": "CERTIFIED COPY"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 4,
+                "Date of Receiving": "17-07-2012",
+                "Filed by": "COMMISSIONER OF CUSTOMS, KANDLA",
+                "Name of Advocate": "MR RJ OZA",
+                "Document Filed": "APPEARANCE NOTE"
+            },
+            {
+                "Sr. No.": 5,
+                "Document No.": 5,
+                "Date of Receiving": "07-08-2012",
+                "Filed by": "COMMISSIONER OF CUSTOMS, KANDLA",
+                "Name of Advocate": "MR RJ OZA",
+                "Document Filed": "APPEARANCE NOTE"
+            },
+            {
+                "Sr. No.": 6,
+                "Document No.": 6,
+                "Date of Receiving": "10-08-2016",
+                "Filed by": "COMMISSIONER OF CUSTOMS, KANDLA",
+                "Name of Advocate": "MR ANKIT SHAH",
+                "Document Filed": "APPEARANCE NOTE"
+            },
+            {
+                "Sr. No.": 7,
+                "Document No.": 7,
+                "Date of Receiving": "05-04-2021",
+                "Filed by": "COMMISSIONER OF CUSTOMS, KANDLA",
+                "Name of Advocate": "MR UTKARSH R SHARMA(6157)",
+                "Document Filed": "APPEARANCE NOTE"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240464382010",
+        "search_year": 2010,
+        "raw_petitioner": "M/S ADANI ENTERPRISES LTD FORMERLY KNOWN AS ADANI EXPORT",
+        "raw_respondent": "COMMISSIONER OF CUSTOMS KANDLA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "TAXAP /3388/2010",
+                "2": "Filing Date",
+                "3": "01-12-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "TAXAP /2591/2010",
+                "2": "Registration Date",
+                "3": "01-12-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-046438-2010",
+                "2": "GJHC24-046438-2010",
+                "3": "GJHC24-046438-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "16th December 2010",
+            "Decision Date": "09th June 2022",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--53-ALLOWED / GRANTED @ ADM.STAGE",
+            "Coram": "HONOURABLE THE CHIEF JUSTICE MR. JUSTICE ARAVIND KUMAR , HONOURABLE MR. JUSTICE ASHUTOSH SHASTRI",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD",
+            "Not Before Me": "HONOURABLE MR. JUSTICE K.M.THAKER ,HONOURABLE MR. JUSTICE RAJESH H.SHUKLA ,HONOURABLE MR. JUSTICE S.G. SHAH"
+        },
+        "petitioner_advocate": "1) M/S ADANI ENTERPRISES LTD FORMERLY KNOWN AS ADANI EXPORT",
+        "respondent_advocate": "1) COMMISSIONER OF CUSTOMS KANDLA",
+        "acts": [
+            {
+                "Under Act(s)": "CUSTOMS ACT, 1962",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "TAXAP/2591/2010",
+                "2": "HONOURABLE MR. JUSTICE ASHUTOSH SHASTRI",
+                "3": "09-06-2022",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "01-12-2010",
+                "Filed by": "M/S ADANI ENTERPRISES LTD FORMERLY KNOWN AS ADANI EXPORT",
+                "Name of Advocate": "M/S TRIVEDI & GUPTA",
+                "Document Filed": "MEMO OF PETITION/APPEAL/SUIT"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "01-12-2010",
+                "Filed by": "M/S ADANI ENTERPRISES LTD FORMERLY KNOWN AS ADANI EXPORT",
+                "Name of Advocate": "M/S TRIVEDI & GUPTA",
+                "Document Filed": "VAKALATNAMA"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "18-01-2011",
+                "Filed by": "COMMISSIONER OF CUSTOMS KANDLA",
+                "Name of Advocate": "MR RJ OZA",
+                "Document Filed": "APPEARANCE NOTE"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 4,
+                "Date of Receiving": "10-08-2016",
+                "Filed by": "COMMISSIONER OF CUSTOMS KANDLA",
+                "Name of Advocate": "MR ANKIT SHAH",
+                "Document Filed": "APPEARANCE NOTE"
+            },
+            {
+                "Sr. No.": 5,
+                "Document No.": 5,
+                "Date of Receiving": "05-04-2021",
+                "Filed by": "COMMISSIONER OF CUSTOMS KANDLA",
+                "Name of Advocate": "MR UTKARSH R SHARMA(6157)",
+                "Document Filed": "APPEARANCE NOTE"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Karnataka High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "KAHC010733852010",
+        "search_year": 2010,
+        "raw_petitioner": "M/S ADANI ENTERPRISES LTD.",
+        "raw_respondent": "THE STATE OF KARNATAKA ",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CRL.P /7673/2010",
+                "2": "Filing Date",
+                "3": "21-06-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CRL.P /7673/2010",
+                "2": "Registration Date",
+                "3": "21-06-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "KAHC01-073385-2010",
+                "2": "KAHC01-073385-2010",
+                "3": "KAHC01-073385-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "02nd July 2010",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Transferred to Dharwad",
+            "Court Number and Judge": "",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Judicial Section",
+            "State": "",
+            "District": "",
+            "Not Before Me": "Unknown"
+        },
+        "petitioner_advocate": "1) M/S ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) THE STATE OF KARNATAKA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "Unknown",
+                "Business On Date": "02-07-2010",
+                "Hearing Date": "02-07-2010",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "Unknown",
+                "Business On Date": "02-07-2010",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "Unknown",
+                "Business On Date": "29-06-2010",
+                "Hearing Date": "01-07-2010",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "Unknown",
+                "Business On Date": "25-06-2010",
+                "Hearing Date": "28-06-2010",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "Unknown",
+                "Business On Date": "24-06-2010",
+                "Hearing Date": "24-06-2010",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "Unknown",
+                "Business On Date": "22-06-2010",
+                "Hearing Date": "22-06-2010",
+                "Purpose of hearing": "ADMISSION"
+            }
+        ],
+        "orders": [],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "21-06-2010",
+                "Filed by": "P1",
+                "Name of Advocate": "KAR/2434.0/2004",
+                "Document Filed": "Vakalat"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Karnataka High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "KAHC020116352010",
+        "search_year": 2010,
+        "raw_petitioner": "M/S ADANI ENTERPRISES LTD.",
+        "raw_respondent": "THE STATE OF KARNATAKA ",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CRL.P /7673/2010",
+                "2": "Filing Date",
+                "3": "21-06-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CRL.P /7673/2010",
+                "2": "Registration Date",
+                "3": "21-06-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "KAHC02-011635-2010",
+                "2": "KAHC02-011635-2010",
+                "3": "KAHC02-011635-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "02nd November 2010",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED",
+            "Coram": "JAWAD RAHIM",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Judicial Section",
+            "Not Before Me": "Unknown"
+        },
+        "petitioner_advocate": "1) M/S ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) THE STATE OF KARNATAKA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "JAWAD RAHIM",
+                "Business On Date": "02-11-2010",
+                "Hearing Date": "02-11-2010",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "JAWAD RAHIM",
+                "Business On Date": "02-11-2010",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "JAWAD RAHIM",
+                "Business On Date": "29-06-2010",
+                "Hearing Date": "01-07-2010",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "JAWAD RAHIM",
+                "Business On Date": "25-06-2010",
+                "Hearing Date": "28-06-2010",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "JAWAD RAHIM",
+                "Business On Date": "24-06-2010",
+                "Hearing Date": "24-06-2010",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "JAWAD RAHIM",
+                "Business On Date": "22-06-2010",
+                "Hearing Date": "22-06-2010",
+                "Purpose of hearing": "ADMISSION"
+            }
+        ],
+        "orders": [],
+        "document_details": [
+            {
+                "Sr. No.": 33425,
+                "Document No.": 1,
+                "Date of Receiving": "21-06-2010",
+                "Filed by": "P1",
+                "Document Filed": "Vakalat"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Karnataka High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "KAHC020126502010",
+        "search_year": 2010,
+        "raw_petitioner": "ADANI ENTERPRISES LIMITED ",
+        "raw_respondent": "STATE OF KARNATAKA PUBLIC WORKS AND INLAND WATER ",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP /63912/2010",
+                "2": "Filing Date",
+                "3": "07-06-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP /63912/2010",
+                "2": "Registration Date",
+                "3": "07-06-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "KAHC02-012650-2010",
+                "2": "KAHC02-012650-2010",
+                "3": "KAHC02-012650-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "09th October 2012",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--REJECTED",
+            "Coram": "RAM MOHAN REDDY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Judicial Section",
+            "State": "",
+            "District": "",
+            "Not Before Me": "Unknown"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "respondent_advocate": "1) STATE OF KARNATAKA PUBLIC WORKS AND INLAND WATER   Advocate- R3 - M/S. JM BAXI & CO. - SD 1123",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "",
+                "Judge": "RAM MOHAN REDDY",
+                "Business On Date": "09-10-2012",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "RAM MOHAN REDDY",
+                "Business On Date": "09-10-2012",
+                "Hearing Date": "09-10-2012",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "RAM MOHAN REDDY",
+                "Business On Date": "21-04-2011",
+                "Hearing Date": "21-04-2011",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "RAM MOHAN REDDY",
+                "Business On Date": "13-04-2011",
+                "Hearing Date": "18-04-2011",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "RAM MOHAN REDDY",
+                "Business On Date": "01-04-2011",
+                "Hearing Date": "12-04-2011",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "RAM MOHAN REDDY",
+                "Business On Date": "07-03-2011",
+                "Hearing Date": "07-03-2011",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "ARAVIND KUMAR",
+                "Business On Date": "07-02-2011",
+                "Hearing Date": "07-02-2011",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "ARAVIND KUMAR",
+                "Business On Date": "17-01-2011",
+                "Hearing Date": "17-01-2011",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "H.N.NAGAMOHAN DAS",
+                "Business On Date": "14-01-2011",
+                "Hearing Date": "17-01-2011",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "H.N.NAGAMOHAN DAS",
+                "Business On Date": "09-06-2010",
+                "Hearing Date": "09-06-2010",
+                "Purpose of hearing": "ADMISSION"
+            }
+        ],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP/63912/2010",
+                "2": "RAM MOHAN REDDY",
+                "3": "09-10-2012",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 492555,
+                "Document No.": 1,
+                "Date of Receiving": "07-06-2010",
+                "Filed by": "P1",
+                "Document Filed": "Vakalat"
+            },
+            {
+                "Sr. No.": 492556,
+                "Document No.": 1,
+                "Date of Receiving": "08-10-2012",
+                "Filed by": "R1",
+                "Document Filed": "Statement of Objection"
+            },
+            {
+                "Sr. No.": 492557,
+                "Document No.": 2,
+                "Date of Receiving": "10-06-2010",
+                "Filed by": "R1",
+                "Document Filed": "Process Memo"
+            },
+            {
+                "Sr. No.": 492558,
+                "Document No.": 2,
+                "Date of Receiving": "08-10-2012",
+                "Filed by": "R1",
+                "Document Filed": "Memo of Appearance"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Karnataka High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "KAHC020119572010",
+        "search_year": 2010,
+        "raw_petitioner": "M/S. ADANI ENTERPRISES LTD.,",
+        "raw_respondent": "THE STATE OF KARNATAKA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "MISC.CRL /15755/2010",
+                "2": "Filing Date",
+                "3": "21-06-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "MISC.CRL /15755/2010",
+                "2": "Registration Date",
+                "3": "21-06-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "KAHC02-011957-2010",
+                "2": "KAHC02-011957-2010",
+                "3": "KAHC02-011957-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "24th June 2010",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--ALLOWED",
+            "Coram": "JAWAD RAHIM",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Judicial Section",
+            "Not Before Me": "Unknown"
+        },
+        "petitioner_advocate": "1) M/S. ADANI ENTERPRISES LTD.,",
+        "respondent_advocate": "1) THE STATE OF KARNATAKA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "JAWAD RAHIM",
+                "Business On Date": "24-06-2010",
+                "Hearing Date": "24-06-2010",
+                "Purpose of hearing": ""
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "JAWAD RAHIM",
+                "Business On Date": "24-06-2010",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            }
+        ],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Madhya Pradesh High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "MPHC010035592010",
+        "search_year": 2010,
+        "raw_petitioner": "M.P. POWER TRADING COMPANY LTD.",
+        "raw_respondent": "ADANI ENTERPRISES LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "AA /3/2010",
+                "2": "Filing Date",
+                "3": "27-01-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "AA /3/2010",
+                "2": "Registration Date",
+                "3": "27-01-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "MPHC01-003559-2010",
+                "2": "MPHC01-003559-2010",
+                "3": "MPHC01-003559-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "01st February 2010",
+            "Decision Date": "24th February 2010",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--",
+            "Court Number and Judge": ""
+        },
+        "petitioner_advocate": "1) M.P. POWER TRADING COMPANY LTD.",
+        "respondent_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Madhya Pradesh High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "MPHC010105342010",
+        "search_year": 2010,
+        "raw_petitioner": "M.P.POWER TRADING COMPANY LTD.",
+        "raw_respondent": "ADANI ENTERPRISES LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "AC /20/2010",
+                "2": "Filing Date",
+                "3": "18-03-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "AC /20/2010",
+                "2": "Registration Date",
+                "3": "18-03-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "MPHC01-010534-2010",
+                "2": "MPHC01-010534-2010",
+                "3": "MPHC01-010534-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "09th April 2010",
+            "Decision Date": "14th September 2012",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--Dismissed",
+            "Court Number and Judge": ""
+        },
+        "petitioner_advocate": "1) M.P.POWER TRADING COMPANY LTD.",
+        "respondent_advocate": "1) ADANI ENTERPRISES LIMITED",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Punjab and Haryana High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "PHHC010098232010",
+        "search_year": 2010,
+        "raw_petitioner": "ADANI POWER LTD",
+        "raw_respondent": "MANBIR SINGH AND ORS",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CR /7192/2010",
+                "2": "Filing Date",
+                "3": "01-11-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CR /7192/2010",
+                "2": "Registration Date",
+                "3": "01-11-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "PHHC01-009823-2010",
+                "2": "PHHC01-009823-2010",
+                "3": "PHHC01-009823-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "02nd November 2010",
+            "Decision Date": "15th December 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--DISMISSED",
+            "Coram": "MR. JUSTICE HARBANS SINGH RAI",
+            "Bench Type": "Single",
+            "Judicial Branch": "CIVIL REVISION BRANCH-I",
+            "State": "HARYANA",
+            "District": "MAHENDERGARH"
+        },
+        "petitioner_advocate": "1) ADANI POWER LTD",
+        "respondent_advocate": "1) MANBIR SINGH AND ORS",
+        "acts": [
+            {
+                "Under Act(s)": "No Acts defined",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE K.KANNAN",
+                "3": "24-07-2012",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE K.KANNAN",
+                "3": "27-08-2012",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE K.KANNAN",
+                "3": "11-09-2012",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "4",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE K.KANNAN",
+                "3": "06-10-2012",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "5",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE K.KANNAN",
+                "3": "21-11-2012",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "6",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE K.KANNAN",
+                "3": "25-01-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "7",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE K.KANNAN",
+                "3": "13-05-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "8",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE K.KANNAN",
+                "3": "29-07-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "9",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE K.KANNAN",
+                "3": "30-08-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "10",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE K.KANNAN",
+                "3": "05-10-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "11",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE K.KANNAN",
+                "3": "16-12-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "12",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE M.S. SULLAR",
+                "3": "27-01-2014",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "13",
+                "1": "CR/7192/2010",
+                "2": "MR JUSTICE JASWANT SINGH",
+                "3": "22-04-2014",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "14",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE DR. BHARAT BHUSHAN PARSOON",
+                "3": "23-09-2014",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "15",
+                "1": "CR/7192/2010",
+                "2": "MR. JUSTICE K.KANNAN",
+                "3": "15-12-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "01-11-2010",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Rajasthan High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "RJHC010255372010",
+        "search_year": 2010,
+        "raw_petitioner": "M/S. ADANI POWER LTD.",
+        "raw_respondent": "STATE  OF  RAJ.  and  ORS.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CW /7698/2010",
+                "2": "Filing Date",
+                "3": "14-07-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CW /6296/2010",
+                "2": "Registration Date",
+                "3": "14-07-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "RJHC01-025537-2010",
+                "2": "RJHC01-025537-2010",
+                "3": "RJHC01-025537-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "11th December 2014",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--",
+            "Court Number and Judge": "",
+            "Bench Type": "Division Bench",
+            "Judicial Branch": "WRIT"
+        },
+        "petitioner_advocate": "1) M/S. ADANI POWER LTD.",
+        "respondent_advocate": "1) STATE  OF  RAJ.  and  ORS.",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CW/6296/2010",
+                "2": "ARUN MISHRA,PRAKASH TATIA",
+                "3": "21-01-2011",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 17294,
+                "Date of Receiving": "22-07-2010",
+                "Filed by": "M/S. ADANI POWER LTD. VS STATE OF RAJ. & ORS.",
+                "Document Filed": "UNDERATAKING"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 3446,
+                "Date of Receiving": "05-02-2011",
+                "Filed by": "M/S. ADANI POWER LTD. VS STATE OF RAJ. & ORS.",
+                "Document Filed": "REPLY"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 35780,
+                "Date of Receiving": "11-12-2014",
+                "Filed by": "M/S. ADANI POWER LTD. VS STATE OF RAJ. & ORS.",
+                "Document Filed": "SUBMISSION"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 16745,
+                "Date of Receiving": "17-07-2010",
+                "Filed by": "M/S. ADANI POWER LTD. VS STATE OF RAJ. & ORS.",
+                "Document Filed": "PF NOTICE"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Rajasthan High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "RJHC010335702010",
+        "search_year": 2010,
+        "raw_petitioner": "M/S. ADANI POWER LTD.",
+        "raw_respondent": "STATE  OF  RAJ.  and  ORS.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "IA /11883/2010",
+                "2": "Filing Date",
+                "3": "14-07-2010"
+            },
+            {
+                "0": "Registration Number",
+                "1": "IA /9179/2010",
+                "2": "Registration Date",
+                "3": "14-07-2010"
+            },
+            {
+                "0": "CNR Number",
+                "1": "RJHC01-033570-2010",
+                "2": "RJHC01-033570-2010",
+                "3": "RJHC01-033570-2010"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "12th January 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--By Administrative Order dt. 12.01.2019",
+            "Court Number and Judge": "",
+            "Bench Type": "Division Bench"
+        },
+        "petitioner_advocate": "1) M/S. ADANI POWER LTD.",
+        "respondent_advocate": "1) STATE  OF  RAJ.  and  ORS.",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    }
+]

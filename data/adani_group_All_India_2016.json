@@ -1,0 +1,2830 @@
+[
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020076082016",
+        "search_year": 2016,
+        "raw_petitioner": "THE ADDITIONAL COMMISSIONER OF SALES TAX VAT (III), MAHARASHTRA STATE MUMBAI",
+        "raw_respondent": "ADANI ENTERPRISES LTD.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "STA /8/2016",
+                "2": "Filing Date",
+                "3": "19-03-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "STA /17/2016",
+                "2": "Registration Date",
+                "3": "23-06-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-007608-2016",
+                "2": "HCBM02-007608-2016",
+                "3": "HCBM02-007608-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "05th July 2016",
+            "Decision Date": "09th August 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI , HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+            "Bench Type": "Division",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) THE ADDITIONAL COMMISSIONER OF SALES TAX VAT (III), MAHARASHTRA STATE MUMBAI",
+        "respondent_advocate": "1) ADANI ENTERPRISES LTD.",
+        "acts": [
+            {
+                "Under Act(s)": "Sales Tax Act 1979",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "STA/17/2016",
+                "2": "HON'BLE SHRI JUSTICE B.P. COLABAWALLA,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "04-10-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "STA/17/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "09-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "STA/17/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "03-05-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "02-09-2016",
+                "Filed by": "RAVINDRA MOTIRAM BHAGWAT",
+                "Name of Advocate": "government pleader original side mumbai",
+                "Document Filed": "Affidavit Of Service"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "20-07-2016",
+                "Filed by": "JIGISH BHAVSAR",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "04-07-2016",
+                "Filed by": "",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020076112016",
+        "search_year": 2016,
+        "raw_petitioner": "THE ADDITIONAL COMMISSIONER OF SALES TAX VAT (III), MAHARASHTRA STATE MUMBAI",
+        "raw_respondent": "ADANI ENTERPRISES LTD.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "STA /9/2016",
+                "2": "Filing Date",
+                "3": "19-03-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "STA /16/2016",
+                "2": "Registration Date",
+                "3": "23-06-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-007611-2016",
+                "2": "HCBM02-007611-2016",
+                "3": "HCBM02-007611-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "05th July 2016",
+            "Decision Date": "09th August 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI , HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+            "Bench Type": "Division",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) THE ADDITIONAL COMMISSIONER OF SALES TAX VAT (III), MAHARASHTRA STATE MUMBAI",
+        "respondent_advocate": "1) ADANI ENTERPRISES LTD.",
+        "acts": [
+            {
+                "Under Act(s)": "Sales Tax Act 1979",
+                "Under Section(s)": 61
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "STA/16/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "09-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "STA/16/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "03-05-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "STA/16/2016",
+                "2": "HON'BLE SHRI JUSTICE B.P. COLABAWALLA,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "04-10-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "20-07-2016",
+                "Filed by": "JIGISH BHAVSAR",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "02-09-2016",
+                "Filed by": "RAVINDRA MOTIRAM BHAGWAT",
+                "Name of Advocate": "government pleader original side mumbai",
+                "Document Filed": "Affidavit Of Service"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "04-07-2016",
+                "Filed by": "",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020075672016",
+        "search_year": 2016,
+        "raw_petitioner": "THE ADDITIONAL COMMISSIONER OF SALES TAX, VAT(III), MAHARASHTRA STATE,MUMBAI",
+        "raw_respondent": "ADANI ENTERPRISES LTD.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "STA /5/2016",
+                "2": "Filing Date",
+                "3": "19-03-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "STA /15/2016",
+                "2": "Registration Date",
+                "3": "23-06-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-007567-2016",
+                "2": "HCBM02-007567-2016",
+                "3": "HCBM02-007567-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "05th July 2016",
+            "Decision Date": "09th August 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI , HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+            "Bench Type": "Division",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) THE ADDITIONAL COMMISSIONER OF SALES TAX, VAT(III), MAHARASHTRA STATE,MUMBAI",
+        "respondent_advocate": "1) ADANI ENTERPRISES LTD.",
+        "acts": [
+            {
+                "Under Act(s)": "Sales Tax Act 1979",
+                "Under Section(s)": 61
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "STA/15/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "09-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "STA/15/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "03-05-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "STA/15/2016",
+                "2": "HON'BLE SHRI JUSTICE B.P. COLABAWALLA,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "04-10-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "16-08-2016",
+                "Filed by": "RAVINDRA M BHAGWAT",
+                "Name of Advocate": "government pleader original side mumbai",
+                "Document Filed": "Affidavit Of Service"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "20-07-2016",
+                "Filed by": "JIGISH BHAVSAR",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "04-07-2016",
+                "Filed by": "",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020075782016",
+        "search_year": 2016,
+        "raw_petitioner": "THE ADDITIONAL COMMISSIOMER OF SALES TAX, VAT (III) MAHARASHTRA STATE MUMBAI",
+        "raw_respondent": "ADANI ENTERPRISES LTD",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "STA /7/2016",
+                "2": "Filing Date",
+                "3": "19-03-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "STA /12/2016",
+                "2": "Registration Date",
+                "3": "23-06-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-007578-2016",
+                "2": "HCBM02-007578-2016",
+                "3": "HCBM02-007578-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "05th July 2016",
+            "Decision Date": "09th August 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI , HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+            "Bench Type": "Division",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) THE ADDITIONAL COMMISSIOMER OF SALES TAX, VAT (III) MAHARASHTRA STATE MUMBAI",
+        "respondent_advocate": "1) ADANI ENTERPRISES LTD",
+        "acts": [
+            {
+                "Under Act(s)": "Sales Tax Act 1979",
+                "Under Section(s)": 61
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "STA/12/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "09-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "STA/12/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "03-05-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "STA/12/2016",
+                "2": "HON'BLE SHRI JUSTICE B.P. COLABAWALLA,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "04-10-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "16-08-2016",
+                "Filed by": "RAVINDRA M BHAGWAT",
+                "Name of Advocate": "government pleader original side mumbai",
+                "Document Filed": "Affidavit Of Service"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "18-07-2016",
+                "Filed by": "JIGISH BHAVSAR",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "04-07-2016",
+                "Filed by": "",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020075612016",
+        "search_year": 2016,
+        "raw_petitioner": "THE ADDITIONAL COMMISSIONER OF SALES TAX, VAT (III), MAHARASHTRA STATE, MUMBAI",
+        "raw_respondent": "ADANI ENTERPRISES LTD. (FORMELY KNOWN AS ADANI EXPORT LTD.)",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "STA /3/2016",
+                "2": "Filing Date",
+                "3": "19-03-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "STA /11/2016",
+                "2": "Registration Date",
+                "3": "20-06-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-007561-2016",
+                "2": "HCBM02-007561-2016",
+                "3": "HCBM02-007561-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "05th July 2016",
+            "Decision Date": "09th August 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI , HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+            "Bench Type": "Division",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) THE ADDITIONAL COMMISSIONER OF SALES TAX, VAT (III), MAHARASHTRA STATE, MUMBAI",
+        "respondent_advocate": "1) ADANI ENTERPRISES LTD. (FORMELY KNOWN AS ADANI EXPORT LTD.)",
+        "acts": [
+            {
+                "Under Act(s)": "Sales Tax Act 1979",
+                "Under Section(s)": 61
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "STA/11/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "03-05-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "STA/11/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "09-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "STA/11/2016",
+                "2": "HON'BLE SHRI JUSTICE B.P. COLABAWALLA,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "04-10-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "16-08-2016",
+                "Filed by": "RAVINDRA MOTIRAM BHAGWAT",
+                "Name of Advocate": "government pleader original side mumbai",
+                "Document Filed": "Affidavit Of Service"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "18-07-2016",
+                "Filed by": "JIGISH BHAVSAR",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit in reply"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "04-07-2016",
+                "Filed by": "",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020075642016",
+        "search_year": 2016,
+        "raw_petitioner": "THE ADDITIONAL COMMISSIONER OF SALES TAX, VAT (III), MAHARASHTRA STATE, MUMBAI",
+        "raw_respondent": "ADANI ENTERPRISES LTD. (FORMELY KNOWN AS ADANI EXPORT LTD.)",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "STA /4/2016",
+                "2": "Filing Date",
+                "3": "19-03-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "STA /10/2016",
+                "2": "Registration Date",
+                "3": "21-06-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-007564-2016",
+                "2": "HCBM02-007564-2016",
+                "3": "HCBM02-007564-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "05th July 2016",
+            "Decision Date": "09th August 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI , HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+            "Bench Type": "Division",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) THE ADDITIONAL COMMISSIONER OF SALES TAX, VAT (III), MAHARASHTRA STATE, MUMBAI",
+        "respondent_advocate": "1) ADANI ENTERPRISES LTD. (FORMELY KNOWN AS ADANI EXPORT LTD.)",
+        "acts": [
+            {
+                "Under Act(s)": "Sales Tax Act 1979",
+                "Under Section(s)": 61
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "STA/10/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "03-05-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "STA/10/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "09-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "STA/10/2016",
+                "2": "HON'BLE SHRI JUSTICE B.P. COLABAWALLA,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "04-10-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "18-07-2016",
+                "Filed by": "JIGISH BHAVSAR",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit in reply"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "16-08-2016",
+                "Filed by": "RAVINDRA MOTIRAM BHAGWAT",
+                "Name of Advocate": "government pleader original side mumbai",
+                "Document Filed": "Affidavit Of Service"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "04-07-2016",
+                "Filed by": "",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020075742016",
+        "search_year": 2016,
+        "raw_petitioner": "THE ADDITIONAL COMMISSIONER OF SALES TAX, VAT (III), MAHARASHTRA STATE, MUMBAI",
+        "raw_respondent": "ADANI ENTERPRISES LTD. (FORMERLY KNOWN AS ADANI EXPORTS LTD.)",
+        "basic_details": [
+            {
+                "Filing Number2": "IA Details",
+                "Case Number": "IA Details",
+                "Unnamed: 2": "IA Details",
+                "Unnamed: 3": "IA Details",
+                "Unnamed: 4": "IA Details"
+            },
+            {
+                "Filing Number2": "STA/6/2016 ( main )",
+                "Case Number": "STA/9/2016 ( main ) ( Disposed )",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "STA/5/2016",
+                "Case Number": "STA/15/2016 ( Disposed )",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "STA/3/2016",
+                "Case Number": "STA/11/2016 ( Disposed )",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "STA/8/2016",
+                "Case Number": "STA/17/2016 ( Disposed )",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "STA/4/2016",
+                "Case Number": "STA/10/2016 ( Disposed )",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "STA/9/2016",
+                "Case Number": "STA/16/2016 ( Disposed )",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "STA/7/2016",
+                "Case Number": "STA/12/2016 ( Disposed )",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "05th July 2016",
+            "Decision Date": "09th August 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI , HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+            "Bench Type": "Division",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) THE ADDITIONAL COMMISSIONER OF SALES TAX, VAT (III), MAHARASHTRA STATE, MUMBAI",
+        "respondent_advocate": "1) ADANI ENTERPRISES LTD. (FORMERLY KNOWN AS ADANI EXPORTS LTD.)",
+        "acts": [
+            {
+                "Under Act(s)": "Sales Tax Act 1979",
+                "Under Section(s)": 61
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "STA/9/2016",
+                "2": "HON'BLE SHRI JUSTICE B.P. COLABAWALLA,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "04-10-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "STA/9/2016",
+                "2": "HON'BLE SHRI JUSTICE B.P. COLABAWALLA,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "22-11-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "STA/9/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "09-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "4",
+                "1": "STA/9/2016",
+                "2": "HON'BLE SMT. JUSTICE DR. SHALINI PHANSALKAR-JOSHI,HON'BLE SHRI JUSTICE S.C. DHARMADHIKARI",
+                "3": "03-05-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "18-07-2016",
+                "Filed by": "JIGISH BHAVSAR",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit in reply"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "16-08-2016",
+                "Filed by": "RAVINDRA BHAGWAT",
+                "Name of Advocate": "government pleader original side mumbai",
+                "Document Filed": "Affidavit Of Service"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Date of Receiving": "04-07-2016",
+                "Filed by": "",
+                "Name of Advocate": "PRABHAKAR K SHETTY",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020237022016",
+        "search_year": 2016,
+        "raw_petitioner": "ADANI ENTERPRISES LTD.",
+        "raw_respondent": "DELTA NAVIGATION WLL",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "NMS /2720/2016",
+                "2": "Filing Date",
+                "3": "19-09-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "NMS /2505/2016",
+                "2": "Registration Date",
+                "3": "13-10-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-023702-2016",
+                "2": "HCBM02-023702-2016",
+                "3": "HCBM02-023702-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "20th September 2016",
+            "Decision Date": "01st October 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) DELTA NAVIGATION WLL",
+        "acts": [
+            {
+                "Under Act(s)": "Code of Civil Procedure 1908",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "NMS/2505/2016",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "01-10-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "NMS/2505/2016",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "20-09-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "22-09-2016",
+                "Filed by": "SHAILESH PORIA",
+                "Name of Advocate": "Economic Laws Practice",
+                "Document Filed": "Affidavit Of Service"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "27-09-2016",
+                "Filed by": "SUJEET KASTE",
+                "Name of Advocate": "ECONOMIC LAWS PRACTICE",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "HCBM020253072016",
+        "search_year": 2016,
+        "raw_petitioner": "ADANI POWER RAJASTHAN LTD. AND ANR.",
+        "raw_respondent": "MURMANSK SHIPPING CO.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CHS /1976/2016",
+                "2": "Filing Date",
+                "3": "04-10-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CHSCD /64/2016",
+                "2": "Registration Date",
+                "3": "19-10-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-025307-2016",
+                "2": "HCBM02-025307-2016",
+                "3": "HCBM02-025307-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "27th July 2017",
+            "Decision Date": "27th July 2017",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SHRI JUSTICE S.C. GUPTE",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) ADANI POWER RAJASTHAN LTD. AND ANR.",
+        "respondent_advocate": "1) MURMANSK SHIPPING CO.",
+        "acts": [
+            {
+                "Under Act(s)": "Code of Civil Procedure 1908",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CHSCD/64/2016",
+                "2": "HON'BLE SHRI JUSTICE S.C. GUPTE",
+                "3": "27-07-2017",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "07-08-2017",
+                "Filed by": "P C SREEKUMAR",
+                "Name of Advocate": "BOSE AND MITRA AND CO",
+                "Document Filed": "Affidavit in reply"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 4,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "HCBM040099202016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S. ADANI POWER MAHARASHTRA LTD., AHMEDABAD MAHARASHTRA THR.ITS AUTH.SIGNATORY OMPRAKASH R.BHARDWA",
+        "raw_respondent": "STATE OF MAHARASHTRA, THROUGH SECRETARY, REVENUE AND FOREST DEPT. AND 3 OTHERS",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CAW /7801/2016",
+                "2": "Filing Date",
+                "3": "05-04-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CAW /836/2016",
+                "2": "Registration Date",
+                "3": "07-04-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM04-009920-2016",
+                "2": "HCBM04-009920-2016",
+                "3": "HCBM04-009920-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "31st August 2016",
+            "Decision Date": "31st August 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Admitted/Allwd/Granted/Rule Absolute",
+            "Coram": "HON'BLE SMT. JUSTICE V.A. NAIK , HON'BLE KUM. JUSTICE INDIRA JAIN",
+            "Bench Type": "Division",
+            "Judicial Branch": "Civil",
+            "State": "MAHARASHTRA",
+            "District": "GONDIA"
+        },
+        "petitioner_advocate": "1) M/S. ADANI POWER MAHARASHTRA LTD., AHMEDABAD MAHARASHTRA THR.ITS AUTH.SIGNATORY OMPRAKASH R.BHARDWA",
+        "respondent_advocate": "1) STATE OF MAHARASHTRA, THROUGH SECRETARY, REVENUE AND FOREST DEPT. AND 3 OTHERS",
+        "acts": [
+            {
+                "Under Act(s)": "Other Act",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CAW/836/2016",
+                "2": "HON'BLE SMT. JUSTICE V.A. NAIK,HON'BLE KUM. JUSTICE INDIRA JAIN",
+                "3": "31-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Filed by": "REPLY/P/DV CHAUHAN",
+                "Document Filed": "Affidavit"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Calcutta High Court",
+        "bench_id": 3,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "WBCHCA0478822016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S ADANI ENTERPRISES LIMITED",
+        "raw_respondent": "UNION OF INDIA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "FMAT /47882/2016",
+                "2": "Filing Date",
+                "3": "23-09-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "FMAT /1084/2016",
+                "2": "Registration Date",
+                "3": "23-09-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "WBCHCA-047882-2016",
+                "2": "WBCHCA-047882-2016",
+                "3": "WBCHCA-047882-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Next Hearing Date": "",
+            "Stage of Case": "FOR ADMISSION",
+            "Court Number and Judge": "",
+            "Judicial Branch": "STAMP REPORTER (SR) SECTION"
+        },
+        "petitioner_advocate": "1) M/S ADANI ENTERPRISES LIMITED",
+        "respondent_advocate": "1) UNION OF INDIA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Calcutta High Court",
+        "bench_id": 3,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "WBCHCA0474422016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S ADANI ENTERPRISES LIMITED",
+        "raw_respondent": "UNION OF INDIA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "FMAT /47442/2016",
+                "2": "Filing Date",
+                "3": "22-09-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "FMAT /1074/2016",
+                "2": "Registration Date",
+                "3": "22-09-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "WBCHCA-047442-2016",
+                "2": "WBCHCA-047442-2016",
+                "3": "WBCHCA-047442-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Next Hearing Date": "",
+            "Stage of Case": "FOR ADMISSION",
+            "Court Number and Judge": "",
+            "Judicial Branch": "STAMP REPORTER (SR) SECTION"
+        },
+        "petitioner_advocate": "1) M/S ADANI ENTERPRISES LIMITED",
+        "respondent_advocate": "1) UNION OF INDIA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010247172016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "STATE OF ODISHA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /12226/2016",
+                "2": "Filing Date",
+                "3": "15-07-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /12226/2016",
+                "2": "Registration Date",
+                "3": "15-07-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-024717-2016",
+                "2": "ODHC01-024717-2016",
+                "3": "ODHC01-024717-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "25th November 2016",
+            "Decision Date": "08th December 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Disposed Off",
+            "Coram": "MR. JUSTICE SUJIT NARAYAN PRASAD , KUMARI JUSTICE SANJU PANDA",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section",
+            "State": "ORISSA",
+            "District": "Khordha"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) STATE OF ODISHA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/12226/2016",
+                "2": "MR. JUSTICE I.MAHANTY,MR. JUSTICE BISWAJIT MOHANTY",
+                "3": "25-11-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP(C)/12226/2016",
+                "2": "MR. JUSTICE SUJIT NARAYAN PRASAD,KUMARI JUSTICE SANJU PANDA",
+                "3": "08-12-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "WP(C)/12226/2016",
+                "2": "",
+                "3": "09-12-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010400102016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "STATE OF ODISHA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /11606/2016",
+                "2": "Filing Date",
+                "3": "05-07-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /11606/2016",
+                "2": "Registration Date",
+                "3": "05-07-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-040010-2016",
+                "2": "ODHC01-040010-2016",
+                "3": "ODHC01-040010-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "27th September 2016",
+            "Decision Date": "05th February 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--Disposed Off",
+            "Coram": "MR. JUSTICE K. S. JHAVERI (CJ) , MR. JUSTICE K.R.MOHAPATRA",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) STATE OF ODISHA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/11606/2016",
+                "2": "",
+                "3": "07-12-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP(C)/11606/2016",
+                "2": "MR. JUSTICE K. S. JHAVERI (CJ),MR. JUSTICE K.R.MOHAPATRA",
+                "3": "05-02-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "17-08-2016",
+                "2": "1)",
+                "3": "",
+                "4": "14-09-2016"
+            }
+        ]
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010268702016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "STATE OF ODISHA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /11604/2016",
+                "2": "Filing Date",
+                "3": "05-07-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /11604/2016",
+                "2": "Registration Date",
+                "3": "05-07-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-026870-2016",
+                "2": "ODHC01-026870-2016",
+                "3": "ODHC01-026870-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "27th September 2016",
+            "Decision Date": "05th February 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--Disposed Off",
+            "Coram": "MR. JUSTICE K. S. JHAVERI (CJ) , MR. JUSTICE K.R.MOHAPATRA",
+            "Bench Type": "Registrar",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) STATE OF ODISHA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/11604/2016",
+                "2": "DEPUTY REGISTRAR (Judicial)",
+                "3": "24-11-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP(C)/11604/2016",
+                "2": "MR. JUSTICE K. S. JHAVERI (CJ),MR. JUSTICE K.R.MOHAPATRA",
+                "3": "05-02-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "17-08-2016",
+                "2": "1) RECEIPT SHOWING SERV.COPY TO AG/CG/IT/CT/ETC.NOT FILED.",
+                "3": "",
+                "4": "14-09-2016"
+            }
+        ]
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010184202016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "STATE OF ODISHA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /11602/2016",
+                "2": "Filing Date",
+                "3": "05-07-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /11602/2016",
+                "2": "Registration Date",
+                "3": "05-07-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-018420-2016",
+                "2": "ODHC01-018420-2016",
+                "3": "ODHC01-018420-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "27th September 2016",
+            "Decision Date": "05th February 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--Disposed Off",
+            "Coram": "MR. JUSTICE K. S. JHAVERI (CJ) , MR. JUSTICE K.R.MOHAPATRA",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) STATE OF ODISHA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/11602/2016",
+                "2": "",
+                "3": "29-11-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP(C)/11602/2016",
+                "2": "MR. JUSTICE K. S. JHAVERI (CJ),MR. JUSTICE K.R.MOHAPATRA",
+                "3": "05-02-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "17-08-2016",
+                "2": "1) RECEIPT SHOWING SERV.COPY TO AG/CG/IT/CT/ETC.NOT FILED.",
+                "3": "",
+                "4": "14-09-2016"
+            }
+        ]
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010040652016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "STATE OF ODISHA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /10988/2016",
+                "2": "Filing Date",
+                "3": "27-06-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /10988/2016",
+                "2": "Registration Date",
+                "3": "27-06-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-004065-2016",
+                "2": "ODHC01-004065-2016",
+                "3": "ODHC01-004065-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "09th September 2016",
+            "Decision Date": "05th February 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--Disposed Off",
+            "Coram": "MR. JUSTICE K. S. JHAVERI (CJ) , MR. JUSTICE K.R.MOHAPATRA",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) STATE OF ODISHA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/10988/2016",
+                "2": "MR. JUSTICE K. S. JHAVERI (CJ),MR. JUSTICE K.R.MOHAPATRA",
+                "3": "05-02-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010132492016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "STATE OF ODISHA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /10987/2016",
+                "2": "Filing Date",
+                "3": "27-06-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /10987/2016",
+                "2": "Registration Date",
+                "3": "27-06-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-013249-2016",
+                "2": "ODHC01-013249-2016",
+                "3": "ODHC01-013249-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "09th September 2016",
+            "Decision Date": "05th February 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--Disposed Off",
+            "Coram": "MR. JUSTICE K. S. JHAVERI (CJ) , MR. JUSTICE K.R.MOHAPATRA",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) STATE OF ODISHA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/10987/2016",
+                "2": "MR. JUSTICE K. S. JHAVERI (CJ),MR. JUSTICE K.R.MOHAPATRA",
+                "3": "05-02-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010121462016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "STATE OF ODISHA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /10986/2016",
+                "2": "Filing Date",
+                "3": "27-06-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /10986/2016",
+                "2": "Registration Date",
+                "3": "27-06-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-012146-2016",
+                "2": "ODHC01-012146-2016",
+                "3": "ODHC01-012146-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "09th September 2016",
+            "Decision Date": "05th February 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--Disposed Off",
+            "Coram": "MR. JUSTICE K. S. JHAVERI (CJ) , MR. JUSTICE K.R.MOHAPATRA",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) STATE OF ODISHA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/10986/2016",
+                "2": "MR. JUSTICE K. S. JHAVERI (CJ),MR. JUSTICE K.R.MOHAPATRA",
+                "3": "05-02-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010518372016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "STATE OF ODISHA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /10985/2016",
+                "2": "Filing Date",
+                "3": "27-06-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /10985/2016",
+                "2": "Registration Date",
+                "3": "27-06-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-051837-2016",
+                "2": "ODHC01-051837-2016",
+                "3": "ODHC01-051837-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "09th September 2016",
+            "Decision Date": "05th February 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--Disposed Off",
+            "Coram": "MR. JUSTICE K. S. JHAVERI (CJ) , MR. JUSTICE K.R.MOHAPATRA",
+            "Bench Type": "Division Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) STATE OF ODISHA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/10985/2016",
+                "2": "MR. JUSTICE SUJIT NARAYAN PRASAD,KUMARI JUSTICE SANJU PANDA",
+                "3": "08-03-2018",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP(C)/10985/2016",
+                "2": "MR. JUSTICE K. S. JHAVERI (CJ),MR. JUSTICE K.R.MOHAPATRA",
+                "3": "05-02-2019",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010266382016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "STATE OF ORISSA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /5111/2016",
+                "2": "Filing Date",
+                "3": "18-03-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /5111/2016",
+                "2": "Registration Date",
+                "3": "18-03-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-026638-2016",
+                "2": "ODHC01-026638-2016",
+                "3": "ODHC01-026638-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "30th March 2016",
+            "Decision Date": "05th January 2024",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--Disposed Off",
+            "Coram": "DR. JUSTICE B.R.SARANGI (ACJ) , MR. JUSTICE MURAHARI SRI RAMAN",
+            "Bench Type": "Division Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) STATE OF ORISSA",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/5111/2016",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "30-03-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP(C)/5111/2016",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "18-04-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "WP(C)/5111/2016",
+                "2": "DR. JUSTICE B.R.SARANGI (ACJ),MR. JUSTICE MURAHARI SRI RAMAN",
+                "3": "05-01-2024",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010438712016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER OF COMMERCIAL TAXES",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /4642/2016",
+                "2": "Filing Date",
+                "3": "14-03-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /4642/2016",
+                "2": "Registration Date",
+                "3": "14-03-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-043871-2016",
+                "2": "ODHC01-043871-2016",
+                "3": "ODHC01-043871-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "30th March 2016",
+            "Decision Date": "30th August 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Disposed Off",
+            "Coram": "MR. JUSTICE I.MAHANTY , MR. JUSTICE BISWAJIT MOHANTY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER OF COMMERCIAL TAXES",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/4642/2016",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "30-03-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP(C)/4642/2016",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "09-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "WP(C)/4642/2016",
+                "2": "MR. JUSTICE I.MAHANTY,MR. JUSTICE BISWAJIT MOHANTY",
+                "3": "30-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010214602016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER OF COMMERCIAL TAXES",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /4639/2016",
+                "2": "Filing Date",
+                "3": "14-03-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /4639/2016",
+                "2": "Registration Date",
+                "3": "14-03-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-021460-2016",
+                "2": "ODHC01-021460-2016",
+                "3": "ODHC01-021460-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "30th March 2016",
+            "Decision Date": "30th August 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Disposed Off",
+            "Coram": "MR. JUSTICE I.MAHANTY , MR. JUSTICE BISWAJIT MOHANTY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER OF COMMERCIAL TAXES",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/4639/2016",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "30-03-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP(C)/4639/2016",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "09-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "WP(C)/4639/2016",
+                "2": "MR. JUSTICE I.MAHANTY,MR. JUSTICE BISWAJIT MOHANTY",
+                "3": "30-08-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010653082016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER OF COMMERCIAL TAXES",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /2215/2016",
+                "2": "Filing Date",
+                "3": "08-02-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /2215/2016",
+                "2": "Registration Date",
+                "3": "08-02-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-065308-2016",
+                "2": "ODHC01-065308-2016",
+                "3": "ODHC01-065308-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "10th February 2016",
+            "Decision Date": "30th March 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Disposed Off",
+            "Coram": "MR. JUSTICE I.MAHANTY , DR. JUSTICE D.P.CHOUDHURY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER OF COMMERCIAL TAXES",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/2215/2016",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "11-02-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP(C)/2215/2016",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "18-03-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "WP(C)/2215/2016",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "30-03-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010462852016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER OF COMMERCIAL TAXES",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /485/2016",
+                "2": "Filing Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /485/2016",
+                "2": "Registration Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-046285-2016",
+                "2": "ODHC01-046285-2016",
+                "3": "ODHC01-046285-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "14th January 2016",
+            "Decision Date": "19th January 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Dismissed",
+            "Coram": "MR. JUSTICE I.MAHANTY , DR. JUSTICE D.P.CHOUDHURY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section",
+            "State": "GUJARAT",
+            "District": "Ahmadabad"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER OF COMMERCIAL TAXES",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010217352016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER OF COMMERCIAL TAXES",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /484/2016",
+                "2": "Filing Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /484/2016",
+                "2": "Registration Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-021735-2016",
+                "2": "ODHC01-021735-2016",
+                "3": "ODHC01-021735-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "14th January 2016",
+            "Decision Date": "19th January 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Dismissed",
+            "Coram": "MR. JUSTICE I.MAHANTY , DR. JUSTICE D.P.CHOUDHURY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section",
+            "State": "GUJARAT",
+            "District": "Ahmadabad"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER OF COMMERCIAL TAXES",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010650512016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER OF COMMERCIAL TAXES",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /482/2016",
+                "2": "Filing Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /482/2016",
+                "2": "Registration Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-065051-2016",
+                "2": "ODHC01-065051-2016",
+                "3": "ODHC01-065051-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "14th January 2016",
+            "Decision Date": "19th January 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Dismissed",
+            "Coram": "MR. JUSTICE I.MAHANTY , DR. JUSTICE D.P.CHOUDHURY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section",
+            "State": "GUJARAT",
+            "District": "Ahmadabad"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER OF COMMERCIAL TAXES",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010015462016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER OF COMMERCIAL TAXES",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /481/2016",
+                "2": "Filing Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /481/2016",
+                "2": "Registration Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-001546-2016",
+                "2": "ODHC01-001546-2016",
+                "3": "ODHC01-001546-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "14th January 2016",
+            "Decision Date": "19th January 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Dismissed",
+            "Coram": "MR. JUSTICE I.MAHANTY , DR. JUSTICE D.P.CHOUDHURY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section",
+            "State": "GUJARAT",
+            "District": "Ahmadabad"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER OF COMMERCIAL TAXES",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010650502016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER OF COMMERCIAL TAXES",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /480/2016",
+                "2": "Filing Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /480/2016",
+                "2": "Registration Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-065050-2016",
+                "2": "ODHC01-065050-2016",
+                "3": "ODHC01-065050-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "14th January 2016",
+            "Decision Date": "19th January 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Dismissed",
+            "Coram": "MR. JUSTICE I.MAHANTY , DR. JUSTICE D.P.CHOUDHURY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section",
+            "State": "GUJARAT",
+            "District": "Ahmadabad"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER OF COMMERCIAL TAXES",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010356842016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER OF COMMERCIAL TAXES",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /477/2016",
+                "2": "Filing Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /477/2016",
+                "2": "Registration Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-035684-2016",
+                "2": "ODHC01-035684-2016",
+                "3": "ODHC01-035684-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "14th January 2016",
+            "Decision Date": "19th January 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Dismissed",
+            "Coram": "MR. JUSTICE I.MAHANTY , DR. JUSTICE D.P.CHOUDHURY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section",
+            "State": "GUJARAT",
+            "District": "Ahmadabad"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER OF COMMERCIAL TAXES",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Orissa High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "ODHC010048942016",
+        "search_year": 2016,
+        "raw_petitioner": "M/S.ADANI ENTERPRISES LTD.",
+        "raw_respondent": "COMMISSIONER OF COMMERCIAL TAXES",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP(C) /467/2016",
+                "2": "Filing Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP(C) /467/2016",
+                "2": "Registration Date",
+                "3": "11-01-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "ODHC01-004894-2016",
+                "2": "ODHC01-004894-2016",
+                "3": "ODHC01-004894-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "14th January 2016",
+            "Decision Date": "19th January 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Dismissed",
+            "Coram": "MR. JUSTICE I.MAHANTY , DR. JUSTICE D.P.CHOUDHURY",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Civil Section",
+            "State": "GUJARAT",
+            "District": "Ahmadabad"
+        },
+        "petitioner_advocate": "1) M/S.ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) COMMISSIONER OF COMMERCIAL TAXES",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP(C)/467/2016",
+                "2": "MR. JUSTICE I.MAHANTY,DR. JUSTICE D.P.CHOUDHURY",
+                "3": "19-01-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Punjab and Haryana High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "PHHC011197192016",
+        "search_year": 2016,
+        "raw_petitioner": "ADANI TRANSMISSION (I) LTD. (FORMERLY KNOWN AS ADANI POWER LIMITED.",
+        "raw_respondent": "MANBIR SINGH & ORS",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "RSA /2264/2016",
+                "2": "Filing Date",
+                "3": "03-03-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "RSA /2264/2016",
+                "2": "Registration Date",
+                "3": "03-05-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "PHHC01-119719-2016",
+                "2": "PHHC01-119719-2016",
+                "3": "PHHC01-119719-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "18th July 2016",
+            "Next Hearing Date": "24th September 2026",
+            "Stage of Case": "",
+            "Coram": "MR. JUSTICE JITENDRA CHAUHAN",
+            "Bench Type": "Single",
+            "Judicial Branch": "CIVIL II(RSA) BRANCH",
+            "State": "HARYANA",
+            "District": "MAHENDERGARH",
+            "Not Before Me": "MR. JUSTICE AMRIT LAL BAHRI"
+        },
+        "petitioner_advocate": "1) ADANI TRANSMISSION (I) LTD. (FORMERLY KNOWN AS ADANI POWER LIMITED.",
+        "respondent_advocate": "1) MANBIR SINGH & ORS",
+        "acts": [
+            {
+                "Under Act(s)": "No Acts defined",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "RSA/2264/2016",
+                "2": "MR. JUSTICE PARAMJEET SINGH DHALIWAL",
+                "3": "18-07-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "RSA/2264/2016",
+                "2": "MR. JUSTICE DARSHAN SINGH",
+                "3": "05-12-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "RSA/2264/2016",
+                "2": "MR. JUSTICE HARINDER SINGH SIDHU",
+                "3": "27-07-2018",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "03-05-2016",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    },
+    {
+        "state": "Madras High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Green Energy"
+        ],
+        "cino": "HCMA011077442016",
+        "search_year": 2016,
+        "raw_petitioner": "Adani Green Energy (Tamilnadu0",
+        "raw_respondent": "Kabilan Manoharan",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CS /6325/2016",
+                "2": "Filing Date",
+                "3": "17-02-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CS /88/2016",
+                "2": "Registration Date",
+                "3": "19-02-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCMA01-107744-2016",
+                "2": "HCMA01-107744-2016",
+                "3": "HCMA01-107744-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "05th July 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--WITHDRAWN DISMISSED",
+            "Court Number and Judge": "",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "ORIGINALSECTION",
+            "State": "TAMIL NADU",
+            "District": ""
+        },
+        "petitioner_advocate": "1) Adani Green Energy (Tamilnadu0",
+        "respondent_advocate": "1) Kabilan Manoharan   Advocate- VIJAYA NATARAJAN,S.DIWAKAR,H.HYNDHAVI,VIDYA RAMANATHAN,FOR DEFT.-D.NO.9099/16,NO.32A, KRISHNA ST.,T.NAGAR, CH-17 1123",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CS/88/2016",
+                "2": "",
+                "3": "05-07-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Madras High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Green Energy"
+        ],
+        "cino": "HCMA011148762016",
+        "search_year": 2016,
+        "raw_petitioner": "Adani Green Energy (Tamilnadu0",
+        "raw_respondent": "Kabilan Manoharan",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "OA /1000094/2016",
+                "2": "Filing Date",
+                "3": "17-02-2016"
+            },
+            {
+                "0": "Registration Number",
+                "1": "OA /94/2016",
+                "2": "Registration Date",
+                "3": "19-02-2016"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCMA01-114876-2016",
+                "2": "HCMA01-114876-2016",
+                "3": "HCMA01-114876-2016"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "05th July 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--WITHDRAWN DISMISSED",
+            "Court Number and Judge": "",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "ORIGINALSECTION",
+            "State": "TAMIL NADU",
+            "District": ""
+        },
+        "petitioner_advocate": "1) Adani Green Energy (Tamilnadu0",
+        "respondent_advocate": "1) Kabilan Manoharan",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    }
+]

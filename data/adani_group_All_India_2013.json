@@ -1,0 +1,1467 @@
+[
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020197292012",
+        "search_year": 2013,
+        "raw_petitioner": "ADANI ENTERPRISES LTD.",
+        "raw_respondent": "DELTA NAVIGATION WLL",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "S /2051/2012",
+                "2": "Filing Date",
+                "3": "03-08-2012"
+            },
+            {
+                "0": "Registration Number",
+                "1": "S /836/2013",
+                "2": "Registration Date",
+                "3": "13-11-2013"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-019729-2012",
+                "2": "HCBM02-019729-2012",
+                "3": "HCBM02-019729-2012"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "11th December 2012",
+            "Decision Date": "17th November 2016",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--EX-PARTE DECREE",
+            "Coram": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) DELTA NAVIGATION WLL",
+        "acts": [
+            {
+                "Under Act(s)": "Code of Civil Procedure 1908",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "S/836/2013",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "04-02-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "S/836/2013",
+                "2": "REGISTRAR(OS)/PROTHONOTARY and SR. MASTER",
+                "3": "21-01-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "S/836/2013",
+                "2": "REGISTRAR(OS)/PROTHONOTARY and SR. MASTER",
+                "3": "16-07-2014",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "4",
+                "1": "S/836/2013",
+                "2": "REGISTRAR(OS)/PROTHONOTARY and SR. MASTER",
+                "3": "01-04-2014",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "5",
+                "1": "S/836/2013",
+                "2": "HON'BLE SHRI JUSTICE K.K. TATED",
+                "3": "21-11-2015",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "6",
+                "1": "S/836/2013",
+                "2": "REGISTRAR(OS)/PROTHONOTARY and SR. MASTER",
+                "3": "13-10-2014",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "7",
+                "1": "S/836/2013",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "17-11-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "8",
+                "1": "S/836/2013",
+                "2": "HON'BLE SHRI JUSTICE K.R. SHRIRAM",
+                "3": "30-09-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "30-01-2015",
+                "Filed by": "DATTA GHONGE",
+                "Name of Advocate": "Economic Laws Practice",
+                "Document Filed": "Affidavit Of Service"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Date of Receiving": "16-01-2014",
+                "Filed by": "",
+                "Name of Advocate": "Economic Laws Practice",
+                "Document Filed": "Affidavit Of Service"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020218282013",
+        "search_year": 2013,
+        "raw_petitioner": "ADANI ENTERPRISES LTD.",
+        "raw_respondent": "DELTA NAVIGATION WLL",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "LPETN /332/2013",
+                "2": "Filing Date",
+                "3": "28-10-2013"
+            },
+            {
+                "0": "Registration Number",
+                "1": "LPETN /332/2013",
+                "2": "Registration Date",
+                "3": "28-10-2013"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-021828-2013",
+                "2": "HCBM02-021828-2013",
+                "3": "HCBM02-021828-2013"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "29th October 2013",
+            "Decision Date": "29th October 2013",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SHRI JUSTICE R.D. DHANUKA",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) DELTA NAVIGATION WLL",
+        "acts": [
+            {
+                "Under Act(s)": "Code of Civil Procedure 1908",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020145552013",
+        "search_year": 2013,
+        "raw_petitioner": "KNOWLEDGEINFRASTRUCTURE SYSTEMS PVT. LTD. and ORS.",
+        "raw_respondent": "MAHARASHTRA POWER GENERATION COMPANY LTD.,AND ADANI ENTERPRISES LTD. (APPLICANT)",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CHSW /198/2013",
+                "2": "Filing Date",
+                "3": "29-07-2013"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CHSW /122/2013",
+                "2": "Registration Date",
+                "3": "01-08-2013"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-014555-2013",
+                "2": "HCBM02-014555-2013",
+                "3": "HCBM02-014555-2013"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "08th August 2013",
+            "Decision Date": "08th August 2013",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SHRI JUSTICE M.S. SONAK , HON'BLE SHRI JUSTICE S.J. VAZIFDAR",
+            "Bench Type": "Division",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) KNOWLEDGEINFRASTRUCTURE SYSTEMS PVT. LTD. and ORS.",
+        "respondent_advocate": "1) MAHARASHTRA POWER GENERATION COMPANY LTD.,AND ADANI ENTERPRISES LTD. (APPLICANT)",
+        "acts": [
+            {
+                "Under Act(s)": "Indian Contract Act 1872",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CHSW/122/2013",
+                "2": "HON'BLE SHRI JUSTICE M.S. SONAK,HON'BLE SHRI JUSTICE S.J. VAZIFDAR",
+                "3": "30-07-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020211852013",
+        "search_year": 2013,
+        "raw_petitioner": "ADANI ENTERPRISES LTD.",
+        "raw_respondent": "DELTA NAVIGATION WLL",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CHOL /655/2013",
+                "2": "Filing Date",
+                "3": "21-10-2013"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CHOL /655/2013",
+                "2": "Registration Date",
+                "3": "21-10-2013"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-021185-2013",
+                "2": "HCBM02-021185-2013",
+                "3": "HCBM02-021185-2013"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "23rd October 2013",
+            "Decision Date": "23rd October 2013",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "REGISTRAR(OS)/PROTHONOTARY and SR. MASTER",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": ""
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD.",
+        "respondent_advocate": "1) DELTA NAVIGATION WLL",
+        "acts": [
+            {
+                "Under Act(s)": "Code of Civil Procedure 1908",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CHOL/655/2013",
+                "2": "REGISTRAR(OS)/PROTHONOTARY and SR. MASTER",
+                "3": "23-10-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 4,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "HCBM040102442013",
+        "search_year": 2013,
+        "raw_petitioner": "M/S. ADANI POWER MAHARASHTRA LTD., AHMEDABAD MAHARASHTRA THR.ITS AUTH.SIGNATORY OMPRAKASH R.BHARDWA",
+        "raw_respondent": "STATE OF MAHARASHTRA, THROUGH SECRETARY, REVENUE AND FOREST DEPT. AND 3 OTHERS",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "WP /7842/2013",
+                "2": "Filing Date",
+                "3": "26-04-2013"
+            },
+            {
+                "0": "Registration Number",
+                "1": "WP /2413/2013",
+                "2": "Registration Date",
+                "3": "29-04-2013"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM04-010244-2013",
+                "2": "HCBM04-010244-2013",
+                "3": "HCBM04-010244-2013"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "30th April 2013",
+            "Decision Date": "06th May 2025",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--ALLOWED",
+            "Coram": "HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+            "Bench Type": "Single",
+            "Judicial Branch": "Civil",
+            "State": "MAHARASHTRA",
+            "District": "AURANGABAD"
+        },
+        "petitioner_advocate": "1) M/S. ADANI POWER MAHARASHTRA LTD., AHMEDABAD MAHARASHTRA THR.ITS AUTH.SIGNATORY OMPRAKASH R.BHARDWA",
+        "respondent_advocate": "1) STATE OF MAHARASHTRA, THROUGH SECRETARY, REVENUE AND FOREST DEPT. AND 3 OTHERS",
+        "acts": [
+            {
+                "Under Act(s)": "Mah. Land Revenue Code, 1966",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE B. P. DHARMADHIKARI , HON'BLE SHRI JUSTICE P.N. DESHMUKH",
+                "Business On Date": "",
+                "Hearing Date": "18-04-2016",
+                "Purpose of hearing": "FOR ORDERS- (CIVIL SIDE MATTERS)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE Z.A. HAQ",
+                "Business On Date": "",
+                "Hearing Date": "02-07-2014",
+                "Purpose of hearing": "FOR ADMISSION- CIVIL SIDE MATTERS"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE Z.A. HAQ",
+                "Business On Date": "",
+                "Hearing Date": "27-06-2014",
+                "Purpose of hearing": "FOR ADMISSION -"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE RAVI K. DESHPANDE",
+                "Business On Date": "",
+                "Hearing Date": "11-02-2014",
+                "Purpose of hearing": "PETITIONS FOR ADMISSION - FINAL DISPOSAL (CIVIL SIDE MATTERS)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE RAVI K. DESHPANDE",
+                "Business On Date": "",
+                "Hearing Date": "16-09-2013",
+                "Purpose of hearing": "FOR HEARING & FINAL DISPOSAL [CIVIL SIDE MATTERS]"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE R.Y. GANOO",
+                "Business On Date": "",
+                "Hearing Date": "03-07-2013",
+                "Purpose of hearing": "FOR HEARING & FINAL DISPOSAL [CIVIL SIDE MATTERS]"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE Z.A. HAQ",
+                "Business On Date": "",
+                "Hearing Date": "13-11-2013",
+                "Purpose of hearing": "PETITIONS FOR ADMISSION - AFTER NOTICE (CIVIL SIDE MATTERS)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE RAVI K. DESHPANDE",
+                "Business On Date": "",
+                "Hearing Date": "07-01-2014",
+                "Purpose of hearing": "PETITIONS FOR ADMISSION - FINAL DISPOSAL (CIVIL SIDE MATTERS)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE RAVI K. DESHPANDE",
+                "Business On Date": "",
+                "Hearing Date": "28-10-2013",
+                "Purpose of hearing": "FOR HEARING & FINAL DISPOSAL [CIVIL SIDE MATTERS]"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE RAVI K. DESHPANDE",
+                "Business On Date": "",
+                "Hearing Date": "28-01-2014",
+                "Purpose of hearing": "PETITIONS FOR ADMISSION - FINAL DISPOSAL (CIVIL SIDE MATTERS)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE R.Y. GANOO",
+                "Business On Date": "",
+                "Hearing Date": "01-08-2013",
+                "Purpose of hearing": "FOR HEARING & FINAL DISPOSAL [CIVIL SIDE MATTERS]"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE B. P. DHARMADHIKARI , HON'BLE KUM. JUSTICE INDIRA JAIN",
+                "Business On Date": "",
+                "Hearing Date": "13-06-2016",
+                "Purpose of hearing": "FOR ORDERS- (CIVIL SIDE MATTERS)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE B. P. DHARMADHIKARI , HON'BLE SHRI JUSTICE P.N. DESHMUKH",
+                "Business On Date": "",
+                "Hearing Date": "02-05-2016",
+                "Purpose of hearing": "FOR ORDERS- (CIVIL SIDE MATTERS)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE R.Y. GANOO",
+                "Business On Date": "",
+                "Hearing Date": "22-08-2013",
+                "Purpose of hearing": "FOR HEARING & FINAL DISPOSAL [CIVIL SIDE MATTERS]"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE RAVI K. DESHPANDE",
+                "Business On Date": "",
+                "Hearing Date": "07-10-2013",
+                "Purpose of hearing": "FOR HEARING & FINAL DISPOSAL [CIVIL SIDE MATTERS]"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "ACCORDING TO SITTING LIST",
+                "Business On Date": "",
+                "Hearing Date": "26-06-2020",
+                "Purpose of hearing": "FOR FINAL HEARING - (YEAR 2005)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SMT. JUSTICE V.A. NAIK",
+                "Business On Date": "",
+                "Hearing Date": "30-04-2013",
+                "Purpose of hearing": "FOR ADMISSION - FRESH (CIVIL SIDE MATTERS)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE RAVI K. DESHPANDE",
+                "Business On Date": "",
+                "Hearing Date": "19-06-2013",
+                "Purpose of hearing": "FOR HEARING & FINAL DISPOSAL [CIVIL SIDE MATTERS]"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SMT. JUSTICE V.A. NAIK , HON'BLE SHRI JUSTICE V.K. JADHAV",
+                "Business On Date": "",
+                "Hearing Date": "30-07-2014",
+                "Purpose of hearing": "PETITIONS FOR ADMISSION - FINAL DISPOSAL [CIVIL SIDE MATTERS]"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SMT. JUSTICE V.A. NAIK , HON'BLE KUM. JUSTICE INDIRA JAIN",
+                "Business On Date": "",
+                "Hearing Date": "31-08-2016",
+                "Purpose of hearing": "FOR ORDERS- (CIVIL SIDE MATTERS)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SMT. JUSTICE V.A. NAIK",
+                "Business On Date": "",
+                "Hearing Date": "11-12-2013",
+                "Purpose of hearing": "FOR HEARING & FINAL DISPOSAL [CIVIL SIDE MATTERS]"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE B. P. DHARMADHIKARI , HON'BLE KUM. JUSTICE INDIRA JAIN",
+                "Business On Date": "",
+                "Hearing Date": "06-06-2016",
+                "Purpose of hearing": "FOR ORDERS- (CIVIL SIDE MATTERS)"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+                "Business On Date": "06-05-2025",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+                "Business On Date": "05-05-2025",
+                "Hearing Date": "06-05-2025",
+                "Purpose of hearing": "FOR ORDERS -"
+            },
+            {
+                "Cause List Type": "Daily Supplementary",
+                "Judge": "HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+                "Business On Date": "29-04-2025",
+                "Hearing Date": "05-05-2025",
+                "Purpose of hearing": "FOR FINAL HEARING AT ADMISSION STAGE"
+            },
+            {
+                "Cause List Type": "Daily Supplementary",
+                "Judge": "HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+                "Business On Date": "03-04-2025",
+                "Hearing Date": "28-04-2025",
+                "Purpose of hearing": "FOR FINAL HEARING AT ADMISSION STAGE"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+                "Business On Date": "18-02-2025",
+                "Hearing Date": "18-03-2025",
+                "Purpose of hearing": "FOR FINAL HEARING AT ADMISSION STAGE"
+            },
+            {
+                "Cause List Type": "Daily Main",
+                "Judge": "HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+                "Business On Date": "28-01-2025",
+                "Hearing Date": "18-02-2025",
+                "Purpose of hearing": "FOR ADMISSION -"
+            },
+            {
+                "Cause List Type": "Weekly Supplementary",
+                "Judge": "HON'BLE SHRI JUSTICE A.S. CHANDURKAR , HON'BLE JUSTICE URMILA JOSHI PHALKE",
+                "Business On Date": "05-09-2022",
+                "Hearing Date": "03-10-2022",
+                "Purpose of hearing": "FOR FINAL HEARING-"
+            },
+            {
+                "Cause List Type": "Weekly Supplementary",
+                "Judge": "HON'BLE SHRI JUSTICE ROHIT BABAN DEO , HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+                "Business On Date": "10-08-2022",
+                "Hearing Date": "06-09-2022",
+                "Purpose of hearing": "FOR FINAL HEARING-"
+            }
+        ],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SMT. JUSTICE V.A. NAIK,HON'BLE SHRI JUSTICE V.K. JADHAV",
+                "3": "30-07-2014",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SHRI JUSTICE Z.A. HAQ",
+                "3": "02-07-2014",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SHRI JUSTICE RAVI K. DESHPANDE",
+                "3": "19-06-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "4",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SMT. JUSTICE V.A. NAIK",
+                "3": "30-04-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "5",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SMT. JUSTICE V.A. NAIK,HON'BLE SHRI JUSTICE V.M. DESHPANDE",
+                "3": "16-03-2017",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "6",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SHRI JUSTICE B. P. DHARMADHIKARI,HON'BLE KUM. JUSTICE INDIRA JAIN",
+                "3": "13-06-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "7",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SHRI JUSTICE B. P. DHARMADHIKARI,HON'BLE KUM. JUSTICE INDIRA JAIN",
+                "3": "13-06-2016",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "8",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SHRI JUSTICE RAVI K. DESHPANDE,HON'BLE SHRI JUSTICE MURLIDHAR GANPATRAO GIRATKAR",
+                "3": "15-12-2017",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "9",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SHRI JUSTICE A.S. CHANDURKAR,HON'BLE JUSTICE URMILA JOSHI PHALKE",
+                "3": "05-09-2022",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "10",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SHRI JUSTICE A.S. CHANDURKAR,HON'BLE JUSTICE URMILA JOSHI PHALKE",
+                "3": "06-09-2022",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "11",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+                "3": "28-01-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "12",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+                "3": "03-04-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "13",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+                "3": "29-04-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "14",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+                "3": "05-05-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "15",
+                "1": "WP/2413/2013",
+                "2": "HON'BLE SHRI JUSTICE ANIL L. PANSARE",
+                "3": "06-05-2025",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Filed by": "RETURN/R-2 TO 4/GP",
+                "Name of Advocate": "",
+                "Document Filed": "Affidavit"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 2,
+                "Filed by": "AFFIDAVIT/R-2 TO 4/GP",
+                "Name of Advocate": "",
+                "Document Filed": "Affidavit"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 3,
+                "Filed by": "REJOINDER/P/D.V. CHAUHAN",
+                "Name of Advocate": "",
+                "Document Filed": "Affidavit"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 4,
+                "Filed by": "WRITTEN SUBMISSION/R-2 TO 4/GP",
+                "Name of Advocate": "",
+                "Document Filed": "Affidavit"
+            },
+            {
+                "Sr. No.": 5,
+                "Document No.": 5,
+                "Filed by": "",
+                "Name of Advocate": "GOVERNMENT PLEADER",
+                "Document Filed": "Judgement and decree"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Bombay High Court",
+        "bench_id": 4,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "HCBM040104892013",
+        "search_year": 2013,
+        "raw_petitioner": "M/S. ADANI POWER MAHA LTD., AHMEDABAD THR.ITS AUTH.SIGNATORY OMPRAKASH R.BHARDWAJ",
+        "raw_respondent": "STATE OF MAHARASHTRA, THROUGH SECRETARY, REVENUE AND FOREST DEPT. AND 3 OTHERS",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CAW /8026/2013",
+                "2": "Filing Date",
+                "3": "29-04-2013"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CAW /1148/2013",
+                "2": "Registration Date",
+                "3": "30-04-2013"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM04-010489-2013",
+                "2": "HCBM04-010489-2013",
+                "3": "HCBM04-010489-2013"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "30th April 2013",
+            "Decision Date": "30th April 2013",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--Admitted/Allwd/Granted/Rule Absolute",
+            "Coram": "HON'BLE SMT. JUSTICE V.A. NAIK",
+            "Bench Type": "Single",
+            "Judicial Branch": "Civil",
+            "State": "MAHARASHTRA",
+            "District": "AURANGABAD"
+        },
+        "petitioner_advocate": "1) M/S. ADANI POWER MAHA LTD., AHMEDABAD THR.ITS AUTH.SIGNATORY OMPRAKASH R.BHARDWAJ",
+        "respondent_advocate": "1) STATE OF MAHARASHTRA, THROUGH SECRETARY, REVENUE AND FOREST DEPT. AND 3 OTHERS",
+        "acts": [
+            {
+                "Under Act(s)": "Other Act",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CAW/1148/2013",
+                "2": "HON'BLE SMT. JUSTICE V.A. NAIK",
+                "3": "30-04-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "CAW/1148/2013",
+                "2": "HON'BLE SMT. JUSTICE V.A. NAIK",
+                "3": "30-04-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240434702013",
+        "search_year": 2013,
+        "raw_petitioner": "DIRECTOR OF INCOME TAX",
+        "raw_respondent": "ADANI ENTERPRISES LTD.",
+        "basic_details": [
+            {
+                "Filing Number2": "IA Details",
+                "Case Number": "IA Details",
+                "Unnamed: 2": "IA Details",
+                "Unnamed: 3": "IA Details",
+                "Unnamed: 4": "IA Details"
+            },
+            {
+                "Filing Number2": "TAXAP/2063/2013 ( main )",
+                "Case Number": "TAXAP/698/2013 ( main )",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "TAXAP/553/2016",
+                "Case Number": "TAXAP/399/2016",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "TAXAP/2078/2017",
+                "Case Number": "TAXAP/806/2017",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "TAXAP/461/2018",
+                "Case Number": "TAXAP/265/2018",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "TAXAP/552/2016",
+                "Case Number": "TAXAP/284/2016",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "TAXAP/554/2016",
+                "Case Number": "TAXAP/400/2016",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "TAXAP/1903/2014",
+                "Case Number": "TAXAP/1023/2014",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            },
+            {
+                "Filing Number2": "TAXAP/460/2018",
+                "Case Number": "TAXAP/264/2018",
+                "Unnamed: 2": "",
+                "Unnamed: 3": "",
+                "Unnamed: 4": ""
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "06th August 2013",
+            "Next Hearing Date": "23rd June 2026",
+            "Stage of Case": "160-FOR FINAL HEARING",
+            "Coram": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) DIRECTOR OF INCOME TAX",
+        "respondent_advocate": "1) ADANI ENTERPRISES LTD.",
+        "acts": [
+            {
+                "Under Act(s)": "INCOME-TAX ACT, 1961",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "02-03-2026",
+                "Hearing Date": "23-06-2026",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "09-12-2025",
+                "Hearing Date": "02-03-2026",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "14-10-2025",
+                "Hearing Date": "09-12-2025",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "12-08-2025",
+                "Hearing Date": "14-10-2025",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR.JUSTICE D.N.RAY",
+                "Business On Date": "20-03-2025",
+                "Hearing Date": "12-08-2025",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR.JUSTICE D.N.RAY",
+                "Business On Date": "06-02-2025",
+                "Hearing Date": "20-03-2025",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR.JUSTICE D.N.RAY",
+                "Business On Date": "05-12-2024",
+                "Hearing Date": "06-02-2025",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MRS. JUSTICE MAUNA M. BHATT",
+                "Business On Date": "26-09-2024",
+                "Hearing Date": "05-12-2024",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR. JUSTICE NIRAL R. MEHTA",
+                "Business On Date": "08-08-2024",
+                "Hearing Date": "26-09-2024",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "21-01-2014",
+                "Hearing Date": "21-01-2014",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE M.R. SHAH , HONOURABLE MR. JUSTICE R.P.DHOLARIA",
+                "Business On Date": "24-12-2013",
+                "Hearing Date": "21-01-2014",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE M.R. SHAH , HONOURABLE MR. JUSTICE R.P.DHOLARIA",
+                "Business On Date": "10-12-2013",
+                "Hearing Date": "24-12-2013",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE M.R. SHAH , HONOURABLE MR. JUSTICE R.P.DHOLARIA",
+                "Business On Date": "25-11-2013",
+                "Hearing Date": "10-12-2013",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE M.R. SHAH , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "06-08-2013",
+                "Hearing Date": "25-11-2013",
+                "Purpose of hearing": "111-URGENT ADMISSION ( FRESH MATTERS )"
+            }
+        ],
+        "orders": [],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "02-08-2013",
+                "Filed by": "DIRECTOR OF INCOME TAX",
+                "Name of Advocate": "MRS MAUNA M BHATT",
+                "Document Filed": "APPEARANCE NOTE"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 5,
+                "Date of Receiving": "18-01-2014",
+                "Filed by": "DIRECTOR OF INCOME TAX",
+                "Name of Advocate": "MR NITIN K MEHTA",
+                "Document Filed": "APPEARANCE NOTE"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 2,
+                "Date of Receiving": "02-08-2013",
+                "Filed by": "DIRECTOR OF INCOME TAX",
+                "Name of Advocate": "MRS MAUNA M BHATT",
+                "Document Filed": "MEMO OF PETITION/APPEAL/SUIT"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 3,
+                "Date of Receiving": "02-08-2013",
+                "Filed by": "DIRECTOR OF INCOME TAX",
+                "Name of Advocate": "MRS MAUNA M BHATT",
+                "Document Filed": "CERTIFIED COPY"
+            },
+            {
+                "Sr. No.": 5,
+                "Document No.": 4,
+                "Date of Receiving": "17-09-2013",
+                "Filed by": "ADANI ENTERPRISES LTD.",
+                "Name of Advocate": "MR B S SOPARKAR",
+                "Document Filed": "VAKALATNAMA"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Ports"
+        ],
+        "cino": "GJHC240433462013",
+        "search_year": 2013,
+        "raw_petitioner": "COMMISSIONER",
+        "raw_respondent": "ADANI PORTS AND SPECIAL ECONOMIC ZONE",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "TAXAP /888/2013",
+                "2": "Filing Date",
+                "3": "02-04-2013"
+            },
+            {
+                "0": "Registration Number",
+                "1": "TAXAP /303/2013",
+                "2": "Registration Date",
+                "3": "04-04-2013"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-043346-2013",
+                "2": "GJHC24-043346-2013",
+                "3": "GJHC24-043346-2013"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "01st April 2013",
+            "Next Hearing Date": "30th July 2026",
+            "Stage of Case": "160-FOR FINAL HEARING",
+            "Coram": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD",
+            "Not Before Me": "HONOURABLE MR. JUSTICE Z.K.SAIYED"
+        },
+        "petitioner_advocate": "1) COMMISSIONER",
+        "respondent_advocate": "1) ADANI PORTS AND SPECIAL ECONOMIC ZONE",
+        "acts": [
+            {
+                "Under Act(s)": "CENTRAL EXCISES AND SALT ACT, 1944",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "",
+                "Hearing Date": "17-04-2013",
+                "Purpose of hearing": "528-OFFICE OBJECTION REMOVED"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "02-04-2026",
+                "Hearing Date": "30-07-2026",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "15-01-2026",
+                "Hearing Date": "02-04-2026",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE A.S. SUPEHIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "06-11-2025",
+                "Hearing Date": "15-01-2026",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "18-09-2025",
+                "Hearing Date": "06-11-2025",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "21-08-2025",
+                "Hearing Date": "18-09-2025",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR. JUSTICE PRANAV TRIVEDI",
+                "Business On Date": "10-07-2025",
+                "Hearing Date": "21-08-2025",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR.JUSTICE D.N.RAY",
+                "Business On Date": "01-05-2025",
+                "Hearing Date": "10-07-2025",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR.JUSTICE D.N.RAY",
+                "Business On Date": "06-03-2025",
+                "Hearing Date": "01-05-2025",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR.JUSTICE D.N.RAY",
+                "Business On Date": "30-01-2025",
+                "Hearing Date": "06-03-2025",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR.JUSTICE D.N.RAY",
+                "Business On Date": "05-12-2024",
+                "Hearing Date": "30-01-2025",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MRS. JUSTICE MAUNA M. BHATT",
+                "Business On Date": "26-09-2024",
+                "Hearing Date": "05-12-2024",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR. JUSTICE NIRAL R. MEHTA",
+                "Business On Date": "06-09-2024",
+                "Hearing Date": "26-09-2024",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "DAILY",
+                "Judge": "HONOURABLE MR. JUSTICE BHARGAV D. KARIA , HONOURABLE MR. JUSTICE NIRAL R. MEHTA",
+                "Business On Date": "02-08-2024",
+                "Hearing Date": "06-09-2024",
+                "Purpose of hearing": "160-FOR FINAL HEARING"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "HONOURABLE MR. JUSTICE AKIL KURESHI , HONOURABLE THE CHIEF JUSTICE MS. JUSTICE SONIA GOKANI",
+                "Business On Date": "17-04-2013",
+                "Hearing Date": "",
+                "Purpose of hearing": "528-OFFICE OBJECTION REMOVED"
+            }
+        ],
+        "orders": [],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 3,
+                "Date of Receiving": "08-07-2016",
+                "Filed by": "COMMISSIONER",
+                "Name of Advocate": "MR DHAVAL D VYAS",
+                "Document Filed": "APPEARANCE NOTE"
+            },
+            {
+                "Sr. No.": 2,
+                "Document No.": 1,
+                "Date of Receiving": "02-04-2013",
+                "Filed by": "COMMISSIONER",
+                "Name of Advocate": "MR YN RAVANI",
+                "Document Filed": "MEMO OF PETITION/APPEAL/SUIT"
+            },
+            {
+                "Sr. No.": 3,
+                "Document No.": 2,
+                "Date of Receiving": "02-04-2013",
+                "Filed by": "COMMISSIONER",
+                "Name of Advocate": "MR YN RAVANI",
+                "Document Filed": "CERTIFIED COPY"
+            },
+            {
+                "Sr. No.": 4,
+                "Document No.": 4,
+                "Date of Receiving": "11-03-2024",
+                "Filed by": "COMMISSIONER",
+                "Name of Advocate": "MR CB GUPTA(1685)",
+                "Document Filed": "APPEARANCE NOTE"
+            }
+        ],
+        "objections": []
+    },
+    {
+        "state": "Punjab and Haryana High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "PHHC010000842013",
+        "search_year": 2013,
+        "raw_petitioner": "ADANI ENTERPRISES LTD",
+        "raw_respondent": "DAMODAR VALLEY CORPORATION",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "ARB /177/2013",
+                "2": "Filing Date",
+                "3": "28-11-2013"
+            },
+            {
+                "0": "Registration Number",
+                "1": "ARB /177/2013",
+                "2": "Registration Date",
+                "3": "28-11-2013"
+            },
+            {
+                "0": "CNR Number",
+                "1": "PHHC01-000084-2013",
+                "2": "PHHC01-000084-2013",
+                "3": "PHHC01-000084-2013"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "29th November 2013",
+            "Decision Date": "14th March 2014",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--DISPOSED OF",
+            "Coram": "THE CHIEF JUSTICE",
+            "Bench Type": "Single",
+            "Judicial Branch": "CIVIL REVISION BRANCH-I",
+            "State": "HARYANA",
+            "District": "GURGAON"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD",
+        "respondent_advocate": "1) DAMODAR VALLEY CORPORATION",
+        "acts": [
+            {
+                "Under Act(s)": "No Acts defined",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "JRC",
+                "Judge": "THE CHIEF JUSTICE",
+                "Business On Date": "",
+                "Hearing Date": "29-11-2013",
+                "Purpose of hearing": ""
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "THE CHIEF JUSTICE",
+                "Business On Date": "14-03-2014",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "THE CHIEF JUSTICE",
+                "Business On Date": "31-01-2014",
+                "Hearing Date": "14-03-2014",
+                "Purpose of hearing": ""
+            },
+            {
+                "Cause List Type": "",
+                "Judge": "THE CHIEF JUSTICE",
+                "Business On Date": "29-11-2013",
+                "Hearing Date": "31-01-2014",
+                "Purpose of hearing": ""
+            }
+        ],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "ARB/177/2013",
+                "2": "THE CHIEF JUSTICE",
+                "3": "29-11-2013",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "2",
+                "1": "ARB/177/2013",
+                "2": "THE CHIEF JUSTICE",
+                "3": "31-01-2014",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            },
+            {
+                "0": "3",
+                "1": "ARB/177/2013",
+                "2": "THE CHIEF JUSTICE",
+                "3": "14-03-2014",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": [
+            {
+                "0": "Sr.No.",
+                "1": "Scrutiny Date",
+                "2": "OBJECTION",
+                "3": "OBJECTION Compliance Date",
+                "4": "Receipt Date"
+            },
+            {
+                "0": "1",
+                "1": "28-11-2013",
+                "2": "All Objections are Complied",
+                "3": "",
+                "4": ""
+            }
+        ]
+    }
+]

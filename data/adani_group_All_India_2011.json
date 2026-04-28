@@ -1,0 +1,403 @@
+[
+    {
+        "state": "Bombay High Court",
+        "bench_id": 2,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "HCBM020048392011",
+        "search_year": 2011,
+        "raw_petitioner": "ANTIKEROS SHIPPING CORPORATION",
+        "raw_respondent": "ADANI ENTERPRISES LTD.",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "ARBAP /217/2011",
+                "2": "Filing Date",
+                "3": "28-02-2011"
+            },
+            {
+                "0": "Registration Number",
+                "1": "ARBAP /57/2011",
+                "2": "Registration Date",
+                "3": "14-03-2011"
+            },
+            {
+                "0": "CNR Number",
+                "1": "HCBM02-004839-2011",
+                "2": "HCBM02-004839-2011",
+                "3": "HCBM02-004839-2011"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "31st March 2011",
+            "Decision Date": "22nd March 2019",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISPOSED OFF",
+            "Coram": "HON'BLE SHRI JUSTICE S.J. KATHAWALLA",
+            "Bench Type": "Single",
+            "Judicial Branch": "Original",
+            "State": "MAHARASHTRA",
+            "District": "MUMBAI"
+        },
+        "petitioner_advocate": "1) ANTIKEROS SHIPPING CORPORATION",
+        "respondent_advocate": "1) ADANI ENTERPRISES LTD.",
+        "acts": [
+            {
+                "Under Act(s)": "Arbitration and Conciliation Act 1996",
+                "Under Section(s)": 11
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "ARBAP/57/2011",
+                "2": "HON'BLE SHRI JUSTICE D.K. DESHMUKH",
+                "3": "21-04-2011",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "GJHC240122262011",
+        "search_year": 2011,
+        "raw_petitioner": "ADANI ENTERPRISES LTD",
+        "raw_respondent": "UNION OF INDIA",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "SCA /6667/2011",
+                "2": "Filing Date",
+                "3": "18-05-2011"
+            },
+            {
+                "0": "Registration Number",
+                "1": "SCA /6674/2011",
+                "2": "Registration Date",
+                "3": "18-05-2011"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-012226-2011",
+                "2": "GJHC24-012226-2011",
+                "3": "GJHC24-012226-2011"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "14th October 2010",
+            "Decision Date": "16th April 2015",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--38-RULE ABSOLUTE/ALLOWED @ FH",
+            "Coram": "HONOURABLE MR. JUSTICE VIJAY MANOHAR SAHAI , HONOURABLE MR. JUSTICE R.P.DHOLARIA",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD",
+            "Not Before Me": "HONOURABLE MR. JUSTICE K.M.THAKER ,HONOURABLE MR. JUSTICE RAJESH H.SHUKLA ,HONOURABLE MR. JUSTICE R.M.CHHAYA"
+        },
+        "petitioner_advocate": "1) ADANI ENTERPRISES LTD",
+        "respondent_advocate": "1) UNION OF INDIA",
+        "acts": [
+            {
+                "Under Act(s)": "CUSTOMS ACT, 1962",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "GJHC240117162011",
+        "search_year": 2011,
+        "raw_petitioner": "ADANI POWER LIMITED",
+        "raw_respondent": "UNION OF INDIA - THROUGH SECRETARY",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "SCA /5968/2011",
+                "2": "Filing Date",
+                "3": "06-05-2011"
+            },
+            {
+                "0": "Registration Number",
+                "1": "SCA /6125/2011",
+                "2": "Registration Date",
+                "3": "06-05-2011"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-011716-2011",
+                "2": "GJHC24-011716-2011",
+                "3": "GJHC24-011716-2011"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "14th October 2010",
+            "Decision Date": "11th December 2017",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--40-WITHDRAWN @ FH",
+            "Coram": "HONOURABLE THE CHIEF JUSTICE MR. R.SUBHASH REDDY , HONOURABLE MR. JUSTICE VIPUL M. PANCHOLI",
+            "Bench Type": "DIVISION",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI POWER LIMITED",
+        "respondent_advocate": "1) UNION OF INDIA - THROUGH SECRETARY",
+        "acts": [
+            {
+                "Under Act(s)": "INCOME-TAX ACT, 1961",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "GJHC240243772011",
+        "search_year": 2011,
+        "raw_petitioner": "ADANI POWER LIMITED",
+        "raw_respondent": ".",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "COMA /2343/2011",
+                "2": "Filing Date",
+                "3": "29-07-2011"
+            },
+            {
+                "0": "Registration Number",
+                "1": "COMA /400/2011",
+                "2": "Registration Date",
+                "3": "29-07-2011"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-024377-2011",
+                "2": "GJHC24-024377-2011",
+                "3": "GJHC24-024377-2011"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "01st August 2011",
+            "Decision Date": "01st August 2011",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--35-ANY OTHER MODE @ ADM.STAGE",
+            "Coram": "HONOURABLE MR. JUSTICE K.M.THAKER",
+            "Bench Type": "SINGLE",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI POWER LIMITED",
+        "respondent_advocate": "1) .",
+        "acts": [
+            {
+                "Under Act(s)": "COMPANIES ACT, 1956",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Gujarat High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Power"
+        ],
+        "cino": "GJHC240246882011",
+        "search_year": 2011,
+        "raw_petitioner": "ADANI POWER LIMITED",
+        "raw_respondent": ".",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "COMP /2758/2011",
+                "2": "Filing Date",
+                "3": "21-09-2011"
+            },
+            {
+                "0": "Registration Number",
+                "1": "COMP /135/2011",
+                "2": "Registration Date",
+                "3": "21-09-2011"
+            },
+            {
+                "0": "CNR Number",
+                "1": "GJHC24-024688-2011",
+                "2": "GJHC24-024688-2011",
+                "3": "GJHC24-024688-2011"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "13th June 2011",
+            "Decision Date": "17th July 2014",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "Contested--40-WITHDRAWN @ FH",
+            "Coram": "HONOURABLE MR. JUSTICE S.R.BRAHMBHATT",
+            "Bench Type": "SINGLE",
+            "Judicial Branch": "JUDICIAL",
+            "State": "GUJARAT",
+            "District": "AHMEDABAD"
+        },
+        "petitioner_advocate": "1) ADANI POWER LIMITED",
+        "respondent_advocate": "1) .",
+        "acts": [
+            {
+                "Under Act(s)": "COMPANIES ACT, 1956",
+                "Under Section(s)": "---"
+            }
+        ],
+        "category_details": [],
+        "history_of_hearing": [],
+        "orders": [],
+        "document_details": [],
+        "objections": []
+    },
+    {
+        "state": "Karnataka High Court",
+        "bench_id": 1,
+        "search_query": "ADANI",
+        "matched_company_tags": [
+            "Adani Enterprises"
+        ],
+        "cino": "KAHC010752902011",
+        "search_year": 2011,
+        "raw_petitioner": "M/S M A ENTERPRISES",
+        "raw_respondent": "M/S ADANI ENTERPRISES LIMITED",
+        "basic_details": [
+            {
+                "0": "Filing Number",
+                "1": "CRL.P /6677/2011",
+                "2": "Filing Date",
+                "3": "29-11-2011"
+            },
+            {
+                "0": "Registration Number",
+                "1": "CRL.P /6677/2011",
+                "2": "Registration Date",
+                "3": "29-11-2011"
+            },
+            {
+                "0": "CNR Number",
+                "1": "KAHC01-075290-2011",
+                "2": "KAHC01-075290-2011",
+                "3": "KAHC01-075290-2011"
+            }
+        ],
+        "case_status": {
+            "First Hearing Date": "",
+            "Decision Date": "08th March 2012",
+            "Case Status": "CASE DISPOSED",
+            "Nature of Disposal": "--DISMISSED",
+            "Coram": "N.ANANDA",
+            "Bench Type": "Single Bench",
+            "Judicial Branch": "Judicial Section",
+            "State": "",
+            "District": "",
+            "Not Before Me": "Unknown"
+        },
+        "petitioner_advocate": "1) M/S M A ENTERPRISES",
+        "respondent_advocate": "1) M/S ADANI ENTERPRISES LIMITED",
+        "acts": [],
+        "category_details": [],
+        "history_of_hearing": [
+            {
+                "Cause List Type": "",
+                "Judge": "N.ANANDA",
+                "Business On Date": "08-03-2012",
+                "Hearing Date": "",
+                "Purpose of hearing": "Disposed"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "N.ANANDA",
+                "Business On Date": "08-03-2012",
+                "Hearing Date": "08-03-2012",
+                "Purpose of hearing": "ADMISSION"
+            },
+            {
+                "Cause List Type": "Cause List No. 1",
+                "Judge": "N.ANANDA",
+                "Business On Date": "24-02-2012",
+                "Hearing Date": "24-02-2012",
+                "Purpose of hearing": "ADMISSION"
+            }
+        ],
+        "orders": [
+            {
+                "0": "Order Number",
+                "1": "Order on",
+                "2": "Judge",
+                "3": "Order Date",
+                "4": "Order Details",
+                "5": "",
+                "6": ""
+            },
+            {
+                "0": "1",
+                "1": "CRL.P/6677/2011",
+                "2": "N.ANANDA",
+                "3": "08-03-2012",
+                "4": "View",
+                "5": "View",
+                "6": "View"
+            }
+        ],
+        "document_details": [
+            {
+                "Sr. No.": 1,
+                "Document No.": 1,
+                "Date of Receiving": "29-11-2011",
+                "Filed by": "P1",
+                "Document Filed": "Vakalat"
+            }
+        ],
+        "objections": []
+    }
+]
